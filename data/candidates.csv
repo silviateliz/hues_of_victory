@@ -1,0 +1,1243 @@
+party,position,state,district,name,type,age,sex,state_id,district_id,morena,pan,pri,pt,pvem,mc,prd,ind,unique_id,incumbency
+pan,dep,aguascalientes,3-aguascalientes,paulo gonzalo martinez lopez,persona propietaria,47,m,1,3,0,1,0,0,0,0,0,0,13paulpan,1
+mc,dep,aguascalientes,3-aguascalientes,luz camila guerra acevedo,persona propietaria,27,f,1,3,0,0,0,0,0,1,0,0,13luz mc,0
+fuerza y corazon por mexico,dep,aguascalientes,1-jesus maria,humberto ambriz delgadillo,persona propietaria,48,m,1,1,0,1,1,0,0,0,1,0,11humbfue,0
+fuerza y corazon por mexico,dep,aguascalientes,2-aguascalientes,monica becerra moreno,persona propietaria,51,f,1,2,0,1,1,0,0,0,1,0,12monifue,1
+sigamos haciendo historia,dep,aguascalientes,1-jesus maria,francisco arturo federico avila anaya,persona propietaria,47,m,1,1,1,0,0,1,1,0,0,0,11fransig,0
+mc,dep,aguascalientes,1-jesus maria,ulises reyes esparza,persona propietaria,35,m,1,1,0,0,0,0,0,1,0,0,11ulismc,0
+mc,dep,aguascalientes,2-aguascalientes,anayeli muñoz moreno,persona propietaria,40,f,1,2,0,0,0,0,0,1,0,0,12anaymc,0
+prd,dep,aguascalientes,3-aguascalientes,sanjuana martinez melendez,persona propietaria,49,f,1,3,0,0,0,0,0,0,1,0,13sanjprd,0
+sigamos haciendo historia,dep,aguascalientes,3-aguascalientes,leslie mayela figueroa treviño,persona propietaria,35,f,1,3,1,0,0,1,1,0,0,0,13leslsig,0
+pri,dep,aguascalientes,3-aguascalientes,adriana morales vazquez,persona propietaria,27,f,1,3,0,0,1,0,0,0,0,0,13adripri,0
+sigamos haciendo historia,dep,aguascalientes,2-aguascalientes,aldo emmanuel ruiz sanchez,persona propietaria,36,m,1,2,1,0,0,1,1,0,0,0,12aldosig,0
+mc,dep,baja california,8-tijuana,oscar israel rubio medrano,persona propietaria,50,m,2,8,0,0,0,0,0,1,0,0,28oscamc,0
+fuerza y corazon por mexico,dep,baja california,2-mexicali,carlos bonilla osuna,persona propietaria,45,m,2,2,0,1,1,0,0,0,1,0,22carlfue,0
+mc,dep,baja california,5-tijuana,hector reginaldo riveros moreno,persona propietaria,60,m,2,5,0,0,0,0,0,1,0,0,25hectmc,0
+fuerza y corazon por mexico,dep,baja california,1-mexicali,eva maria vasquez hernandez,persona propietaria,49,f,2,1,0,1,1,0,0,0,1,0,21eva fue,0
+mc,dep,baja california,6-tijuana,marcello hinojosa jimenez,persona propietaria,45,m,2,6,0,0,0,0,0,1,0,0,26marcmc,0
+mc,dep,baja california,9-tecate,leslie arias sesma,persona propietaria,39,f,2,9,0,0,0,0,0,1,0,0,29leslmc,0
+mc,dep,baja california,3-ensenada,luis antonio palomino dagdug,persona propietaria,56,m,2,3,0,0,0,0,0,1,0,0,23luismc,0
+mc,dep,baja california,7-mexicali,laura elena ojeda olmedo,persona propietaria,28,f,2,7,0,0,0,0,0,1,0,0,27laurmc,0
+fuerza y corazon por mexico,dep,baja california,7-mexicali,mildred gonzalez arredondo,persona propietaria,48,f,2,7,0,1,1,0,0,0,1,0,27mildfue,0
+mc,dep,baja california,2-mexicali,concepcion corvera valenzuela,persona propietaria,44,f,2,2,0,0,0,0,0,1,0,0,22concmc,0
+fuerza y corazon por mexico,dep,baja california,8-tijuana,hector guillermo osuna jaime,persona propietaria,66,m,2,8,0,1,1,0,0,0,1,0,28hectfue,0
+sigamos haciendo historia,dep,baja california,8-tijuana,fausto gallardo garcia,persona propietaria,47,m,2,8,1,0,0,1,1,0,0,0,28faussig,1
+pvem,dep,baja california,5-tijuana,rene humberto romandia tamayo,persona propietaria,59,m,2,5,0,0,0,0,1,0,0,0,25renepve,0
+pvem,dep,baja california,7-mexicali,paco palani rouvroy rodriguez,persona propietaria,30,m,2,7,0,0,0,0,1,0,0,0,27pacopve,0
+pvem,dep,baja california,2-mexicali,mayra irene cruz montaño,persona propietaria,44,f,2,2,0,0,0,0,1,0,0,0,22mayrpve,0
+pvem,dep,baja california,4-tijuana,elsa janet hernandez llanos,persona propietaria,45,f,2,4,0,0,0,0,1,0,0,0,24elsapve,0
+pvem,dep,baja california,6-tijuana,ana erika santana gonzalez,persona propietaria,55,f,2,6,0,0,0,0,1,0,0,0,26ana pve,0
+pvem,dep,baja california,1-mexicali,cesar arsenio hernandez contreras,persona propietaria,44,m,2,1,0,0,0,0,1,0,0,0,21cesapve,0
+pvem,dep,baja california,3-ensenada,matilde terrazas sauceda,persona propietaria,43,f,2,3,0,0,0,0,1,0,0,0,23matipve,0
+pvem,dep,baja california,9-tecate,claudia gonzalez elizondo,persona propietaria,55,f,2,9,0,0,0,0,1,0,0,0,29claupve,0
+mc,dep,baja california,4-tijuana,catalina salas bravo,persona propietaria,58,f,2,4,0,0,0,0,0,1,0,0,24catamc,0
+fuerza y corazon por mexico,dep,baja california,6-tijuana,jaime humberto bracamontes monsivais,persona propietaria,51,m,2,6,0,1,1,0,0,0,1,0,26jaimfue,0
+morena,dep,baja california,5-tijuana,evangelina moreno guerra,persona propietaria,51,f,2,5,1,0,0,0,0,0,0,0,25evanmor,1
+morena,dep,baja california,4-tijuana,rocio lopez gorosave,persona propietaria,61,f,2,4,1,0,0,0,0,0,0,0,24rocimor,0
+morena,dep,baja california,7-mexicali,jose armando fernandez samaniego,persona propietaria,41,m,2,7,1,0,0,0,0,0,0,0,27josemor,0
+morena,dep,baja california,9-tecate,hilda araceli brown figueredo,persona propietaria,53,f,2,9,1,0,0,0,0,0,0,0,29hildmor,0
+fuerza y corazon por mexico,dep,baja california,3-ensenada,raymundo carrillo huerta,persona propietaria,56,m,2,3,0,1,1,0,0,0,1,0,23raymfue,0
+morena,dep,baja california,6-tijuana,gilberto herrera solorzano,persona propietaria,39,m,2,6,1,0,0,0,0,0,0,0,26gilbmor,0
+morena,dep,baja california,2-mexicali,nancy guadalupe sanchez arredondo,persona propietaria,58,f,2,2,1,0,0,0,0,0,0,0,22nancmor,0
+morena,dep,baja california,3-ensenada,claudia lisbeth moreno ramirez,persona propietaria,33,f,2,3,1,0,0,0,0,0,0,0,23claumor,0
+fuerza y corazon por mexico,dep,baja california,4-tijuana,erika esmeralda cortes hernandez,persona propietaria,41,f,2,4,0,1,1,0,0,0,1,0,24erikfue,0
+pt,dep,baja california,1-mexicali,eva aurelia leon ponce,persona propietaria,53,f,2,1,0,0,0,1,0,0,0,0,21eva pt,0
+pt,dep,baja california,2-mexicali,rosa icela lopez cardenas,persona propietaria,59,f,2,2,0,0,0,1,0,0,0,0,22rosapt,0
+pt,dep,baja california,3-ensenada,ramiro orea hernandez,persona propietaria,61,m,2,3,0,0,0,1,0,0,0,0,23ramipt,0
+pt,dep,baja california,7-mexicali,estela reyna arellanes,persona propietaria,53,f,2,7,0,0,0,1,0,0,0,0,27estept,0
+fuerza y corazon por mexico,dep,baja california,9-tecate,raul antonio ortiz elias,persona propietaria,63,m,2,9,0,1,1,0,0,0,1,0,29raulfue,0
+fuerza y corazon por mexico,dep,baja california,5-tijuana,alfonso duarte mugica,persona propietaria,69,m,2,5,0,1,1,0,0,0,1,0,25alfofue,0
+pt,dep,baja california,6-tijuana,hector hernandez ascencio,persona propietaria,42,m,2,6,0,0,0,1,0,0,0,0,26hectpt,0
+pt,dep,baja california,5-tijuana,jose antonio lizarraga castro,persona propietaria,56,m,2,5,0,0,0,1,0,0,0,0,25josept,0
+pt,dep,baja california,9-tecate,maria de la asuncion gutierrez olivar,persona propietaria,64,f,2,9,0,0,0,1,0,0,0,0,29maript,0
+pt,dep,baja california,4-tijuana,sergio moctezuma martinez lopez,persona propietaria,44,m,2,4,0,0,0,1,0,0,0,0,24sergpt,0
+mc,dep,baja california,1-mexicali,alma lorena araujo ramos,persona propietaria,38,f,2,1,0,0,0,0,0,1,0,0,21almamc,0
+morena,dep,baja california,1-mexicali,alma laura ruiz lopez,persona propietaria,32,f,2,1,1,0,0,0,0,0,0,0,21almamor,0
+sigamos haciendo historia,dep,baja california sur,2-san jose del cabo,luis armando diaz,persona propietaria,58,m,3,2,1,0,0,1,1,0,0,0,32luissig,0
+mc,dep,baja california sur,2-san jose del cabo,jesus armida castro guzman,persona propietaria,52,f,3,2,0,0,0,0,0,1,0,0,32jesumc,0
+fuerza y corazon por mexico,dep,baja california sur,1-la paz,armando martinez vega,persona propietaria,64,m,3,1,0,1,1,0,0,0,1,0,31armafue,0
+fuerza y corazon por mexico,dep,baja california sur,2-san jose del cabo,margarita amalia salcido cota,persona propietaria,43,f,3,2,0,1,1,0,0,0,1,0,32margfue,0
+mc,dep,baja california sur,1-la paz,gabriel andrade leyva,persona propietaria,49,m,3,1,0,0,0,0,0,1,0,0,31gabrmc,0
+sigamos haciendo historia,dep,baja california sur,1-la paz,manuel alejandro cota cardenas,persona propietaria,32,m,3,1,1,0,0,1,1,0,0,0,31manusig,0
+mc,dep,campeche,1-san francisco de campeche,christian ivan cervera ganzo,persona propietaria,46,m,4,1,0,0,0,0,0,1,0,0,41chrimc,0
+fuerza y corazon por mexico,dep,campeche,1-san francisco de campeche,miguel angel sulub caamal,persona propietaria,46,m,4,1,0,1,1,0,0,0,1,0,41migufue,0
+fuerza y corazon por mexico,dep,campeche,2-ciudad del carmen,cecilia margarita sanchez garcia,persona propietaria,64,f,4,2,0,1,1,0,0,0,1,0,42cecifue,0
+mc,dep,campeche,2-ciudad del carmen,francisco javier farias bailon,persona propietaria,32,m,4,2,0,0,0,0,0,1,0,0,42franmc,0
+sigamos haciendo historia,dep,campeche,2-ciudad del carmen,gabriela del carmen basto gonzalez,persona propietaria,58,f,4,2,1,0,0,1,1,0,0,0,42gabrsig,0
+sigamos haciendo historia,dep,campeche,1-san francisco de campeche,elda esther del carmen castillo quintana,persona propietaria,56,f,4,1,1,0,0,1,1,0,0,0,41eldasig,0
+sigamos haciendo historia,dep,coahuila,5-torreon,jose refugio sandoval rodriguez,persona propietaria,44,m,5,5,1,0,0,1,1,0,0,0,55josesig,0
+fuerza y corazon por mexico,dep,coahuila,3-monclova,theodoros kalionchiz de la fuente,persona propietaria,48,m,5,3,0,1,1,0,0,0,1,0,53theofue,0
+fuerza y corazon por mexico,dep,coahuila,6-torreon,hector hugo davila prado,persona propietaria,42,m,5,6,0,1,1,0,0,0,1,0,56hectfue,0
+fuerza y corazon por mexico,dep,coahuila,1-piedras negras,sonia villarreal perez,persona propietaria,46,f,5,1,0,1,1,0,0,0,1,0,51sonifue,0
+fuerza y corazon por mexico,dep,coahuila,5-torreon,jose guillermo anaya llamas,persona propietaria,55,m,5,5,0,1,1,0,0,0,1,0,55josefue,0
+sigamos haciendo historia,dep,coahuila,8-ramos arizpe,hilda magdalena licerio valdes,persona propietaria,30,f,5,8,1,0,0,1,1,0,0,0,58hildsig,0
+mc,dep,coahuila,3-monclova,eugenio williamson yribarren,persona propietaria,50,m,5,3,0,0,0,0,0,1,0,0,53eugemc,0
+fuerza y corazon por mexico,dep,coahuila,4-saltillo,yerico abramo masso,persona propietaria,48,m,5,4,0,1,1,0,0,0,1,0,54yerifue,0
+fuerza y corazon por mexico,dep,coahuila,7-saltillo,jaime bueno zertuche,persona propietaria,49,m,5,7,0,1,1,0,0,0,1,0,57jaimfue,1
+sigamos haciendo historia,dep,coahuila,4-saltillo,josefina flores jimenez,persona propietaria,66,f,5,4,1,0,0,1,1,0,0,0,54josesig,0
+sigamos haciendo historia,dep,coahuila,1-piedras negras,brigido ramiro moreno hernandez,persona propietaria,72,m,5,1,1,0,0,1,1,0,0,0,51brigsig,0
+fuerza y corazon por mexico,dep,coahuila,2-san pedro,alma patricia cardona ortiz,persona propietaria,41,f,5,2,0,1,1,0,0,0,1,0,52almafue,0
+mc,dep,coahuila,7-saltillo,aida guadalupe garcia badillo,persona propietaria,57,f,5,7,0,0,0,0,0,1,0,0,57aidamc,0
+mc,dep,coahuila,2-san pedro,humberto guerrero huerta,persona propietaria,34,m,5,2,0,0,0,0,0,1,0,0,52humbmc,0
+sigamos haciendo historia,dep,coahuila,2-san pedro,francisco javier borrego adame,persona propietaria,69,m,5,2,1,0,0,1,1,0,0,0,52fransig,0
+mc,dep,coahuila,1-piedras negras,eunice anai garcia moreira,persona propietaria,35,f,5,1,0,0,0,0,0,1,0,0,51eunimc,0
+mc,dep,coahuila,5-torreon,juan jose dominguez martinez,persona propietaria,23,m,5,5,0,0,0,0,0,1,0,0,55juanmc,0
+sigamos haciendo historia,dep,coahuila,7-saltillo,antonio lorenzo castro villarreal,persona propietaria,28,m,5,7,1,0,0,1,1,0,0,0,57antosig,0
+sigamos haciendo historia,dep,coahuila,6-torreon,cintia cuevas sanchez,persona propietaria,32,f,5,6,1,0,0,1,1,0,0,0,56cintsig,0
+fuerza y corazon por mexico,dep,coahuila,8-ramos arizpe,raul xavier gonzalez valdes,persona propietaria,60,m,5,8,0,1,1,0,0,0,1,0,58raulfue,0
+sigamos haciendo historia,dep,coahuila,3-monclova,laura elena oyervides arredondo,persona propietaria,56,f,5,3,1,0,0,1,1,0,0,0,53laursig,0
+mc,dep,coahuila,4-saltillo,jose salvador gallegos mata,persona propietaria,64,m,5,4,0,0,0,0,0,1,0,0,54josemc,0
+mc,dep,coahuila,8-ramos arizpe,estefania meza valdes,persona propietaria,35,f,5,8,0,0,0,0,0,1,0,0,58estemc,0
+mc,dep,coahuila,6-torreon,irma nancy garcia gonzalez,persona propietaria,54,f,5,6,0,0,0,0,0,1,0,0,56irmamc,0
+fuerza y corazon por mexico,dep,colima,2-valle de las garzas,nazario rodriguez guerra,persona propietaria,55,m,6,2,0,1,1,0,0,0,1,0,62nazafue,0
+mc,dep,colima,1-colima,romelia elena serrano,persona propietaria,29,f,6,1,0,0,0,0,0,1,0,0,61romemc,0
+fuerza y corazon por mexico,dep,colima,1-colima,crispin guerra cardenas,persona propietaria,51,m,6,1,0,1,1,0,0,0,1,0,61crisfue,0
+sigamos haciendo historia,dep,colima,2-valle de las garzas,gricelda valencia de la mora,persona propietaria,51,f,6,2,1,0,0,1,1,0,0,0,62gricsig,0
+sigamos haciendo historia,dep,colima,1-colima,leoncio alfonso moran sanchez,persona propietaria,57,m,6,1,1,0,0,1,1,0,0,0,61leonsig,0
+mc,dep,colima,2-valle de las garzas,maria daniela muñiz anguiano,persona propietaria,34,f,6,2,0,0,0,0,0,1,0,0,62marimc,0
+mc,dep,chiapas,11-las margaritas,gloria santiz gomez,persona propietaria,47,f,7,11,0,0,0,0,0,1,0,0,711glormc,0
+mc,dep,chiapas,13-huehuetan,mario javier ortiz tovilla,persona propietaria,54,m,7,13,0,0,0,0,0,1,0,0,713marimc,0
+mc,dep,chiapas,6-tuxtla gutierrez,gerardo oel vazquez flores,persona propietaria,47,m,7,6,0,0,0,0,0,1,0,0,76geramc,0
+mc,dep,chiapas,8-comitan de dominguez,luz mercedes franco bassaul,persona propietaria,41,f,7,8,0,0,0,0,0,1,0,0,78luz mc,0
+mc,dep,chiapas,3-ocosingo,marco antonio lopez gomez,persona propietaria,52,m,7,3,0,0,0,0,0,1,0,0,73marcmc,0
+mc,dep,chiapas,4-pichucalco,martha patricia vazquez ramos,persona propietaria,42,f,7,4,0,0,0,0,0,1,0,0,74martmc,0
+mc,dep,chiapas,7-tonala,laura coutiño cruz,persona propietaria,48,f,7,7,0,0,0,0,0,1,0,0,77laurmc,0
+mc,dep,chiapas,10-villaflores,mauricio sandoval zuñiga,persona propietaria,46,m,7,10,0,0,0,0,0,1,0,0,710maurmc,0
+mc,dep,chiapas,12-tapachula,luis leonardo moreno garcia,persona propietaria,30,m,7,12,0,0,0,0,0,1,0,0,712luismc,0
+fuerza y corazon por mexico,dep,chiapas,1-palenque,sergio wenceslao olivas ramos,persona propietaria,21,m,7,1,0,1,1,0,0,0,1,0,71sergfue,0
+fuerza y corazon por mexico,dep,chiapas,6-tuxtla gutierrez,angel yuing sanchez,persona propietaria,45,m,7,6,0,1,1,0,0,0,1,0,76angefue,0
+fuerza y corazon por mexico,dep,chiapas,10-villaflores,jesus perez hernandez,persona propietaria,65,m,7,10,0,1,1,0,0,0,1,0,710jesufue,0
+fuerza y corazon por mexico,dep,chiapas,13-huehuetan,gustavo jonny garcia coutiño,persona propietaria,51,m,7,13,0,1,1,0,0,0,1,0,713gustfue,0
+fuerza y corazon por mexico,dep,chiapas,9-tuxtla gutierrez,emilio enrique salazar farias,persona propietaria,59,m,7,9,0,1,1,0,0,0,1,0,79emilfue,0
+fuerza y corazon por mexico,dep,chiapas,4-pichucalco,virginia azmitia reyes,persona propietaria,39,f,7,4,0,1,1,0,0,0,1,0,74virgfue,0
+pvem,dep,chiapas,7-tonala,claudia lorena zavala gonzalez,persona propietaria,47,f,7,7,0,0,0,0,1,0,0,0,77claupve,0
+pvem,dep,chiapas,12-tapachula,carlos andres siles torres,persona propietaria,35,m,7,12,0,0,0,0,1,0,0,0,712carlpve,0
+fuerza y corazon por mexico,dep,chiapas,5-san cristobal de las casas,marcelino gonzalez lopez,persona propietaria,36,m,7,5,0,1,1,0,0,0,1,0,75marcfue,0
+fuerza y corazon por mexico,dep,chiapas,7-tonala,esteban acosta reyes,persona propietaria,51,m,7,7,0,1,1,0,0,0,1,0,77estefue,0
+mc,dep,chiapas,9-tuxtla gutierrez,lourdes del carmen toledo gonzalez,persona propietaria,49,f,7,9,0,0,0,0,0,1,0,0,79lourmc,0
+morena,dep,chiapas,12-tapachula,rosa irene urbina castañeda,persona propietaria,57,f,7,12,1,0,0,0,0,0,0,0,712rosamor,0
+sigamos haciendo historia,dep,chiapas,13-huehuetan,jorge luis villatoro osorio,persona propietaria,47,m,7,13,1,0,0,1,1,0,0,0,713jorgsig,0
+sigamos haciendo historia,dep,chiapas,10-villaflores,deliamaria gonzalez flandez,persona propietaria,34,f,7,10,1,0,0,1,1,0,0,0,710delisig,0
+sigamos haciendo historia,dep,chiapas,1-palenque,carlos morelos rodriguez,persona propietaria,54,m,7,1,1,0,0,1,1,0,0,0,71carlsig,0
+sigamos haciendo historia,dep,chiapas,8-comitan de dominguez,roberto armando albores gleason,persona propietaria,45,m,7,8,1,0,0,1,1,0,0,0,78robesig,0
+sigamos haciendo historia,dep,chiapas,4-pichucalco,joaquin zebadua alva,persona propietaria,49,m,7,4,1,0,0,1,1,0,0,0,74joaqsig,1
+pt,dep,chiapas,7-tonala,anita lara herrera,persona propietaria,42,f,7,7,0,0,0,1,0,0,0,0,77anitpt,0
+pt,dep,chiapas,12-tapachula,fernel arturo galvez rodriguez,persona propietaria,55,m,7,12,0,0,0,1,0,0,0,0,712fernpt,0
+fuerza y corazon por mexico,dep,chiapas,8-comitan de dominguez,erika jazmin sosa garcia,persona propietaria,36,f,7,8,0,1,1,0,0,0,1,0,78erikfue,0
+fuerza y corazon por mexico,dep,chiapas,12-tapachula,martha carballo andrade,persona propietaria,51,f,7,12,0,1,1,0,0,0,1,0,712martfue,0
+mc,dep,chiapas,2-bochil,diana valeria perez arias,persona propietaria,30,f,7,2,0,0,0,0,0,1,0,0,72dianmc,0
+mc,dep,chiapas,5-san cristobal de las casas,antonia vazquez cruz,persona propietaria,47,f,7,5,0,0,0,0,0,1,0,0,75antomc,0
+sigamos haciendo historia,dep,chiapas,9-tuxtla gutierrez,guillermo rafael santiago rodriguez,persona propietaria,30,m,7,9,1,0,0,1,1,0,0,0,79guilsig,0
+morena,dep,chiapas,7-tonala,azucena arreola trinidad,persona propietaria,34,f,7,7,1,0,0,0,0,0,0,0,77azucmor,0
+sigamos haciendo historia,dep,chiapas,6-tuxtla gutierrez,flor de maria esponda torres,persona propietaria,32,f,7,6,1,0,0,1,1,0,0,0,76florsig,0
+sigamos haciendo historia,dep,chiapas,11-las margaritas,rosario del carmen moreno villatoro,persona propietaria,42,f,7,11,1,0,0,1,1,0,0,0,711rosasig,0
+fuerza y corazon por mexico,dep,chiapas,2-bochil,victor ortiz del carpio,persona propietaria,67,m,7,2,0,1,1,0,0,0,1,0,72victfue,0
+mc,dep,chiapas,1-palenque,crecencia diaz vazquez,persona propietaria,45,f,7,1,0,0,0,0,0,1,0,0,71crecmc,0
+fuerza y corazon por mexico,dep,chiapas,11-las margaritas,blanca araceli hernandez aguilar,persona propietaria,22,f,7,11,0,1,1,0,0,0,1,0,711blanfue,0
+sigamos haciendo historia,dep,chiapas,3-ocosingo,alfredo vazquez vazquez,persona propietaria,43,m,7,3,1,0,0,1,1,0,0,0,73alfrsig,1
+sigamos haciendo historia,dep,chiapas,5-san cristobal de las casas,emilio ramon ramirez guzman,persona propietaria,42,m,7,5,1,0,0,1,1,0,0,0,75emilsig,0
+fuerza y corazon por mexico,dep,chiapas,3-ocosingo,silvia araceli silvano tapia,persona propietaria,27,f,7,3,0,1,1,0,0,0,1,0,73silvfue,0
+sigamos haciendo historia,dep,chiapas,2-bochil,karina margarita del rio zenteno,persona propietaria,50,f,7,2,1,0,0,1,1,0,0,0,72karisig,0
+ind,dep,chiapas,9-tuxtla gutierrez,jorge amin siman estefan,persona propietaria,57,m,7,9,0,0,0,0,0,0,0,1,79jorgind,0
+mc,dep,chihuahua,5-delicias,sylvia patricia chavez hernandez,persona propietaria,65,f,8,5,0,0,0,0,0,1,0,0,85sylvmc,0
+mc,dep,chihuahua,8-chihuahua,martha elena vega pereyra,persona propietaria,60,f,8,8,0,0,0,0,0,1,0,0,88martmc,0
+mc,dep,chihuahua,3-juarez,mario arturo pico castañeda,persona propietaria,30,m,8,3,0,0,0,0,0,1,0,0,83marimc,0
+mc,dep,chihuahua,6-chihuahua,erick fernando dour iglesias,persona propietaria,26,m,8,6,0,0,0,0,0,1,0,0,86ericmc,0
+sigamos haciendo historia,dep,chihuahua,7-cuauhtemoc,jesus roberto corral ordoñez,persona propietaria,65,m,8,7,1,0,0,1,1,0,0,0,87jesusig,0
+mc,dep,chihuahua,2-juarez,liliana araceli ibarra rivera,persona propietaria,49,f,8,2,0,0,0,0,0,1,0,0,82lilimc,0
+fuerza y corazon por mexico,dep,chihuahua,5-delicias,juan antonio melendez ortega,persona propietaria,53,m,8,5,0,1,1,0,0,0,1,0,85juanfue,0
+fuerza y corazon por mexico,dep,chihuahua,2-juarez,marlene sughey terrazas cordero,persona propietaria,40,f,8,2,0,1,1,0,0,0,1,0,82marlfue,0
+fuerza y corazon por mexico,dep,chihuahua,4-juarez,marisela terrazas muñoz,persona propietaria,36,f,8,4,0,1,1,0,0,0,1,0,84marifue,0
+fuerza y corazon por mexico,dep,chihuahua,9-hidalgo del parral,noel chavez velazquez,persona propietaria,54,m,8,9,0,1,1,0,0,0,1,0,89noelfue,0
+mc,dep,chihuahua,4-juarez,claudia rey saenz,persona propietaria,45,f,8,4,0,0,0,0,0,1,0,0,84claumc,0
+fuerza y corazon por mexico,dep,chihuahua,7-cuauhtemoc,rocio guadalupe sarmiento rufino,persona propietaria,48,f,8,7,0,1,1,0,0,0,1,0,87rocifue,0
+fuerza y corazon por mexico,dep,chihuahua,8-chihuahua,cesar alejandro dominguez dominguez,persona propietaria,49,m,8,8,0,1,1,0,0,0,1,0,88cesafue,0
+fuerza y corazon por mexico,dep,chihuahua,1-juarez,mario alberto castañeda rivas,persona propietaria,50,m,8,1,0,1,1,0,0,0,1,0,81marifue,0
+mc,dep,chihuahua,7-cuauhtemoc,bryan carl le baron jones,persona propietaria,47,m,8,7,0,0,0,0,0,1,0,0,87bryamc,0
+sigamos haciendo historia,dep,chihuahua,4-juarez,alejandro perez cuellar,persona propietaria,51,m,8,4,1,0,0,1,1,0,0,0,84alejsig,0
+sigamos haciendo historia,dep,chihuahua,8-chihuahua,marco adan quezada martinez,persona propietaria,55,m,8,8,1,0,0,1,1,0,0,0,88marcsig,0
+fuerza y corazon por mexico,dep,chihuahua,6-chihuahua,maria angelica granados trespalacios,persona propietaria,53,f,8,6,0,1,1,0,0,0,1,0,86marifue,0
+mc,dep,chihuahua,1-juarez,julio cesar cortez esquivel,persona propietaria,44,m,8,1,0,0,0,0,0,1,0,0,81julimc,0
+sigamos haciendo historia,dep,chihuahua,3-juarez,lilia aguilar gil,persona propietaria,46,f,8,3,1,0,0,1,1,0,0,0,83lilisig,1
+sigamos haciendo historia,dep,chihuahua,1-juarez,daniel murguia lardizabal,persona propietaria,57,m,8,1,1,0,0,1,1,0,0,0,81danisig,1
+sigamos haciendo historia,dep,chihuahua,2-juarez,teresita de jesus vargas meraz,persona propietaria,34,f,8,2,1,0,0,1,1,0,0,0,82teresig,0
+sigamos haciendo historia,dep,chihuahua,5-delicias,miguel rubio castillo,persona propietaria,65,m,8,5,1,0,0,1,1,0,0,0,85migusig,0
+sigamos haciendo historia,dep,chihuahua,6-chihuahua,adriana beltran murillo,persona propietaria,45,f,8,6,1,0,0,1,1,0,0,0,86adrisig,0
+sigamos haciendo historia,dep,chihuahua,9-hidalgo del parral,teresita de jesus ruiz anchondo,persona propietaria,57,f,8,9,1,0,0,1,1,0,0,0,89teresig,0
+mc,dep,chihuahua,9-hidalgo del parral,maria elena garcia gonzalez,persona propietaria,46,f,8,9,0,0,0,0,0,1,0,0,89marimc,0
+fuerza y corazon por mexico,dep,chihuahua,3-juarez,manuel dick alarcon villar,persona propietaria,33,m,8,3,0,1,1,0,0,0,1,0,83manufue,0
+sigamos haciendo historia,dep,ciudad de mexico,20-iztapalapa,ana karina rojo pimentel,persona propietaria,47,f,9,20,1,0,0,1,1,0,0,0,920ana sig,1
+fuerza y corazon por mexico,dep,ciudad de mexico,18-iztapalapa,cutberto panchi sanchez,persona propietaria,47,m,9,18,0,1,1,0,0,0,1,0,918cutbfue,0
+fuerza y corazon por mexico,dep,ciudad de mexico,4-iztapalapa,fabiola torres molina,persona propietaria,41,f,9,4,0,1,1,0,0,0,1,0,94fabifue,0
+fuerza y corazon por mexico,dep,ciudad de mexico,7-gustavo a. madero,miguel angel mancera espinosa,persona propietaria,58,m,9,7,0,1,1,0,0,0,1,0,97migufue,0
+fuerza y corazon por mexico,dep,ciudad de mexico,13-iztacalco,carlos enrique estrada meraz,persona propietaria,56,m,9,13,0,1,1,0,0,0,1,0,913carlfue,0
+fuerza y corazon por mexico,dep,ciudad de mexico,17-alvaro obregon,jorge triana tena,persona propietaria,47,m,9,17,0,1,1,0,0,0,1,0,917jorgfue,1
+fuerza y corazon por mexico,dep,ciudad de mexico,21-xochimilco,jany robles ortiz,persona propietaria,41,f,9,21,0,1,1,0,0,0,1,0,921janyfue,0
+fuerza y corazon por mexico,dep,ciudad de mexico,3-azcapotzalco,salvador amado correa galvan,persona propietaria,60,m,9,3,0,1,1,0,0,0,1,0,93salvfue,0
+fuerza y corazon por mexico,dep,ciudad de mexico,15-benito juarez,federico döring casar,persona propietaria,53,m,9,15,0,1,1,0,0,0,1,0,915fedefue,0
+fuerza y corazon por mexico,dep,ciudad de mexico,1-gustavo a. madero,karla juliana sosa gonzalez,persona propietaria,41,f,9,1,0,1,1,0,0,0,1,0,91karlfue,0
+fuerza y corazon por mexico,dep,ciudad de mexico,8-coyoacan,gabriel ricardo quadri de la torre,persona propietaria,69,m,9,8,0,1,1,0,0,0,1,0,98gabrfue,0
+fuerza y corazon por mexico,dep,ciudad de mexico,19-coyoacan,hector saul tellez hernandez,persona propietaria,49,m,9,19,0,1,1,0,0,0,1,0,919hectfue,1
+fuerza y corazon por mexico,dep,ciudad de mexico,20-iztapalapa,martin hernandez torres,persona propietaria,61,m,9,20,0,1,1,0,0,0,1,0,920martfue,0
+fuerza y corazon por mexico,dep,ciudad de mexico,22-iztapalapa,monserrat segoviano perez,persona propietaria,38,f,9,22,0,1,1,0,0,0,1,0,922monsfue,0
+fuerza y corazon por mexico,dep,ciudad de mexico,6-la magdalena contreras,diana maria teresa lara carreon,persona propietaria,39,f,9,6,0,1,1,0,0,0,1,0,96dianfue,0
+sigamos haciendo historia,dep,ciudad de mexico,15-benito juarez,rene enrique vivanco balp,persona propietaria,52,m,9,15,1,0,0,1,1,0,0,0,915renesig,0
+fuerza y corazon por mexico,dep,ciudad de mexico,2-gustavo a. madero,maribel guadalupe villaseñor davila,persona propietaria,41,f,9,2,0,1,1,0,0,0,1,0,92marifue,0
+sigamos haciendo historia,dep,ciudad de mexico,8-coyoacan,ana maria lomeli robles,persona propietaria,59,f,9,8,1,0,0,1,1,0,0,0,98ana sig,0
+sigamos haciendo historia,dep,ciudad de mexico,17-alvaro obregon,carlos arturo madrazo silva,persona propietaria,48,m,9,17,1,0,0,1,1,0,0,0,917carlsig,0
+sigamos haciendo historia,dep,ciudad de mexico,19-coyoacan,faruk miguel take roaro,persona propietaria,35,m,9,19,1,0,0,1,1,0,0,0,919farusig,0
+fuerza y corazon por mexico,dep,ciudad de mexico,5-tlalpan,karla ayala villalobos,persona propietaria,25,f,9,5,0,1,1,0,0,0,1,0,95karlfue,1
+fuerza y corazon por mexico,dep,ciudad de mexico,9-tlahuac,marco antonio zaldivar espejel,persona propietaria,53,f,9,9,0,1,1,0,0,0,1,0,99marcfue,0
+fuerza y corazon por mexico,dep,ciudad de mexico,16-alvaro obregon,xavier gonzalez zirion,persona propietaria,56,m,9,16,0,1,1,0,0,0,1,0,916xavifue,1
+fuerza y corazon por mexico,dep,ciudad de mexico,10-miguel hidalgo,margarita ester zavala gomez del campo,persona propietaria,56,f,9,10,0,1,1,0,0,0,1,0,910margfue,0
+fuerza y corazon por mexico,dep,ciudad de mexico,12-cuauhtemoc,monica elizabeth sandoval hernandez,persona propietaria,49,f,9,12,0,1,1,0,0,0,1,0,912monifue,0
+fuerza y corazon por mexico,dep,ciudad de mexico,11-venustiano carranza,isaul moreno gomez,persona propietaria,55,m,9,11,0,1,1,0,0,0,1,0,911isaufue,0
+sigamos haciendo historia,dep,ciudad de mexico,11-venustiano carranza,elena edith segura trejo,persona propietaria,61,f,9,11,1,0,0,1,1,0,0,0,911elensig,0
+fuerza y corazon por mexico,dep,ciudad de mexico,14-tlalpan,hector hugo hernandez rodriguez,persona propietaria,50,m,9,14,0,1,1,0,0,0,1,0,914hectfue,0
+sigamos haciendo historia,dep,ciudad de mexico,2-gustavo a. madero,jose alberto benavides castañeda,persona propietaria,44,m,9,2,1,0,0,1,1,0,0,0,92josesig,0
+sigamos haciendo historia,dep,ciudad de mexico,14-tlalpan,carlos hernandez miron,persona propietaria,51,m,9,14,1,0,0,1,1,0,0,0,914carlsig,0
+sigamos haciendo historia,dep,ciudad de mexico,22-iztapalapa,marisela zuñiga ceron,persona propietaria,61,f,9,22,1,0,0,1,1,0,0,0,922marisig,0
+sigamos haciendo historia,dep,ciudad de mexico,10-miguel hidalgo,ulises labrador hernandez magro,persona propietaria,46,m,9,10,1,0,0,1,1,0,0,0,910ulissig,0
+sigamos haciendo historia,dep,ciudad de mexico,12-cuauhtemoc,alicia barrientos pantoja,persona propietaria,51,f,9,12,1,0,0,1,1,0,0,0,912alicsig,0
+sigamos haciendo historia,dep,ciudad de mexico,13-iztacalco,francisco javier sanchez cervantes,persona propietaria,56,m,9,13,1,0,0,1,1,0,0,0,913fransig,0
+sigamos haciendo historia,dep,ciudad de mexico,16-alvaro obregon,estela carina piceno navarro,persona propietaria,35,f,9,16,1,0,0,1,1,0,0,0,916estesig,0
+sigamos haciendo historia,dep,ciudad de mexico,21-xochimilco,jose carlos acosta ruiz,persona propietaria,48,m,9,21,1,0,0,1,1,0,0,0,921josesig,0
+mc,dep,ciudad de mexico,3-azcapotzalco,marco antonio perez cabarroca,persona propietaria,37,m,9,3,0,0,0,0,0,1,0,0,93marcmc,0
+mc,dep,ciudad de mexico,6-la magdalena contreras,alejandro daniel perez corzo,persona propietaria,45,m,9,6,0,0,0,0,0,1,0,0,96alejmc,0
+mc,dep,ciudad de mexico,10-miguel hidalgo,ana macarena velazquez lopez,persona propietaria,40,f,9,10,0,0,0,0,0,1,0,0,910ana mc,0
+mc,dep,ciudad de mexico,2-gustavo a. madero,perla ernestina castañeda archundia,persona propietaria,52,f,9,2,0,0,0,0,0,1,0,0,92perlmc,0
+mc,dep,ciudad de mexico,1-gustavo a. madero,ruben resillas uribe,persona propietaria,65,m,9,1,0,0,0,0,0,1,0,0,91rubemc,0
+mc,dep,ciudad de mexico,4-iztapalapa,martha gabriela hernandez benhumea,persona propietaria,40,f,9,4,0,0,0,0,0,1,0,0,94martmc,0
+mc,dep,ciudad de mexico,5-tlalpan,heriberto romero peralta,persona propietaria,48,m,9,5,0,0,0,0,0,1,0,0,95herimc,0
+mc,dep,ciudad de mexico,8-coyoacan,amancay gonzalez franco,persona propietaria,34,f,9,8,0,0,0,0,0,1,0,0,98amanmc,0
+sigamos haciendo historia,dep,ciudad de mexico,18-iztapalapa,gabriel garcia hernandez,persona propietaria,47,m,9,18,1,0,0,1,1,0,0,0,918gabrsig,0
+sigamos haciendo historia,dep,ciudad de mexico,1-gustavo a. madero,cesar arnulfo cravioto romero,persona propietaria,55,m,9,1,1,0,0,1,1,0,0,0,91cesasig,0
+sigamos haciendo historia,dep,ciudad de mexico,4-iztapalapa,maria de los dolores padierna luna,persona propietaria,66,f,9,4,1,0,0,1,1,0,0,0,94marisig,0
+sigamos haciendo historia,dep,ciudad de mexico,6-la magdalena contreras,daniel campos plancarte,persona propietaria,45,m,9,6,1,0,0,1,1,0,0,0,96danisig,0
+sigamos haciendo historia,dep,ciudad de mexico,7-gustavo a. madero,juan guillermo rendon gomez,persona propietaria,48,m,9,7,1,0,0,1,1,0,0,0,97juansig,0
+sigamos haciendo historia,dep,ciudad de mexico,3-azcapotzalco,gabriela georgina jimenez godoy,persona propietaria,37,f,9,3,1,0,0,1,1,0,0,0,93gabrsig,0
+sigamos haciendo historia,dep,ciudad de mexico,5-tlalpan,carlos alberto ulloa perez,persona propietaria,54,m,9,5,1,0,0,1,1,0,0,0,95carlsig,0
+sigamos haciendo historia,dep,ciudad de mexico,9-tlahuac,rigoberto salgado vazquez,persona propietaria,54,m,9,9,1,0,0,1,1,0,0,0,99rigosig,0
+mc,dep,ciudad de mexico,18-iztapalapa,francisco alberto nuñez mendoza,persona propietaria,44,m,9,18,0,0,0,0,0,1,0,0,918franmc,0
+mc,dep,ciudad de mexico,12-cuauhtemoc,abel cruz hernandez,persona propietaria,69,m,9,12,0,0,0,0,0,1,0,0,912abelmc,0
+mc,dep,ciudad de mexico,13-iztacalco,kinari sabina bustos barcena,persona propietaria,24,f,9,13,0,0,0,0,0,1,0,0,913kinamc,0
+mc,dep,ciudad de mexico,11-venustiano carranza,fabian islas sanchez,persona propietaria,51,m,9,11,0,0,0,0,0,1,0,0,911fabimc,0
+mc,dep,ciudad de mexico,19-coyoacan,alin nayely de jesus sanchez,persona propietaria,47,f,9,19,0,0,0,0,0,1,0,0,919alinmc,0
+mc,dep,ciudad de mexico,20-iztapalapa,enrique larrauri perez,persona propietaria,58,m,9,20,0,0,0,0,0,1,0,0,920enrimc,0
+mc,dep,ciudad de mexico,22-iztapalapa,miriam guadalupe perea cancino,persona propietaria,46,f,9,22,0,0,0,0,0,1,0,0,922mirimc,0
+mc,dep,ciudad de mexico,16-alvaro obregon,perla janeth delgado morales,persona propietaria,30,f,9,16,0,0,0,0,0,1,0,0,916perlmc,0
+mc,dep,ciudad de mexico,21-xochimilco,oscar hector olvera arellano,persona propietaria,55,m,9,21,0,0,0,0,0,1,0,0,921oscamc,0
+mc,dep,ciudad de mexico,17-alvaro obregon,luis rodolfo garcia roldan,persona propietaria,27,m,9,17,0,0,0,0,0,1,0,0,917luismc,0
+mc,dep,ciudad de mexico,7-gustavo a. madero,angelica sanchez hernandez,persona propietaria,22,f,9,7,0,0,0,0,0,1,0,0,97angemc,0
+mc,dep,ciudad de mexico,9-tlahuac,dulce maria gudiño hernandez,persona propietaria,26,f,9,9,0,0,0,0,0,1,0,0,99dulcmc,0
+mc,dep,ciudad de mexico,15-benito juarez,abraham daniel manriquez santiago,persona propietaria,40,m,9,15,0,0,0,0,0,1,0,0,915abramc,0
+sigamos haciendo historia,dep,durango,4-victoria de durango,alfonso primitivo rios vazquez,persona propietaria,68,m,10,4,1,0,0,1,1,0,0,0,104alfosig,0
+mc,dep,durango,4-victoria de durango,maria martha palencia nuñez,persona propietaria,56,f,10,4,0,0,0,0,0,1,0,0,104marimc,0
+mc,dep,durango,1-victoria de durango,felipe de jesus hernandez orona,persona propietaria,33,m,10,1,0,0,0,0,0,1,0,0,101felimc,0
+fuerza y corazon por mexico,dep,durango,3-lerdo,sonia jazmin flores arce,persona propietaria,44,f,10,3,0,1,1,0,0,0,1,0,103sonifue,0
+mc,dep,durango,2-gomez palacio,hiram brahim lopez manzur,persona propietaria,37,m,10,2,0,0,0,0,0,1,0,0,102hiramc,0
+fuerza y corazon por mexico,dep,durango,2-gomez palacio,lorenzo christian ricardo lucio mijares,persona propietaria,42,m,10,2,0,1,1,0,0,0,1,0,102lorefue,0
+sigamos haciendo historia,dep,durango,3-lerdo,gerardo villarreal solis,persona propietaria,42,m,10,3,1,0,0,1,1,0,0,0,103gerasig,0
+fuerza y corazon por mexico,dep,durango,1-victoria de durango,alejandra elizabeth terrones ochoa,persona propietaria,40,f,10,1,0,1,1,0,0,0,1,0,101alejfue,0
+sigamos haciendo historia,dep,durango,2-gomez palacio,betzabe martinez arango,persona propietaria,33,f,10,2,1,0,0,1,1,0,0,0,102betzsig,0
+fuerza y corazon por mexico,dep,durango,4-victoria de durango,silvia patricia jimenez delgado,persona propietaria,60,f,10,4,0,1,1,0,0,0,1,0,104silvfue,0
+sigamos haciendo historia,dep,durango,1-victoria de durango,martha olivia garcia vidaña,persona propietaria,55,f,10,1,1,0,0,1,1,0,0,0,101martsig,0
+mc,dep,durango,3-lerdo,diana gabriela camacho estala,persona propietaria,32,f,10,3,0,0,0,0,0,1,0,0,103dianmc,0
+fuerza y corazon por mexico,dep,guanajuato,12-celaya,sarai nuñez ceron,persona propietaria,45,f,11,12,0,1,1,0,0,0,1,0,1112sarafue,0
+fuerza y corazon por mexico,dep,guanajuato,15-irapuato,brenda teresa perez gonzalez,persona propietaria,47,f,11,15,0,1,1,0,0,0,1,0,1115brenfue,0
+fuerza y corazon por mexico,dep,guanajuato,9-irapuato,diego angel rodriguez barroso,persona propietaria,37,m,11,9,0,1,1,0,0,0,1,0,119diegfue,0
+fuerza y corazon por mexico,dep,guanajuato,10-uriangato,gwendolyne martinez torres,persona propietaria,34,f,11,10,0,1,1,0,0,0,1,0,1110gwenfue,0
+fuerza y corazon por mexico,dep,guanajuato,14-acambaro,esther mandujano tinajero,persona propietaria,52,f,11,14,0,1,1,0,0,0,1,0,1114esthfue,1
+mc,dep,guanajuato,6-leon,priscila davalos montes de oca,persona propietaria,36,f,11,6,0,0,0,0,0,1,0,0,116prismc,0
+prd,dep,guanajuato,11-leon,victor oliva perez,persona propietaria,59,m,11,11,0,0,0,0,0,0,1,0,1111victprd,0
+pan,dep,guanajuato,4-guanajuato,cecilia pöhls covarrubias,persona propietaria,49,f,11,4,0,1,0,0,0,0,0,0,114cecipan,0
+pan,dep,guanajuato,6-leon,laura cristina marquez alcala,persona propietaria,44,f,11,6,0,1,0,0,0,0,0,0,116laurpan,0
+pan,dep,guanajuato,11-leon,miguel angel salim alle,persona propietaria,67,m,11,11,0,1,0,0,0,0,0,0,1111migupan,0
+fuerza y corazon por mexico,dep,guanajuato,2-san miguel de allende,ricardo villarreal garcia,persona propietaria,43,m,11,2,0,1,1,0,0,0,1,0,112ricafue,1
+fuerza y corazon por mexico,dep,guanajuato,3-leon,fernando torres graciano,persona propietaria,53,m,11,3,0,1,1,0,0,0,1,0,113fernfue,1
+prd,dep,guanajuato,6-leon,lucero jazmin corona leon,persona propietaria,36,f,11,6,0,0,0,0,0,0,1,0,116luceprd,0
+fuerza y corazon por mexico,dep,guanajuato,5-leon,ector jaime ramirez barba,persona propietaria,67,m,11,5,0,1,1,0,0,0,1,0,115ectofue,1
+fuerza y corazon por mexico,dep,guanajuato,7-san francisco del rincon,diana estefania gutierrez valtierra,persona propietaria,33,f,11,7,0,1,1,0,0,0,1,0,117dianfue,0
+fuerza y corazon por mexico,dep,guanajuato,8-salamanca,isidoro bazaldua lugo,persona propietaria,52,m,11,8,0,1,1,0,0,0,1,0,118isidfue,0
+prd,dep,guanajuato,4-guanajuato,guillermo acosta garcia,persona propietaria,22,m,11,4,0,0,0,0,0,0,1,0,114guilprd,0
+mc,dep,guanajuato,8-salamanca,maria de lourdes magallanes ascencio,persona propietaria,66,f,11,8,0,0,0,0,0,1,0,0,118marimc,0
+mc,dep,guanajuato,1-san luis de la paz,jose guillermo azanza liera,persona propietaria,62,m,11,1,0,0,0,0,0,1,0,0,111josemc,0
+mc,dep,guanajuato,10-uriangato,alda antonieta pacheco juarez,persona propietaria,37,f,11,10,0,0,0,0,0,1,0,0,1110aldamc,0
+mc,dep,guanajuato,2-san miguel de allende,daniel michel rodriguez mora,persona propietaria,31,m,11,2,0,0,0,0,0,1,0,0,112danimc,0
+fuerza y corazon por mexico,dep,guanajuato,1-san luis de la paz,luis gerardo sanchez sanchez,persona propietaria,37,m,11,1,0,1,1,0,0,0,1,0,111luisfue,0
+mc,dep,guanajuato,3-leon,jorge marcelino trejo ortiz,persona propietaria,57,m,11,3,0,0,0,0,0,1,0,0,113jorgmc,0
+mc,dep,guanajuato,7-san francisco del rincon,hilario perez ortiz,persona propietaria,33,m,11,7,0,0,0,0,0,1,0,0,117hilamc,0
+mc,dep,guanajuato,11-leon,daniel salas ocampo,persona propietaria,35,m,11,11,0,0,0,0,0,1,0,0,1111danimc,0
+mc,dep,guanajuato,4-guanajuato,francisco gerardo rivera villanueva,persona propietaria,51,m,11,4,0,0,0,0,0,1,0,0,114franmc,0
+mc,dep,guanajuato,5-leon,samantha salas solis,persona propietaria,37,f,11,5,0,0,0,0,0,1,0,0,115samamc,0
+mc,dep,guanajuato,9-irapuato,gabriel alfonso villegas gomez,persona propietaria,52,m,11,9,0,0,0,0,0,1,0,0,119gabrmc,0
+mc,dep,guanajuato,14-acambaro,miryam karina duran serrano,persona propietaria,19,f,11,14,0,0,0,0,0,1,0,0,1114mirymc,0
+mc,dep,guanajuato,12-celaya,jessica nuñez alvarez,persona propietaria,26,f,11,12,0,0,0,0,0,1,0,0,1112jessmc,0
+mc,dep,guanajuato,13-valle de santiago,mayra teresa hernandez martinez,persona propietaria,28,f,11,13,0,0,0,0,0,1,0,0,1113mayrmc,0
+mc,dep,guanajuato,15-irapuato,maria vizuet salazar,persona propietaria,32,f,11,15,0,0,0,0,0,1,0,0,1115marimc,0
+sigamos haciendo historia,dep,guanajuato,7-san francisco del rincon,guadalupe hernandez leon,persona propietaria,54,f,11,7,1,0,0,1,1,0,0,0,117guadsig,0
+sigamos haciendo historia,dep,guanajuato,3-leon,martha veronica velasquez castro,persona propietaria,57,f,11,3,1,0,0,1,1,0,0,0,113martsig,0
+sigamos haciendo historia,dep,guanajuato,15-irapuato,jose javier aguirre gallardo,persona propietaria,66,m,11,15,1,0,0,1,1,0,0,0,1115josesig,0
+sigamos haciendo historia,dep,guanajuato,5-leon,ana luz lopez guerrero,persona propietaria,49,f,11,5,1,0,0,1,1,0,0,0,115ana sig,0
+sigamos haciendo historia,dep,guanajuato,9-irapuato,ricardo ramirez nieto,persona propietaria,62,m,11,9,1,0,0,1,1,0,0,0,119ricasig,0
+sigamos haciendo historia,dep,guanajuato,12-celaya,maria magdalena rosales cruz,persona propietaria,68,f,11,12,1,0,0,1,1,0,0,0,1112marisig,0
+sigamos haciendo historia,dep,guanajuato,14-acambaro,juana acosta trujillo,persona propietaria,46,f,11,14,1,0,0,1,1,0,0,0,1114juansig,0
+sigamos haciendo historia,dep,guanajuato,4-guanajuato,francisco javier estrada dominguez,persona propietaria,41,m,11,4,1,0,0,1,1,0,0,0,114fransig,0
+sigamos haciendo historia,dep,guanajuato,8-salamanca,ernesto alejandro prieto gallardo,persona propietaria,42,m,11,8,1,0,0,1,1,0,0,0,118ernesig,0
+sigamos haciendo historia,dep,guanajuato,6-leon,maria del carmen cuervo fernandez,persona propietaria,54,f,11,6,1,0,0,1,1,0,0,0,116marisig,0
+fuerza y corazon por mexico,dep,guanajuato,13-valle de santiago,diana paredes araiza,persona propietaria,39,f,11,13,0,1,1,0,0,0,1,0,1113dianfue,0
+sigamos haciendo historia,dep,guanajuato,1-san luis de la paz,maria del carmen soria narvaez,persona propietaria,50,f,11,1,1,0,0,1,1,0,0,0,111marisig,0
+pri,dep,guanajuato,6-leon,jose de jesus vazquez trujillo,persona propietaria,40,m,11,6,0,0,1,0,0,0,0,0,116josepri,0
+pri,dep,guanajuato,11-leon,denny giovani mendez perez,persona propietaria,46,m,11,11,0,0,1,0,0,0,0,0,1111dennpri,0
+sigamos haciendo historia,dep,guanajuato,13-valle de santiago,lucero higareda segura,persona propietaria,40,f,11,13,1,0,0,1,1,0,0,0,1113lucesig,0
+pri,dep,guanajuato,4-guanajuato,itzel ballesteros villagomez,persona propietaria,40,f,11,4,0,0,1,0,0,0,0,0,114itzepri,0
+sigamos haciendo historia,dep,guanajuato,2-san miguel de allende,alma rosa de la vega vargas,persona propietaria,48,f,11,2,1,0,0,1,1,0,0,0,112almasig,0
+sigamos haciendo historia,dep,guanajuato,10-uriangato,alejandro calderon diaz,persona propietaria,44,m,11,10,1,0,0,1,1,0,0,0,1110alejsig,0
+sigamos haciendo historia,dep,guanajuato,11-leon,enrique alba martinez,persona propietaria,52,m,11,11,1,0,0,1,1,0,0,0,1111enrisig,0
+fuerza y corazon por mexico,dep,guerrero,1-cd. altamirano,maira gloribel martinez pineda,persona propietaria,45,f,12,1,0,1,1,0,0,0,1,0,121mairfue,0
+sigamos haciendo historia,dep,guerrero,3-zihuatanejo,ma del carmen cabrera lagunas,persona propietaria,52,f,12,3,1,0,0,1,1,0,0,0,123ma dsig,0
+sigamos haciendo historia,dep,guerrero,8-ometepec,marco antonio de la mora torreblanca,persona propietaria,50,m,12,8,1,0,0,1,1,0,0,0,128marcsig,0
+fuerza y corazon por mexico,dep,guerrero,6-chilapa,gerardo lara villa,persona propietaria,42,m,12,6,0,1,1,0,0,0,1,0,126gerafue,0
+fuerza y corazon por mexico,dep,guerrero,8-ometepec,rafael navarrete quezada,persona propietaria,47,m,12,8,0,1,1,0,0,0,1,0,128rafafue,0
+mc,dep,guerrero,2-acapulco,victor manuel jorrin lozano,persona propietaria,69,m,12,2,0,0,0,0,0,1,0,0,122victmc,0
+mc,dep,guerrero,7-chilpancingo,joel eugenio flores,persona propietaria,54,m,12,7,0,0,0,0,0,1,0,0,127joelmc,0
+mc,dep,guerrero,1-cd. altamirano,adelina vargas jimenez,persona propietaria,43,f,12,1,0,0,0,0,0,1,0,0,121adelmc,0
+mc,dep,guerrero,3-zihuatanejo,luz del carmen solorzano peñaloza,persona propietaria,49,f,12,3,0,0,0,0,0,1,0,0,123luz mc,0
+mc,dep,guerrero,6-chilapa,sandra padilla lopez,persona propietaria,46,f,12,6,0,0,0,0,0,1,0,0,126sandmc,0
+fuerza y corazon por mexico,dep,guerrero,4-acapulco,allam alejandro alba arguello,persona propietaria,48,m,12,4,0,1,1,0,0,0,1,0,124allafue,0
+sigamos haciendo historia,dep,guerrero,1-cd. altamirano,celeste mora eguiluz,persona propietaria,30,f,12,1,1,0,0,1,1,0,0,0,121celesig,0
+sigamos haciendo historia,dep,guerrero,4-acapulco,javier taja ramirez,persona propietaria,43,m,12,4,1,0,0,1,1,0,0,0,124javisig,0
+fuerza y corazon por mexico,dep,guerrero,2-acapulco,guillermina chavez martinez,persona propietaria,65,f,12,2,0,1,1,0,0,0,1,0,122guilfue,0
+sigamos haciendo historia,dep,guerrero,2-acapulco,yoloczin lizbeth dominguez serna,persona propietaria,38,f,12,2,1,0,0,1,1,0,0,0,122yolosig,0
+sigamos haciendo historia,dep,guerrero,5-tlapa,gerardo olivares mejia,persona propietaria,56,m,12,5,1,0,0,1,1,0,0,0,125gerasig,0
+fuerza y corazon por mexico,dep,guerrero,3-zihuatanejo,elizabeth maldonado tapia,persona propietaria,56,f,12,3,0,1,1,0,0,0,1,0,123elizfue,0
+mc,dep,guerrero,4-acapulco,luisa fernanda fontova torreblanca,persona propietaria,38,f,12,4,0,0,0,0,0,1,0,0,124luismc,0
+mc,dep,guerrero,5-tlapa,adrian mejia galvez,persona propietaria,67,m,12,5,0,0,0,0,0,1,0,0,125adrimc,0
+fuerza y corazon por mexico,dep,guerrero,7-chilpancingo,eloy salmeron diaz,persona propietaria,50,m,12,7,0,1,1,0,0,0,1,0,127eloyfue,0
+sigamos haciendo historia,dep,guerrero,7-chilpancingo,carlos sanchez barrios,persona propietaria,66,m,12,7,1,0,0,1,1,0,0,0,127carlsig,1
+sigamos haciendo historia,dep,guerrero,6-chilapa,maria del carmen nava garcia,persona propietaria,34,f,12,6,1,0,0,1,1,0,0,0,126marisig,0
+fuerza y corazon por mexico,dep,guerrero,5-tlapa,eleazar sierra oropeza,persona propietaria,34,f,12,5,0,1,1,0,0,0,1,0,125eleafue,0
+mc,dep,guerrero,8-ometepec,gabriel lopez ramos,persona propietaria,39,m,12,8,0,0,0,0,0,1,0,0,128gabrmc,0
+fuerza y corazon por mexico,dep,hidalgo,5-el llano primera seccion,araceli rivera diaz,persona propietaria,63,f,13,5,0,1,1,0,0,0,1,0,135aracfue,0
+fuerza y corazon por mexico,dep,hidalgo,3-actopan,ma isabel godinez granillo,persona propietaria,48,f,13,3,0,1,1,0,0,0,1,0,133ma ifue,0
+mc,dep,hidalgo,3-actopan,alan federico vera olivares,persona propietaria,39,m,13,3,0,0,0,0,0,1,0,0,133alanmc,0
+mc,dep,hidalgo,4-tulancingo de bravo,flor mejia zaragoza,persona propietaria,40,f,13,4,0,0,0,0,0,1,0,0,134flormc,0
+mc,dep,hidalgo,5-el llano primera seccion,jorge malo lugo,persona propietaria,56,m,13,5,0,0,0,0,0,1,0,0,135jorgmc,0
+fuerza y corazon por mexico,dep,hidalgo,7-tepeapulco,mayka ortega eguiluz,persona propietaria,51,f,13,7,0,1,1,0,0,0,1,0,137maykfue,0
+pvem,dep,hidalgo,4-tulancingo de bravo,monzerrat zermeño mezas,persona propietaria,45,f,13,4,0,0,0,0,1,0,0,0,134monzpve,0
+pvem,dep,hidalgo,3-actopan,maria genoveva corella alvarado,persona propietaria,52,f,13,3,0,0,0,0,1,0,0,0,133maripve,0
+fuerza y corazon por mexico,dep,hidalgo,4-tulancingo de bravo,maria fernanda pasquel solis,persona propietaria,45,f,13,4,0,1,1,0,0,0,1,0,134marifue,0
+pvem,dep,hidalgo,5-el llano primera seccion,maybelline cabrera angeles,persona propietaria,26,f,13,5,0,0,0,0,1,0,0,0,135maybpve,0
+fuerza y corazon por mexico,dep,hidalgo,6-pachuca de soto,jose francisco olvera ruiz,persona propietaria,67,m,13,6,0,1,1,0,0,0,1,0,136josefue,0
+mc,dep,hidalgo,2-ixmiquilpan,mario alejandro fernandez marquez,persona propietaria,37,m,13,2,0,0,0,0,0,1,0,0,132marimc,0
+pvem,dep,hidalgo,6-pachuca de soto,luis enrique alvarado vargas,persona propietaria,29,m,13,6,0,0,0,0,1,0,0,0,136luispve,0
+pvem,dep,hidalgo,7-tepeapulco,francisco javier rodriguez cid,persona propietaria,39,m,13,7,0,0,0,0,1,0,0,0,137franpve,0
+morena,dep,hidalgo,3-actopan,tatiana tonantzin p angeles moreno,persona propietaria,54,f,13,3,1,0,0,0,0,0,0,0,133tatimor,0
+morena,dep,hidalgo,5-el llano primera seccion,astrit viridiana cornejo gomez,persona propietaria,37,f,13,5,1,0,0,0,0,0,0,0,135astrmor,0
+morena,dep,hidalgo,4-tulancingo de bravo,alma lidia de la vega sanchez,persona propietaria,56,f,13,4,1,0,0,0,0,0,0,0,134almamor,0
+morena,dep,hidalgo,6-pachuca de soto,ricardo crespo arroyo,persona propietaria,52,m,13,6,1,0,0,0,0,0,0,0,136ricamor,0
+morena,dep,hidalgo,7-tepeapulco,mirna maria de la luz rubio sanchez,persona propietaria,45,f,13,7,1,0,0,0,0,0,0,0,137mirnmor,0
+pt,dep,hidalgo,7-tepeapulco,adela mireya navarrate sanchez,persona propietaria,53,f,13,7,0,0,0,1,0,0,0,0,137adelpt,0
+pt,dep,hidalgo,6-pachuca de soto,maria de la luz rubio gonzalez,persona propietaria,54,f,13,6,0,0,0,1,0,0,0,0,136maript,0
+pt,dep,hidalgo,3-actopan,josue serrano rubio,persona propietaria,42,m,13,3,0,0,0,1,0,0,0,0,133josupt,0
+pt,dep,hidalgo,4-tulancingo de bravo,maria isabel alfaro morales,persona propietaria,58,f,13,4,0,0,0,1,0,0,0,0,134maript,1
+pt,dep,hidalgo,5-el llano primera seccion,julian luis velazquez rangel,persona propietaria,59,m,13,5,0,0,0,1,0,0,0,0,135julipt,0
+fuerza y corazon por mexico,dep,hidalgo,2-ixmiquilpan,magaly chavez gomez,persona propietaria,39,f,13,2,0,1,1,0,0,0,1,0,132magafue,0
+mc,dep,hidalgo,7-tepeapulco,adriana gonzalez acasio,persona propietaria,33,f,13,7,0,0,0,0,0,1,0,0,137adrimc,0
+mc,dep,hidalgo,6-pachuca de soto,guillermo peredo montes,persona propietaria,45,m,13,6,0,0,0,0,0,1,0,0,136guilmc,0
+fuerza y corazon por mexico,dep,hidalgo,1-huejutla de reyes,sayonara vargas rodriguez,persona propietaria,54,f,13,1,0,1,1,0,0,0,1,0,131sayofue,1
+mc,dep,hidalgo,1-huejutla de reyes,hector hernandez hernandez,persona propietaria,36,m,13,1,0,0,0,0,0,1,0,0,131hectmc,0
+pt,dep,hidalgo,1-huejutla de reyes,fortunato gonzalez islas,persona propietaria,57,m,13,1,0,0,0,1,0,0,0,0,131fortpt,0
+pvem,dep,hidalgo,1-huejutla de reyes,esteban lara ponce,persona propietaria,34,m,13,1,0,0,0,0,1,0,0,0,131estepve,0
+morena,dep,hidalgo,1-huejutla de reyes,daniel andrade zurutuza,persona propietaria,44,m,13,1,1,0,0,0,0,0,0,0,131danimor,0
+sigamos haciendo historia,dep,hidalgo,2-ixmiquilpan,ciria yamile salomon duran,persona propietaria,67,f,13,2,1,0,0,1,1,0,0,0,132cirisig,0
+fuerza y corazon por mexico,dep,jalisco,2-lagos de moreno,paula gutierrez magaña,persona propietaria,55,f,14,2,0,1,1,0,0,0,1,0,142paulfue,0
+fuerza y corazon por mexico,dep,jalisco,1-tequila,jose alfonso magallanes rubio,persona propietaria,56,m,14,1,0,1,1,0,0,0,1,0,141josefue,0
+fuerza y corazon por mexico,dep,jalisco,10-zapopan,omar antonio borboa becerra,persona propietaria,43,m,14,10,0,1,1,0,0,0,1,0,1410omarfue,0
+fuerza y corazon por mexico,dep,jalisco,3-tepatitlan de morelos,jose mario iñiguez franco,persona propietaria,40,m,14,3,0,1,1,0,0,0,1,0,143josefue,0
+fuerza y corazon por mexico,dep,jalisco,6-nuevo mexico,adriana buenrostro vazquez,persona propietaria,40,f,14,6,0,1,1,0,0,0,1,0,146adrifue,0
+fuerza y corazon por mexico,dep,jalisco,8-guadalajara,paola milagros espinosa sanchez,persona propietaria,37,f,14,8,0,1,1,0,0,0,1,0,148paolfue,0
+fuerza y corazon por mexico,dep,jalisco,17-jocotepec,luis alonso aguirre lang,persona propietaria,50,m,14,17,0,1,1,0,0,0,1,0,1417luisfue,0
+fuerza y corazon por mexico,dep,jalisco,16-tlaquepaque,francisca leos altamirano,persona propietaria,57,f,14,16,0,1,1,0,0,0,1,0,1416franfue,0
+fuerza y corazon por mexico,dep,jalisco,15-la barca,alonso de jesus vazquez jimenez,persona propietaria,35,m,14,15,0,1,1,0,0,0,1,0,1415alonfue,0
+mc,dep,jalisco,5-puerto vallarta,yesica rocio zatarain gonzalez,persona propietaria,42,f,14,5,0,0,0,0,0,1,0,0,145yesimc,0
+pvem,dep,jalisco,3-tepatitlan de morelos,leticia nieves gonzalez,persona propietaria,30,f,14,3,0,0,0,0,1,0,0,0,143letipve,0
+pvem,dep,jalisco,5-puerto vallarta,magaly fregoso ortiz,persona propietaria,39,f,14,5,0,0,0,0,1,0,0,0,145magapve,0
+fuerza y corazon por mexico,dep,jalisco,5-puerto vallarta,gerardo miguel lopez villaseñor,persona propietaria,56,m,14,5,0,1,1,0,0,0,1,0,145gerafue,0
+fuerza y corazon por mexico,dep,jalisco,11-guadalajara,christian raul ascencion diaz,persona propietaria,38,m,14,11,0,1,1,0,0,0,1,0,1411chrifue,0
+fuerza y corazon por mexico,dep,jalisco,7-tonala,laura berenice figueroa benitez,persona propietaria,41,f,14,7,0,1,1,0,0,0,1,0,147laurfue,0
+sigamos haciendo historia,dep,jalisco,17-jocotepec,antonio de jesus ramirez ramos,persona propietaria,37,m,14,17,1,0,0,1,1,0,0,0,1417antosig,1
+fuerza y corazon por mexico,dep,jalisco,20-tonala,maria guadalupe arcelia velez hernandez,persona propietaria,75,f,14,20,0,1,1,0,0,0,1,0,1420marifue,0
+sigamos haciendo historia,dep,jalisco,10-zapopan,monica kleopatra sandoval diaz,persona propietaria,48,f,14,10,1,0,0,1,1,0,0,0,1410monisig,0
+sigamos haciendo historia,dep,jalisco,14-tlajomulco de zuñiga,marcela michel lopez,persona propietaria,44,f,14,14,1,0,0,1,1,0,0,0,1414marcsig,0
+fuerza y corazon por mexico,dep,jalisco,4-zapopan,andrea margarita marquez villarreal,persona propietaria,56,f,14,4,0,1,1,0,0,0,1,0,144andrfue,0
+fuerza y corazon por mexico,dep,jalisco,9-guadalajara,veronica gabriela flores perez,persona propietaria,60,f,14,9,0,1,1,0,0,0,1,0,149verofue,0
+mc,dep,jalisco,2-lagos de moreno,tecutli jose guadalupe gomez villalobos,persona propietaria,36,m,14,2,0,0,0,0,0,1,0,0,142tecumc,0
+mc,dep,jalisco,3-tepatitlan de morelos,dalia stefanya padilla jimenez,persona propietaria,30,f,14,3,0,0,0,0,0,1,0,0,143dalimc,0
+mc,dep,jalisco,4-zapopan,martha alejandra sanchez acuña,persona propietaria,41,f,14,4,0,0,0,0,0,1,0,0,144martmc,0
+mc,dep,jalisco,11-guadalajara,rocio aguilar tejada,persona propietaria,53,f,14,11,0,0,0,0,0,1,0,0,1411rocimc,0
+morena,dep,jalisco,5-puerto vallarta,bruno blancas mercado,persona propietaria,49,m,14,5,1,0,0,0,0,0,0,0,145brunmor,1
+mc,dep,jalisco,1-tequila,enrique gabriel buenrostro ahued,persona propietaria,58,m,14,1,0,0,0,0,0,1,0,0,141enrimc,0
+sigamos haciendo historia,dep,jalisco,4-zapopan,raul alvarez villaseñor,persona propietaria,37,m,14,4,1,0,0,1,1,0,0,0,144raulsig,0
+sigamos haciendo historia,dep,jalisco,11-guadalajara,merilyn gomez pozos,persona propietaria,42,f,14,11,1,0,0,1,1,0,0,0,1411merisig,0
+mc,dep,jalisco,18-autlan de navarro,salvador alvarez garcia,persona propietaria,54,m,14,18,0,0,0,0,0,1,0,0,1418salvmc,0
+sigamos haciendo historia,dep,jalisco,15-la barca,juan manuel lopez villanueva,persona propietaria,51,m,14,15,1,0,0,1,1,0,0,0,1415juansig,0
+mc,dep,jalisco,19-ciudad guzman,juan manuel figueroa barajas,persona propietaria,53,m,14,19,0,0,0,0,0,1,0,0,1419juanmc,0
+mc,dep,jalisco,6-nuevo mexico,manuel jesus herrera vega,persona propietaria,52,m,14,6,0,0,0,0,0,1,0,0,146manumc,0
+mc,dep,jalisco,16-tlaquepaque,david hernandez perez,persona propietaria,64,m,14,16,0,0,0,0,0,1,0,0,1416davimc,0
+fuerza y corazon por mexico,dep,jalisco,19-ciudad guzman,edgar joel salvador bautista,persona propietaria,42,m,14,19,0,1,1,0,0,0,1,0,1419edgafue,0
+mc,dep,jalisco,15-la barca,maria nelly muñoz espinosa,persona propietaria,47,f,14,15,0,0,0,0,0,1,0,0,1415marimc,0
+mc,dep,jalisco,12-santa cruz de las flores,miguel osbaldo carreon perez,persona propietaria,38,m,14,12,0,0,0,0,0,1,0,0,1412migumc,0
+mc,dep,jalisco,14-tlajomulco de zuñiga,sagrario elizabeth guzman ureña,persona propietaria,35,f,14,14,0,0,0,0,0,1,0,0,1414sagrmc,0
+fuerza y corazon por mexico,dep,jalisco,12-santa cruz de las flores,ana laura chavez velarde,persona propietaria,52,f,14,12,0,1,1,0,0,0,1,0,1412ana fue,0
+mc,dep,jalisco,17-jocotepec,j jesus cabrera jimenez,persona propietaria,60,m,14,17,0,0,0,0,0,1,0,0,1417j jemc,0
+fuerza y corazon por mexico,dep,jalisco,13-santa maria tequepexpan,danira fernanda roden hernandez,persona propietaria,24,f,14,13,0,1,1,0,0,0,1,0,1413danifue,0
+fuerza y corazon por mexico,dep,jalisco,18-autlan de navarro,diego armando puga enciso,persona propietaria,35,m,14,18,0,1,1,0,0,0,1,0,1418diegfue,0
+sigamos haciendo historia,dep,jalisco,12-santa cruz de las flores,sandra beatriz gonzalez perez,persona propietaria,48,f,14,12,1,0,0,1,1,0,0,0,1412sandsig,0
+mc,dep,jalisco,20-tonala,ricardo zaid santillan cortes,persona propietaria,39,m,14,20,0,0,0,0,0,1,0,0,1420ricamc,0
+sigamos haciendo historia,dep,jalisco,2-lagos de moreno,luis fernando torres martin,persona propietaria,44,m,14,2,1,0,0,1,1,0,0,0,142luissig,0
+sigamos haciendo historia,dep,jalisco,6-nuevo mexico,beatriz carranza gomez,persona propietaria,25,f,14,6,1,0,0,1,1,0,0,0,146beatsig,0
+sigamos haciendo historia,dep,jalisco,7-tonala,claudia garcia hernandez,persona propietaria,56,f,14,7,1,0,0,1,1,0,0,0,147clausig,0
+sigamos haciendo historia,dep,jalisco,18-autlan de navarro,haidyd arreola lopez,persona propietaria,37,f,14,18,1,0,0,1,1,0,0,0,1418haidsig,0
+mc,dep,jalisco,13-santa maria tequepexpan,betsabe dolores almaguer esparza,persona propietaria,50,f,14,13,0,0,0,0,0,1,0,0,1413betsmc,0
+pt,dep,jalisco,3-tepatitlan de morelos,jovita lozano guerra,persona propietaria,50,f,14,3,0,0,0,1,0,0,0,0,143jovipt,0
+mc,dep,jalisco,8-guadalajara,ana gabriela velasco garcia,persona propietaria,33,f,14,8,0,0,0,0,0,1,0,0,148ana mc,0
+mc,dep,jalisco,9-guadalajara,juan carlos marquez rosas,persona propietaria,53,m,14,9,0,0,0,0,0,1,0,0,149juanmc,0
+sigamos haciendo historia,dep,jalisco,1-tequila,francisco javier guizar macias,persona propietaria,60,m,14,1,1,0,0,1,1,0,0,0,141fransig,0
+sigamos haciendo historia,dep,jalisco,8-guadalajara,juan jose hernandez rodriguez,persona propietaria,43,m,14,8,1,0,0,1,1,0,0,0,148juansig,0
+sigamos haciendo historia,dep,jalisco,13-santa maria tequepexpan,jose luis sanchez gonzalez,persona propietaria,65,m,14,13,1,0,0,1,1,0,0,0,1413josesig,0
+pt,dep,jalisco,5-puerto vallarta,raul salvador blancas preciado,persona propietaria,31,m,14,5,0,0,0,1,0,0,0,0,145raulpt,0
+sigamos haciendo historia,dep,jalisco,9-guadalajara,favio castellanos polanco,persona propietaria,33,m,14,9,1,0,0,1,1,0,0,0,149favisig,1
+mc,dep,jalisco,10-zapopan,sergio barrera sepulveda,persona propietaria,41,m,14,10,0,0,0,0,0,1,0,0,1410sergmc,1
+sigamos haciendo historia,dep,jalisco,16-tlaquepaque,alberto maldonado chavarin,persona propietaria,51,m,14,16,1,0,0,1,1,0,0,0,1416albesig,0
+sigamos haciendo historia,dep,jalisco,20-tonala,katia alejandra castillo lozano,persona propietaria,41,f,14,20,1,0,0,1,1,0,0,0,1420katisig,0
+mc,dep,jalisco,7-tonala,emanuel agustin ordoñez hernandez,persona propietaria,41,m,14,7,0,0,0,0,0,1,0,0,147emanmc,0
+morena,dep,jalisco,3-tepatitlan de morelos,reymundo nuñez ramirez,persona propietaria,70,m,14,3,1,0,0,0,0,0,0,0,143reymmor,0
+sigamos haciendo historia,dep,jalisco,19-ciudad guzman,clara cardenas galvan,persona propietaria,63,f,14,19,1,0,0,1,1,0,0,0,1419clarsig,0
+fuerza y corazon por mexico,dep,jalisco,14-tlajomulco de zuñiga,maria cruz rodriguez martinez,persona propietaria,48,f,14,14,0,1,1,0,0,0,1,0,1414marifue,0
+mc,dep,mexico,2-santa maria tultepec,nataly carmen solano urban,persona propietaria,31,f,15,2,0,0,0,0,0,1,0,0,152natamc,0
+mc,dep,mexico,5-teotihuacan de arista,katia belem revilla ponce,persona propietaria,32,f,15,5,0,0,0,0,0,1,0,0,155katimc,0
+mc,dep,mexico,10-ecatepec de morelos,karla yuriko garduño rodriguez,persona propietaria,35,f,15,10,0,0,0,0,0,1,0,0,1510karlmc,0
+fuerza y corazon por mexico,dep,mexico,24-naucalpan de juarez,ursula cortes fernandez,persona propietaria,41,f,15,24,0,1,1,0,0,0,1,0,1524ursufue,0
+fuerza y corazon por mexico,dep,mexico,22-naucalpan de juarez,martha amalia moya baston,persona propietaria,62,f,15,22,0,1,1,0,0,0,1,0,1522martfue,0
+fuerza y corazon por mexico,dep,mexico,6-coacalco de berriozabal,ali sayuri nuñez meneses,persona propietaria,30,f,15,6,0,1,1,0,0,0,1,0,156ali fue,0
+fuerza y corazon por mexico,dep,mexico,4-ciudad nicolas romero y/o centro historico san pedro azcapotzaltongo,julio eduardo gomez galicia,persona propietaria,46,m,15,4,0,1,1,0,0,0,1,0,154julifue,0
+mc,dep,mexico,1-jilotepec de molina enriquez,silvia rodriguez matias,persona propietaria,49,f,15,1,0,0,0,0,0,1,0,0,151silvmc,0
+mc,dep,mexico,4-ciudad nicolas romero y/o centro historico san pedro azcapotzaltongo,araceli coca martinez,persona propietaria,46,f,15,4,0,0,0,0,0,1,0,0,154aracmc,0
+mc,dep,mexico,19-tlalnepantla de baz,aldo francisco vega martinez,persona propietaria,40,m,15,19,0,0,0,0,0,1,0,0,1519aldomc,0
+mc,dep,mexico,17-ecatepec de morelos,maria teresa alvarez vazquez,persona propietaria,58,f,15,17,0,0,0,0,0,1,0,0,1517marimc,0
+fuerza y corazon por mexico,dep,mexico,13-ecatepec de morelos,lucia guadalupe mendez martinez,persona propietaria,39,f,15,13,0,1,1,0,0,0,1,0,1513lucifue,0
+mc,dep,mexico,8-tultitlan de mariano escobedo,ricardo hernandez pacheco,persona propietaria,34,m,15,8,0,0,0,0,0,1,0,0,158ricamc,0
+mc,dep,mexico,14-tepexpan,jose francisco juarez martinez,persona propietaria,27,m,15,14,0,0,0,0,0,1,0,0,1514josemc,0
+mc,dep,mexico,6-coacalco de berriozabal,gildardo perez gabino,persona propietaria,49,m,15,6,0,0,0,0,0,1,0,0,156gildmc,0
+mc,dep,mexico,11-ecatepec de morelos,martin caballero delgadillo,persona propietaria,67,m,15,11,0,0,0,0,0,1,0,0,1511martmc,0
+mc,dep,mexico,13-ecatepec de morelos,carlos castelan ordoñez,persona propietaria,45,m,15,13,0,0,0,0,0,1,0,0,1513carlmc,0
+mc,dep,mexico,16-ecatepec de morelos,norma lilia venegas perez,persona propietaria,45,f,15,16,0,0,0,0,0,1,0,0,1516normmc,0
+mc,dep,mexico,12-ixtapaluca,veronica valdez olvera,persona propietaria,30,f,15,12,0,0,0,0,0,1,0,0,1512veromc,0
+mc,dep,mexico,15-ciudad adolfo lopez mateos,angel dominguez catzin,persona propietaria,32,m,15,15,0,0,0,0,0,1,0,0,1515angemc,0
+mc,dep,mexico,18-huixquilucan de degollado,juan pablo sanchez flores,persona propietaria,61,m,15,18,0,0,0,0,0,1,0,0,1518juanmc,0
+mc,dep,mexico,32-valle de chalco solidaridad,leonardo corona canchola,persona propietaria,43,m,15,32,0,0,0,0,0,1,0,0,1532leonmc,0
+mc,dep,mexico,20-ojo de agua,rosalia m ortiz fragoso,persona propietaria,51,f,15,20,0,0,0,0,0,1,0,0,1520rosamc,0
+mc,dep,mexico,29-cd. nezahualcoyotl,alfredo esquivel ramos,persona propietaria,67,m,15,29,0,0,0,0,0,1,0,0,1529alfrmc,0
+mc,dep,mexico,30-chimalhuacan,alberto serrano castañeda,persona propietaria,68,m,15,30,0,0,0,0,0,1,0,0,1530albemc,0
+mc,dep,mexico,25-chimalhuacan,susana lisset omaña lobato,persona propietaria,25,f,15,25,0,0,0,0,0,1,0,0,1525susamc,0
+mc,dep,mexico,39-los reyes acaquilpan,monica palencia castrejon,persona propietaria,39,f,15,39,0,0,0,0,0,1,0,0,1539monimc,0
+mc,dep,mexico,24-naucalpan de juarez,joaquin perez oseguera,persona propietaria,36,m,15,24,0,0,0,0,0,1,0,0,1524joaqmc,0
+mc,dep,mexico,26-toluca de lerdo,dina zoraya moran cadena,persona propietaria,55,f,15,26,0,0,0,0,0,1,0,0,1526dinamc,0
+mc,dep,mexico,27-metepec,sandra veronica acevedo vera,persona propietaria,55,f,15,27,0,0,0,0,0,1,0,0,1527sandmc,0
+mc,dep,mexico,35-tenancingo de degollado,daniel nieto flores,persona propietaria,42,m,15,35,0,0,0,0,0,1,0,0,1535danimc,0
+fuerza y corazon por mexico,dep,mexico,28-zumpango de ocampo,mariana sanchez gonzalez,persona propietaria,49,f,15,28,0,1,1,0,0,0,1,0,1528marifue,0
+mc,dep,mexico,23-lerma de villada,brenda anayeli lara hernandez,persona propietaria,26,f,15,23,0,0,0,0,0,1,0,0,1523brenmc,0
+mc,dep,mexico,33-chalco de diaz covarrubias,maria antonieta solis carmona,persona propietaria,47,f,15,33,0,0,0,0,0,1,0,0,1533marimc,0
+mc,dep,mexico,28-zumpango de ocampo,daniel mendoza bucio,persona propietaria,45,m,15,28,0,0,0,0,0,1,0,0,1528danimc,0
+mc,dep,mexico,37-teoloyucan,guadalupe lopez rodriguez,persona propietaria,53,f,15,37,0,0,0,0,0,1,0,0,1537guadmc,0
+mc,dep,mexico,38-texcoco de mora,israel ramirez castañeda,persona propietaria,48,m,15,38,0,0,0,0,0,1,0,0,1538isramc,0
+fuerza y corazon por mexico,dep,mexico,19-tlalnepantla de baz,brenda escamilla samano,persona propietaria,37,f,15,19,0,1,1,0,0,0,1,0,1519brenfue,0
+fuerza y corazon por mexico,dep,mexico,34-toluca de lerdo,maria teresa castell de oro palacios,persona propietaria,55,f,15,34,0,1,1,0,0,0,1,0,1534marifue,1
+fuerza y corazon por mexico,dep,mexico,1-jilotepec de molina enriquez,fernando arturo chavez rodriguez,persona propietaria,37,m,15,1,0,1,1,0,0,0,1,0,151fernfue,0
+fuerza y corazon por mexico,dep,mexico,8-tultitlan de mariano escobedo,maria irma leon barajas,persona propietaria,66,f,15,8,0,1,1,0,0,0,1,0,158marifue,0
+fuerza y corazon por mexico,dep,mexico,10-ecatepec de morelos,maria del carmen de leon martinez,persona propietaria,44,f,15,10,0,1,1,0,0,0,1,0,1510marifue,0
+fuerza y corazon por mexico,dep,mexico,14-tepexpan,cristina sanchez coronel,persona propietaria,40,f,15,14,0,1,1,0,0,0,1,0,1514crisfue,0
+fuerza y corazon por mexico,dep,mexico,15-ciudad adolfo lopez mateos,ingrid krasopani schemelensky castro,persona propietaria,44,f,15,15,0,1,1,0,0,0,1,0,1515ingrfue,0
+fuerza y corazon por mexico,dep,mexico,35-tenancingo de degollado,aurelia stephanie reynoso villanueva,persona propietaria,40,f,15,35,0,1,1,0,0,0,1,0,1535aurefue,0
+fuerza y corazon por mexico,dep,mexico,17-ecatepec de morelos,josue cirino valdes huezo,persona propietaria,49,m,15,17,0,1,1,0,0,0,1,0,1517josufue,0
+fuerza y corazon por mexico,dep,mexico,18-huixquilucan de degollado,josefina eugenia vazquez mota,persona propietaria,63,f,15,18,0,1,1,0,0,0,1,0,1518josefue,0
+fuerza y corazon por mexico,dep,mexico,27-metepec,olga perez sanabria,persona propietaria,48,f,15,27,0,1,1,0,0,0,1,0,1527olgafue,0
+fuerza y corazon por mexico,dep,mexico,37-teoloyucan,jose luis castro chimal,persona propietaria,51,m,15,37,0,1,1,0,0,0,1,0,1537josefue,0
+fuerza y corazon por mexico,dep,mexico,40-san miguel zinacantepec,oscar garcia martinez,persona propietaria,52,m,15,40,0,1,1,0,0,0,1,0,1540oscafue,0
+fuerza y corazon por mexico,dep,mexico,5-teotihuacan de arista,cristian german quezada,persona propietaria,38,f,15,5,0,1,1,0,0,0,1,0,155crisfue,0
+fuerza y corazon por mexico,dep,mexico,7-cuautitlan izcalli,francisco brian rojas cano,persona propietaria,42,m,15,7,0,1,1,0,0,0,1,0,157franfue,0
+pan,dep,mexico,32-valle de chalco solidaridad,evelyn martinez landin,persona propietaria,41,f,15,32,0,1,0,0,0,0,0,0,1532evelpan,0
+fuerza y corazon por mexico,dep,mexico,21-amecameca de juarez,viviana elena cruz nieto,persona propietaria,40,f,15,21,0,1,1,0,0,0,1,0,1521vivifue,0
+fuerza y corazon por mexico,dep,mexico,29-cd. nezahualcoyotl,elizabeth torres ramos,persona propietaria,52,f,15,29,0,1,1,0,0,0,1,0,1529elizfue,0
+fuerza y corazon por mexico,dep,mexico,11-ecatepec de morelos,antonia salazar zamora,persona propietaria,43,f,15,11,0,1,1,0,0,0,1,0,1511antofue,0
+mc,dep,mexico,21-amecameca de juarez,angie dennisse hauffen torres,persona propietaria,42,f,15,21,0,0,0,0,0,1,0,0,1521angimc,0
+fuerza y corazon por mexico,dep,mexico,39-los reyes acaquilpan,alan castellanos ramirez,persona propietaria,37,m,15,39,0,1,1,0,0,0,1,0,1539alanfue,1
+sigamos haciendo historia,dep,mexico,23-lerma de villada,luis alberto carballo gutierrez,persona propietaria,43,m,15,23,1,0,0,1,1,0,0,0,1523luissig,0
+sigamos haciendo historia,dep,mexico,38-texcoco de mora,jesus martin cuanalo araujo,persona propietaria,49,m,15,38,1,0,0,1,1,0,0,0,1538jesusig,0
+mc,dep,mexico,36-tejupilco de hidalgo,omar dominguez villaseñor,persona propietaria,38,m,15,36,0,0,0,0,0,1,0,0,1536omarmc,0
+sigamos haciendo historia,dep,mexico,26-toluca de lerdo,luis enrique miranda barrera,persona propietaria,28,m,15,26,1,0,0,1,1,0,0,0,1526luissig,0
+mc,dep,mexico,34-toluca de lerdo,javier sabino portocarrero garduño,persona propietaria,56,m,15,34,0,0,0,0,0,1,0,0,1534javimc,0
+mc,dep,mexico,31-cd. nezahualcoyotl,edgardo ivan quiroz garcia,persona propietaria,49,m,15,31,0,0,0,0,0,1,0,0,1531edgamc,0
+pvem,dep,mexico,33-chalco de diaz covarrubias,stephanie belem montoya cervantes,persona propietaria,34,f,15,33,0,0,0,0,1,0,0,0,1533steppve,0
+pvem,dep,mexico,11-ecatepec de morelos,sandra liliana marcelino martinez,persona propietaria,43,f,15,11,0,0,0,0,1,0,0,0,1511sandpve,0
+pvem,dep,mexico,13-ecatepec de morelos,carlos rangel aquino,persona propietaria,38,m,15,13,0,0,0,0,1,0,0,0,1513carlpve,0
+morena,dep,mexico,13-ecatepec de morelos,alma monserrat cordoba navarrete,persona propietaria,22,f,15,13,1,0,0,0,0,0,0,0,1513almamor,0
+morena,dep,mexico,29-cd. nezahualcoyotl,gerardo ulloa perez,persona propietaria,58,m,15,29,1,0,0,0,0,0,0,0,1529geramor,0
+mc,dep,mexico,7-cuautitlan izcalli,rocio maribel claudio rosales,persona propietaria,45,f,15,7,0,0,0,0,0,1,0,0,157rocimc,0
+pvem,dep,mexico,31-cd. nezahualcoyotl,evangelina sandoval ayala,persona propietaria,46,f,15,31,0,0,0,0,1,0,0,0,1531evanpve,0
+morena,dep,mexico,11-ecatepec de morelos,xochitl teresa arzola vargas,persona propietaria,39,f,15,11,1,0,0,0,0,0,0,0,1511xochmor,0
+morena,dep,mexico,17-ecatepec de morelos,juan hugo de la rosa garcia,persona propietaria,66,m,15,17,1,0,0,0,0,0,0,0,1517juanmor,0
+pvem,dep,mexico,29-cd. nezahualcoyotl,hector pedroza jimenez,persona propietaria,60,m,15,29,0,0,0,0,1,0,0,0,1529hectpve,0
+mc,dep,mexico,40-san miguel zinacantepec,raquel segura tetlacuilo,persona propietaria,55,f,15,40,0,0,0,0,0,1,0,0,1540raqumc,0
+prd,dep,mexico,25-chimalhuacan,teresa de jesus valverde ortiz,persona propietaria,61,f,15,25,0,0,0,0,0,0,1,0,1525tereprd,0
+fuerza y corazon por mexico,dep,mexico,12-ixtapaluca,maria del rosario arias castro,persona propietaria,51,f,15,12,0,1,1,0,0,0,1,0,1512marifue,0
+fuerza y corazon por mexico,dep,mexico,26-toluca de lerdo,tania hurtado parra,persona propietaria,42,f,15,26,0,1,1,0,0,0,1,0,1526tanifue,0
+fuerza y corazon por mexico,dep,mexico,30-chimalhuacan,araceli hinojosa jaimes,persona propietaria,37,f,15,30,0,1,1,0,0,0,1,0,1530aracfue,0
+sigamos haciendo historia,dep,mexico,4-ciudad nicolas romero y/o centro historico san pedro azcapotzaltongo,melva carrasco godinez,persona propietaria,47,f,15,4,1,0,0,1,1,0,0,0,154melvsig,0
+fuerza y corazon por mexico,dep,mexico,2-santa maria tultepec,guillermo victor manuel torres cañada,persona propietaria,41,m,15,2,0,1,1,0,0,0,1,0,152guilfue,0
+fuerza y corazon por mexico,dep,mexico,23-lerma de villada,karla lizette cortes treviño,persona propietaria,42,f,15,23,0,1,1,0,0,0,1,0,1523karlfue,0
+sigamos haciendo historia,dep,mexico,18-huixquilucan de degollado,claudia sanchez juarez,persona propietaria,44,f,15,18,1,0,0,1,1,0,0,0,1518clausig,0
+prd,dep,mexico,32-valle de chalco solidaridad,fredi juarez ruiz,persona propietaria,51,m,15,32,0,0,0,0,0,0,1,0,1532fredprd,0
+sigamos haciendo historia,dep,mexico,28-zumpango de ocampo,roberto angel dominguez rodriguez,persona propietaria,44,m,15,28,1,0,0,1,1,0,0,0,1528robesig,1
+sigamos haciendo historia,dep,mexico,15-ciudad adolfo lopez mateos,josefina anaya martinez,persona propietaria,34,f,15,15,1,0,0,1,1,0,0,0,1515josesig,0
+sigamos haciendo historia,dep,mexico,21-amecameca de juarez,ivan millan contreras,persona propietaria,45,m,15,21,1,0,0,1,1,0,0,0,1521ivansig,0
+sigamos haciendo historia,dep,mexico,6-coacalco de berriozabal,julieta villalpando riquelme,persona propietaria,54,f,15,6,1,0,0,1,1,0,0,0,156julisig,0
+sigamos haciendo historia,dep,mexico,8-tultitlan de mariano escobedo,anay beltran reyes,persona propietaria,42,f,15,8,1,0,0,1,1,0,0,0,158anaysig,0
+sigamos haciendo historia,dep,mexico,22-naucalpan de juarez,barbara abril gonzalez avilez,persona propietaria,34,f,15,22,1,0,0,1,1,0,0,0,1522barbsig,0
+sigamos haciendo historia,dep,mexico,27-metepec,wblester santiago pineda,persona propietaria,60,m,15,27,1,0,0,1,1,0,0,0,1527wblesig,0
+fuerza y corazon por mexico,dep,mexico,16-ecatepec de morelos,arturo montero alvarado,persona propietaria,53,m,15,16,0,1,1,0,0,0,1,0,1516artufue,0
+sigamos haciendo historia,dep,mexico,19-tlalnepantla de baz,gabriela valdepeñas gonzalez,persona propietaria,56,f,15,19,1,0,0,1,1,0,0,0,1519gabrsig,0
+sigamos haciendo historia,dep,mexico,30-chimalhuacan,cesar agustin hernandez perez,persona propietaria,44,m,15,30,1,0,0,1,1,0,0,0,1530cesasig,1
+sigamos haciendo historia,dep,mexico,34-toluca de lerdo,monica angelica alvarez nemer,persona propietaria,55,f,15,34,1,0,0,1,1,0,0,0,1534monisig,0
+sigamos haciendo historia,dep,mexico,35-tenancingo de degollado,arturo roberto hernandez tapia,persona propietaria,63,m,15,35,1,0,0,1,1,0,0,0,1535artusig,1
+sigamos haciendo historia,dep,mexico,36-tejupilco de hidalgo,juan carlos varela dominguez,persona propietaria,50,m,15,36,1,0,0,1,1,0,0,0,1536juansig,0
+sigamos haciendo historia,dep,mexico,37-teoloyucan,pedro mario zenteno santaella,persona propietaria,63,m,15,37,1,0,0,1,1,0,0,0,1537pedrsig,0
+sigamos haciendo historia,dep,mexico,25-chimalhuacan,leide aviles dominguez,persona propietaria,39,f,15,25,1,0,0,1,1,0,0,0,1525leidsig,0
+pt,dep,mexico,31-cd. nezahualcoyotl,yolanda monserrat correa gonzalez,persona propietaria,31,f,15,31,0,0,0,1,0,0,0,0,1531yolapt,0
+sigamos haciendo historia,dep,mexico,32-valle de chalco solidaridad,luis enrique martinez ventura,persona propietaria,60,m,15,32,1,0,0,1,1,0,0,0,1532luissig,1
+sigamos haciendo historia,dep,mexico,2-santa maria tultepec,dionicia vazquez garcia,persona propietaria,76,f,15,2,1,0,0,1,1,0,0,0,152dionsig,1
+pt,dep,mexico,13-ecatepec de morelos,claudia gonzalez ceron,persona propietaria,51,f,15,13,0,0,0,1,0,0,0,0,1513claupt,0
+sigamos haciendo historia,dep,mexico,39-los reyes acaquilpan,jose luis montalvo luna,persona propietaria,64,m,15,39,1,0,0,1,1,0,0,0,1539josesig,0
+fuerza y corazon por mexico,dep,mexico,33-chalco de diaz covarrubias,olivia del carmen ramirez perez,persona propietaria,68,f,15,33,0,1,1,0,0,0,1,0,1533olivfue,0
+sigamos haciendo historia,dep,mexico,7-cuautitlan izcalli,xochitl nashielly zagal ramirez,persona propietaria,34,f,15,7,1,0,0,1,1,0,0,0,157xochsig,0
+fuerza y corazon por mexico,dep,mexico,36-tejupilco de hidalgo,jazmin jaimes albarran,persona propietaria,38,f,15,36,0,1,1,0,0,0,1,0,1536jazmfue,1
+morena,dep,mexico,31-cd. nezahualcoyotl,juan angel bautista bravo,persona propietaria,42,m,15,31,1,0,0,0,0,0,0,0,1531juanmor,1
+morena,dep,mexico,33-chalco de diaz covarrubias,anais miriam burgos hernandez,persona propietaria,40,f,15,33,1,0,0,0,0,0,0,0,1533anaimor,0
+pvem,dep,mexico,17-ecatepec de morelos,luz ivonne maciel flores,persona propietaria,52,f,15,17,0,0,0,0,1,0,0,0,1517luz pve,0
+pri,dep,mexico,32-valle de chalco solidaridad,dulce gloria martinez garcia,persona propietaria,34,f,15,32,0,0,1,0,0,0,0,0,1532dulcpri,0
+pri,dep,mexico,25-chimalhuacan,nestor yetlanezi martinez mendoza,persona propietaria,29,m,15,25,0,0,1,0,0,0,0,0,1525nestpri,0
+fuerza y corazon por mexico,dep,mexico,31-cd. nezahualcoyotl,neri garcia mejia,persona propietaria,58,m,15,31,0,1,1,0,0,0,1,0,1531nerifue,0
+mc,dep,mexico,22-naucalpan de juarez,maria fernanda ganem gomez gomez,persona propietaria,37,f,15,22,0,0,0,0,0,1,0,0,1522marimc,0
+pt,dep,mexico,17-ecatepec de morelos,gary guadarrama adame,persona propietaria,48,f,15,17,0,0,0,1,0,0,0,0,1517garypt,0
+sigamos haciendo historia,dep,mexico,24-naucalpan de juarez,jose luis duran reveles,persona propietaria,63,m,15,24,1,0,0,1,1,0,0,0,1524josesig,0
+pt,dep,mexico,29-cd. nezahualcoyotl,maria del carmen perete cruz,persona propietaria,35,f,15,29,0,0,0,1,0,0,0,0,1529maript,0
+pt,dep,mexico,33-chalco de diaz covarrubias,fatima elizabeth larios zelaya,persona propietaria,54,f,15,33,0,0,0,1,0,0,0,0,1533fatipt,0
+sigamos haciendo historia,dep,mexico,10-ecatepec de morelos,luis fernando vilchis contreras,persona propietaria,47,m,15,10,1,0,0,1,1,0,0,0,1510luissig,0
+sigamos haciendo historia,dep,mexico,12-ixtapaluca,armando corona arvizu,persona propietaria,28,m,15,12,1,0,0,1,1,0,0,0,1512armasig,1
+pt,dep,mexico,11-ecatepec de morelos,jose angel olvera lopez,persona propietaria,41,m,15,11,0,0,0,1,0,0,0,0,1511josept,0
+fuerza y corazon por mexico,dep,mexico,38-texcoco de mora,maria erika pineda meraz,persona propietaria,39,f,15,38,0,1,1,0,0,0,1,0,1538marifue,0
+fuerza y corazon por mexico,dep,mexico,20-ojo de agua,sue ellen bernal bolnik,persona propietaria,41,f,15,20,0,1,1,0,0,0,1,0,1520sue fue,1
+sigamos haciendo historia,dep,mexico,16-ecatepec de morelos,emilio manzanilla tellez,persona propietaria,53,m,15,16,1,0,0,1,1,0,0,0,1516emilsig,0
+sigamos haciendo historia,dep,mexico,5-teotihuacan de arista,patricia galindo alarcon,persona propietaria,59,f,15,5,1,0,0,1,1,0,0,0,155patrsig,0
+sigamos haciendo historia,dep,mexico,20-ojo de agua,montserrat ruiz paez,persona propietaria,30,f,15,20,1,0,0,1,1,0,0,0,1520montsig,0
+mc,dep,mexico,9-san felipe del progreso,rosalva romero salazar,persona propietaria,55,f,15,9,0,0,0,0,0,1,0,0,159rosamc,0
+sigamos haciendo historia,dep,mexico,14-tepexpan,claudia leticia garfias alcantara,persona propietaria,50,f,15,14,1,0,0,1,1,0,0,0,1514clausig,0
+pan,dep,mexico,25-chimalhuacan,jesus perez gonzalez,persona propietaria,62,m,15,25,0,1,0,0,0,0,0,0,1525jesupan,0
+fuerza y corazon por mexico,dep,mexico,9-san felipe del progreso,xochitl guadarrama romero,persona propietaria,45,f,15,9,0,1,1,0,0,0,1,0,159xochfue,0
+sigamos haciendo historia,dep,mexico,1-jilotepec de molina enriquez,maria luisa mendoza mondragon,persona propietaria,48,f,15,1,1,0,0,1,1,0,0,0,151marisig,0
+fuerza y corazon por mexico,dep,mexico,3-atlacomulco de fabela,marisol gonzalez torres,persona propietaria,47,f,15,3,0,1,1,0,0,0,1,0,153marifue,0
+sigamos haciendo historia,dep,mexico,3-atlacomulco de fabela,diana castillo gabino,persona propietaria,44,f,15,3,1,0,0,1,1,0,0,0,153diansig,0
+sigamos haciendo historia,dep,mexico,9-san felipe del progreso,ivan marin rangel,persona propietaria,29,m,15,9,1,0,0,1,1,0,0,0,159ivansig,0
+mc,dep,mexico,3-atlacomulco de fabela,marco tulio nuñez mercado,persona propietaria,39,m,15,3,0,0,0,0,0,1,0,0,153marcmc,0
+sigamos haciendo historia,dep,mexico,40-san miguel zinacantepec,azucena huerta romero,persona propietaria,28,f,15,40,1,0,0,1,1,0,0,0,1540azucsig,0
+fuerza y corazon por mexico,dep,michoacan,2-apatzingan de la constitucion,francisco javier huacus esquivel,persona propietaria,37,m,16,2,0,1,1,0,0,0,1,0,162franfue,1
+mc,dep,michoacan,5-zamora de hidalgo,jessica alejandra ramirez acevedo,persona propietaria,33,f,16,5,0,0,0,0,0,1,0,0,165jessmc,0
+mc,dep,michoacan,9-uruapan del progreso,jesus mariano torres santoyo,persona propietaria,38,m,16,9,0,0,0,0,0,1,0,0,169jesumc,0
+mc,dep,michoacan,10-morelia,eduardo sanchez martinez,persona propietaria,57,m,16,10,0,0,0,0,0,1,0,0,1610eduamc,0
+mc,dep,michoacan,11-patzcuaro,carlos ivan contreras manriquez,persona propietaria,30,m,16,11,0,0,0,0,0,1,0,0,1611carlmc,0
+sigamos haciendo historia,dep,michoacan,3-heroica zitacuaro,mary carmen bernal martinez,persona propietaria,39,f,16,3,1,0,0,1,1,0,0,0,163marysig,1
+mc,dep,michoacan,1-lazaro cardenas,ulises leñero garcia,persona propietaria,64,m,16,1,0,0,0,0,0,1,0,0,161ulismc,0
+mc,dep,michoacan,4-jiquilpan de juarez,hugo martinez rodriguez,persona propietaria,37,m,16,4,0,0,0,0,0,1,0,0,164hugomc,0
+fuerza y corazon por mexico,dep,michoacan,4-jiquilpan de juarez,rodrigo sanchez zepeda,persona propietaria,59,m,16,4,0,1,1,0,0,0,1,0,164rodrfue,1
+fuerza y corazon por mexico,dep,michoacan,10-morelia,david alejandro cortes mendoza,persona propietaria,35,m,16,10,0,1,1,0,0,0,1,0,1610davifue,0
+pvem,dep,michoacan,1-lazaro cardenas,francisco karim viveros martinez,persona propietaria,33,m,16,1,0,0,0,0,1,0,0,0,161franpve,0
+fuerza y corazon por mexico,dep,michoacan,9-uruapan del progreso,camelia lizbeth calleja contreras,persona propietaria,57,f,16,9,0,1,1,0,0,0,1,0,169camefue,0
+mc,dep,michoacan,8-morelia,america marlenn ayala boyzo,persona propietaria,41,f,16,8,0,0,0,0,0,1,0,0,168amermc,0
+fuerza y corazon por mexico,dep,michoacan,1-lazaro cardenas,yurihxi navarro gonzalez,persona propietaria,29,f,16,1,0,1,1,0,0,0,1,0,161yurifue,0
+fuerza y corazon por mexico,dep,michoacan,5-zamora de hidalgo,jjesus infante ayala,persona propietaria,58,no binario,16,5,0,1,1,0,0,0,1,0,165jjesfue,0
+sigamos haciendo historia,dep,michoacan,8-morelia,ernesto nuñez aguilar,persona propietaria,45,m,16,8,1,0,0,1,1,0,0,0,168ernesig,0
+mc,dep,michoacan,7-zacapu,gerardo torres ochoa,persona propietaria,49,m,16,7,0,0,0,0,0,1,0,0,167geramc,0
+sigamos haciendo historia,dep,michoacan,2-apatzingan de la constitucion,jose luis cruz lucatero,persona propietaria,64,m,16,2,1,0,0,1,1,0,0,0,162josesig,0
+sigamos haciendo historia,dep,michoacan,7-zacapu,marcela velazquez vazquez,persona propietaria,45,f,16,7,1,0,0,1,1,0,0,0,167marcsig,0
+sigamos haciendo historia,dep,michoacan,4-jiquilpan de juarez,rosa guadalupe ortega tiburcio,persona propietaria,60,f,16,4,1,0,0,1,1,0,0,0,164rosasig,0
+pt,dep,michoacan,1-lazaro cardenas,maria antonieta mar garcia,persona propietaria,55,f,16,1,0,0,0,1,0,0,0,0,161maript,0
+sigamos haciendo historia,dep,michoacan,6-ciudad hidalgo,jose luis tellez marin,persona propietaria,54,m,16,6,1,0,0,1,1,0,0,0,166josesig,0
+sigamos haciendo historia,dep,michoacan,11-patzcuaro,vanessa lopez carrillo,persona propietaria,41,f,16,11,1,0,0,1,1,0,0,0,1611vanesig,0
+fuerza y corazon por mexico,dep,michoacan,6-ciudad hidalgo,karla alejandra carmona baca,persona propietaria,34,f,16,6,0,1,1,0,0,0,1,0,166karlfue,0
+sigamos haciendo historia,dep,michoacan,10-morelia,carolina rangel gracida,persona propietaria,35,f,16,10,1,0,0,1,1,0,0,0,1610carosig,0
+sigamos haciendo historia,dep,michoacan,5-zamora de hidalgo,delhi miroslava shember dominguez,persona propietaria,31,f,16,5,1,0,0,1,1,0,0,0,165delhsig,0
+fuerza y corazon por mexico,dep,michoacan,7-zacapu,martha lilia cortes rangel,persona propietaria,55,f,16,7,0,1,1,0,0,0,1,0,167martfue,0
+fuerza y corazon por mexico,dep,michoacan,8-morelia,roberto carlos lopez garcia,persona propietaria,50,m,16,8,0,1,1,0,0,0,1,0,168robefue,1
+morena,dep,michoacan,1-lazaro cardenas,leonel godoy rangel,persona propietaria,73,m,16,1,1,0,0,0,0,0,0,0,161leonmor,1
+mc,dep,michoacan,3-heroica zitacuaro,samanta ashley lozano velazquez,persona propietaria,28,f,16,3,0,0,0,0,0,1,0,0,163samamc,0
+fuerza y corazon por mexico,dep,michoacan,11-patzcuaro,martha alejandra velazquez rodriguez,persona propietaria,32,f,16,11,0,1,1,0,0,0,1,0,1611martfue,0
+fuerza y corazon por mexico,dep,michoacan,3-heroica zitacuaro,silvano aureoles conejo,persona propietaria,58,m,16,3,0,1,1,0,0,0,1,0,163silvfue,0
+mc,dep,michoacan,6-ciudad hidalgo,lilia acosta rosales,persona propietaria,67,f,16,6,0,0,0,0,0,1,0,0,166lilimc,0
+mc,dep,michoacan,2-apatzingan de la constitucion,daniel preciado solorzano,persona propietaria,39,f,16,2,0,0,0,0,0,1,0,0,162danimc,0
+sigamos haciendo historia,dep,michoacan,9-uruapan del progreso,marco trejo pureco,persona propietaria,46,m,16,9,1,0,0,1,1,0,0,0,169marcsig,0
+ind,dep,michoacan,9-uruapan del progreso,guadalupe araceli mendoza arias,persona propietaria,43,f,16,9,0,0,0,0,0,0,0,1,169guadind,0
+fuerza y corazon por mexico,dep,morelos,4-los pilares,jose antonio albarran contreras,persona propietaria,51,m,17,4,0,1,1,0,0,0,1,0,174josefue,0
+fuerza y corazon por mexico,dep,morelos,2-jiutepec,gabriela gorostieta lara,persona propietaria,25,f,17,2,0,1,1,0,0,0,1,0,172gabrfue,0
+mc,dep,morelos,2-jiutepec,aleyda navarrete estrada,persona propietaria,47,f,17,2,0,0,0,0,0,1,0,0,172aleymc,0
+fuerza y corazon por mexico,dep,morelos,5-yautepec,vinicio limon rivera,persona propietaria,69,m,17,5,0,1,1,0,0,0,1,0,175vinifue,0
+mc,dep,morelos,1-cuernavaca,cesareo ramon martin carvajal guajardo,persona propietaria,61,m,17,1,0,0,0,0,0,1,0,0,171cesamc,0
+fuerza y corazon por mexico,dep,morelos,1-cuernavaca,sergio alberto estrada cajigal ramirez,persona propietaria,62,m,17,1,0,1,1,0,0,0,1,0,171sergfue,0
+mc,dep,morelos,4-los pilares,mayra nallely martinez ortiz,persona propietaria,38,f,17,4,0,0,0,0,0,1,0,0,174mayrmc,0
+mc,dep,morelos,3-cuautla,maira anayatzin martinez vergara,persona propietaria,30,f,17,3,0,0,0,0,0,1,0,0,173mairmc,0
+mc,dep,morelos,5-yautepec,maria guadalupe ortega gomez,persona propietaria,45,f,17,5,0,0,0,0,0,1,0,0,175marimc,0
+sigamos haciendo historia,dep,morelos,3-cuautla,cindy winkler trujillo,persona propietaria,43,f,17,3,1,0,0,1,1,0,0,0,173cindsig,0
+sigamos haciendo historia,dep,morelos,1-cuernavaca,sandra anaya villegas,persona propietaria,48,f,17,1,1,0,0,1,1,0,0,0,171sandsig,0
+sigamos haciendo historia,dep,morelos,2-jiutepec,ariadna barrera vazquez,persona propietaria,47,f,17,2,1,0,0,1,1,0,0,0,172ariasig,0
+sigamos haciendo historia,dep,morelos,4-los pilares,juan angel flores bustamante,persona propietaria,46,m,17,4,1,0,0,1,1,0,0,0,174juansig,0
+sigamos haciendo historia,dep,morelos,5-yautepec,agustin alonso gutierrez,persona propietaria,44,m,17,5,1,0,0,1,1,0,0,0,175agussig,0
+fuerza y corazon por mexico,dep,morelos,3-cuautla,yndira sandoval sanchez,persona propietaria,38,f,17,3,0,1,1,0,0,0,1,0,173yndifue,0
+sigamos haciendo historia,dep,nayarit,3-compostela,jorge armando ortiz rodriguez,persona propietaria,45,m,18,3,1,0,0,1,1,0,0,0,183jorgsig,1
+fuerza y corazon por mexico,dep,nayarit,1-santiago ixcuintla,carlos manuel castillon medina,persona propietaria,53,m,18,1,0,1,1,0,0,0,1,0,181carlfue,0
+sigamos haciendo historia,dep,nayarit,1-santiago ixcuintla,any marilu porras baylon,persona propietaria,43,f,18,1,1,0,0,1,1,0,0,0,181any sig,0
+mc,dep,nayarit,1-santiago ixcuintla,salvador huerta avila,persona propietaria,52,m,18,1,0,0,0,0,0,1,0,0,181salvmc,0
+sigamos haciendo historia,dep,nayarit,2-tepic,beatriz andrea navarro perez,persona propietaria,33,f,18,2,1,0,0,1,1,0,0,0,182beatsig,0
+mc,dep,nayarit,3-compostela,daniel alejandro garcia castillon,persona propietaria,29,m,18,3,0,0,0,0,0,1,0,0,183danimc,0
+mc,dep,nayarit,2-tepic,candy anisoara yescas blancas,persona propietaria,38,f,18,2,0,0,0,0,0,1,0,0,182candmc,0
+fuerza y corazon por mexico,dep,nayarit,3-compostela,laura ines rangel huerta,persona propietaria,48,f,18,3,0,1,1,0,0,0,1,0,183laurfue,0
+fuerza y corazon por mexico,dep,nayarit,2-tepic,ana georgina guillen solis,persona propietaria,62,f,18,2,0,1,1,0,0,0,1,0,182ana fue,0
+fuerza y corazon por mexico,dep,nuevo leon,13-salinas victoria,martha adriana torres manzo,persona propietaria,39,f,19,13,0,1,1,0,0,0,1,0,1913martfue,0
+fuerza y corazon por mexico,dep,nuevo leon,6-monterrey,annia sarahi gomez cardenas,persona propietaria,40,f,19,6,0,1,1,0,0,0,1,0,196annifue,0
+fuerza y corazon por mexico,dep,nuevo leon,14-pesqueria,ivan patricio lozano ramos,persona propietaria,26,m,19,14,0,1,1,0,0,0,1,0,1914ivanfue,0
+fuerza y corazon por mexico,dep,nuevo leon,11-guadalupe,pedro garza treviño,persona propietaria,67,m,19,11,0,1,1,0,0,0,1,0,1911pedrfue,0
+fuerza y corazon por mexico,dep,nuevo leon,1-santa catarina,homero ricardo niño de rivera vela,persona propietaria,49,m,19,1,0,1,1,0,0,0,1,0,191homefue,0
+fuerza y corazon por mexico,dep,nuevo leon,4-san nicolas de los garza,amparo lilia olivares castañeda,persona propietaria,33,f,19,4,0,1,1,0,0,0,1,0,194ampafue,0
+fuerza y corazon por mexico,dep,nuevo leon,9-linares,juan francisco espinoza eguia,persona propietaria,52,m,19,9,0,1,1,0,0,0,1,0,199juanfue,0
+fuerza y corazon por mexico,dep,nuevo leon,7-fracc. valle de lincoln,jose enrique castillo ibarra,persona propietaria,61,m,19,7,0,1,1,0,0,0,1,0,197josefue,0
+fuerza y corazon por mexico,dep,nuevo leon,3-gral. escobedo,luz giovanna leal montoy,persona propietaria,40,f,19,3,0,1,1,0,0,0,1,0,193luz fue,0
+mc,dep,nuevo leon,7-fracc. valle de lincoln,raul lozano caballero,persona propietaria,38,m,19,7,0,0,0,0,0,1,0,0,197raulmc,0
+sigamos haciendo historia,dep,nuevo leon,7-fracc. valle de lincoln,carlos alberto guevara garza,persona propietaria,46,m,19,7,1,0,0,1,1,0,0,0,197carlsig,0
+sigamos haciendo historia,dep,nuevo leon,1-santa catarina,jesus alberto castañeda alavez,persona propietaria,46,m,19,1,1,0,0,1,1,0,0,0,191jesusig,0
+mc,dep,nuevo leon,4-san nicolas de los garza,jorge luis hinojosa ruiz,persona propietaria,41,m,19,4,0,0,0,0,0,1,0,0,194jorgmc,0
+sigamos haciendo historia,dep,nuevo leon,12-benito juarez,hector alfonso de la garza villarreal,persona propietaria,42,m,19,12,1,0,0,1,1,0,0,0,1912hectsig,0
+sigamos haciendo historia,dep,nuevo leon,13-salinas victoria,luis orlando quiroga treviño,persona propietaria,30,m,19,13,1,0,0,1,1,0,0,0,1913luissig,0
+mc,dep,nuevo leon,1-santa catarina,javier gonzalez alcantara caceres,persona propietaria,33,m,19,1,0,0,0,0,0,1,0,0,191javimc,0
+mc,dep,nuevo leon,13-salinas victoria,marco antonio gonzalez valdez,persona propietaria,51,m,19,13,0,0,0,0,0,1,0,0,1913marcmc,0
+mc,dep,nuevo leon,10-monterrey,aldo fasci zuazua,persona propietaria,62,m,19,10,0,0,0,0,0,1,0,0,1910aldomc,0
+mc,dep,nuevo leon,14-pesqueria,oscar gonzalez bonilla,persona propietaria,59,m,19,14,0,0,0,0,0,1,0,0,1914oscamc,0
+mc,dep,nuevo leon,3-gral. escobedo,iovana nohemi parra gonzalez,persona propietaria,43,f,19,3,0,0,0,0,0,1,0,0,193iovamc,0
+mc,dep,nuevo leon,2-apodaca,mario escobar salazar,persona propietaria,54,m,19,2,0,0,0,0,0,1,0,0,192marimc,0
+mc,dep,nuevo leon,11-guadalupe,laura paula lopez sanchez,persona propietaria,61,f,19,11,0,0,0,0,0,1,0,0,1911laurmc,0
+mc,dep,nuevo leon,12-benito juarez,irene guadalupe garza rodriguez,persona propietaria,60,f,19,12,0,0,0,0,0,1,0,0,1912irenmc,0
+sigamos haciendo historia,dep,nuevo leon,3-gral. escobedo,clara luz flores carrales,persona propietaria,50,f,19,3,1,0,0,1,1,0,0,0,193clarsig,0
+fuerza y corazon por mexico,dep,nuevo leon,2-apodaca,andres mauricio cantu ramirez,persona propietaria,52,m,19,2,0,1,1,0,0,0,1,0,192andrfue,0
+fuerza y corazon por mexico,dep,nuevo leon,8-guadalupe,ma de jesus aguirre maldonado,persona propietaria,62,f,19,8,0,1,1,0,0,0,1,0,198ma dfue,0
+sigamos haciendo historia,dep,nuevo leon,5-monterrey,santiago gonzalez soto,persona propietaria,62,m,19,5,1,0,0,1,1,0,0,0,195santsig,0
+fuerza y corazon por mexico,dep,nuevo leon,5-monterrey,marla azucena treviño cantu,persona propietaria,48,f,19,5,0,1,1,0,0,0,1,0,195marlfue,0
+fuerza y corazon por mexico,dep,nuevo leon,12-benito juarez,everardo benavides villarreal,persona propietaria,47,m,19,12,0,1,1,0,0,0,1,0,1912everfue,0
+fuerza y corazon por mexico,dep,nuevo leon,10-monterrey,ana isabel gonzalez gonzalez,persona propietaria,38,f,19,10,0,1,1,0,0,0,1,0,1910ana fue,0
+sigamos haciendo historia,dep,nuevo leon,6-monterrey,arturo alberto fernandez cisneros,persona propietaria,41,m,19,6,1,0,0,1,1,0,0,0,196artusig,0
+mc,dep,nuevo leon,6-monterrey,irais virginia reyes de la torre,persona propietaria,33,f,19,6,0,0,0,0,0,1,0,0,196iraimc,0
+sigamos haciendo historia,dep,nuevo leon,2-apodaca,maria guillermina alvarado moreno,persona propietaria,55,f,19,2,1,0,0,1,1,0,0,0,192marisig,0
+sigamos haciendo historia,dep,nuevo leon,8-guadalupe,adriana belinda quiroz gallegos,persona propietaria,40,f,19,8,1,0,0,1,1,0,0,0,198adrisig,0
+sigamos haciendo historia,dep,nuevo leon,4-san nicolas de los garza,irgla guzman treviño,persona propietaria,62,f,19,4,1,0,0,1,1,0,0,0,194irglsig,0
+sigamos haciendo historia,dep,nuevo leon,10-monterrey,elizabeth de la luz barron cano,persona propietaria,64,f,19,10,1,0,0,1,1,0,0,0,1910elizsig,0
+mc,dep,nuevo leon,5-monterrey,paola michell longoria lopez,persona propietaria,34,f,19,5,0,0,0,0,0,1,0,0,195paolmc,0
+mc,dep,nuevo leon,8-guadalupe,brenda yamile jimenez loya,persona propietaria,56,f,19,8,0,0,0,0,0,1,0,0,198brenmc,0
+sigamos haciendo historia,dep,nuevo leon,9-linares,daniela escalante galindo,persona propietaria,35,f,19,9,1,0,0,1,1,0,0,0,199danisig,0
+sigamos haciendo historia,dep,nuevo leon,11-guadalupe,oliverio tijerina sepulveda,persona propietaria,41,m,19,11,1,0,0,1,1,0,0,0,1911olivsig,0
+sigamos haciendo historia,dep,nuevo leon,14-pesqueria,jose gloria lopez,persona propietaria,61,m,19,14,1,0,0,1,1,0,0,0,1914josesig,0
+mc,dep,nuevo leon,9-linares,yazmin del refugio barcenas zacarias,persona propietaria,44,f,19,9,0,0,0,0,0,1,0,0,199yazmmc,0
+fuerza y corazon por mexico,dep,oaxaca,3-heroica ciudad de huajuapan de leon,arely mayde lucero marquez,persona propietaria,37,f,20,3,0,1,1,0,0,0,1,0,203arelfue,0
+mc,dep,oaxaca,5-salina cruz,jose efigenio hernandez ramirez,persona propietaria,63,m,20,5,0,0,0,0,0,1,0,0,205josemc,0
+fuerza y corazon por mexico,dep,oaxaca,8-oaxaca de juarez,david enrique aguilar hernandez,persona propietaria,28,m,20,8,0,1,1,0,0,0,1,0,208davifue,0
+fuerza y corazon por mexico,dep,oaxaca,2-teotitlan de flores magon,julio cesar rodriguez lopez,persona propietaria,40,m,20,2,0,1,1,0,0,0,1,0,202julifue,0
+sigamos haciendo historia,dep,oaxaca,3-heroica ciudad de huajuapan de leon,margarita garcia garcia,persona propietaria,58,f,20,3,1,0,0,1,1,0,0,0,203margsig,1
+mc,dep,oaxaca,8-oaxaca de juarez,javier alejandro galguera mendez,persona propietaria,22,m,20,8,0,0,0,0,0,1,0,0,208javimc,0
+sigamos haciendo historia,dep,oaxaca,8-oaxaca de juarez,raul bolaños cacho cue,persona propietaria,35,m,20,8,1,0,0,1,1,0,0,0,208raulsig,0
+fuerza y corazon por mexico,dep,oaxaca,5-salina cruz,kristel ramirez cortes,persona propietaria,54,f,20,5,0,1,1,0,0,0,1,0,205krisfue,0
+pvem,dep,oaxaca,5-salina cruz,sara zarate santiago,persona propietaria,41,f,20,5,0,0,0,0,1,0,0,0,205sarapve,0
+fuerza y corazon por mexico,dep,oaxaca,10-miahuatlan de porfirio diaz,flor maria lopez ramirez,persona propietaria,28,f,20,10,0,1,1,0,0,0,1,0,2010florfue,0
+mc,dep,oaxaca,3-heroica ciudad de huajuapan de leon,mitzi scheherazada santiago martinez,persona propietaria,27,f,20,3,0,0,0,0,0,1,0,0,203mitzmc,0
+mc,dep,oaxaca,7-ciudad ixtepec,jose guadalupe vera vicente,persona propietaria,48,m,20,7,0,0,0,0,0,1,0,0,207josemc,0
+mc,dep,oaxaca,10-miahuatlan de porfirio diaz,beatriz adriana rosario vera,persona propietaria,27,f,20,10,0,0,0,0,0,1,0,0,2010beatmc,0
+pvem,dep,oaxaca,10-miahuatlan de porfirio diaz,dulce maria valencia garcia,persona propietaria,38,f,20,10,0,0,0,0,1,0,0,0,2010dulcpve,0
+fuerza y corazon por mexico,dep,oaxaca,7-ciudad ixtepec,elizabeth rasgado celaya,persona propietaria,61,f,20,7,0,1,1,0,0,0,1,0,207elizfue,0
+sigamos haciendo historia,dep,oaxaca,7-ciudad ixtepec,gloria sanchez lopez,persona propietaria,66,f,20,7,1,0,0,1,1,0,0,0,207glorsig,0
+fuerza y corazon por mexico,dep,oaxaca,4-tlacolula de matamoros,jesus madrid jimenez,persona propietaria,51,m,20,4,0,1,1,0,0,0,1,0,204jesufue,0
+sigamos haciendo historia,dep,oaxaca,9-puerto escondido,maria del carmen bautista pelaez,persona propietaria,33,f,20,9,1,0,0,1,1,0,0,0,209marisig,1
+fuerza y corazon por mexico,dep,oaxaca,1-san juan bautista tuxtepec,amalia meneses manuel,persona propietaria,45,f,20,1,0,1,1,0,0,0,1,0,201amalfue,0
+pt,dep,oaxaca,4-tlacolula de matamoros,martha aracely cruz jimenez,persona propietaria,42,f,20,4,0,0,0,1,0,0,0,0,204martpt,0
+morena,dep,oaxaca,10-miahuatlan de porfirio diaz,carmelo cruz mendoza,persona propietaria,44,m,20,10,1,0,0,0,0,0,0,0,2010carmmor,0
+sigamos haciendo historia,dep,oaxaca,2-teotitlan de flores magon,irma juan carlos,persona propietaria,46,f,20,2,1,0,0,1,1,0,0,0,202irmasig,1
+morena,dep,oaxaca,4-tlacolula de matamoros,naty poob pijy jimenez vasquez,persona propietaria,29,f,20,4,1,0,0,0,0,0,0,0,204natymor,0
+pvem,dep,oaxaca,4-tlacolula de matamoros,gladys cruz lopez,persona propietaria,42,f,20,4,0,0,0,0,1,0,0,0,204gladpve,0
+pt,dep,oaxaca,10-miahuatlan de porfirio diaz,azael jacinto garcia,persona propietaria,48,m,20,10,0,0,0,1,0,0,0,0,2010azaept,0
+fuerza y corazon por mexico,dep,oaxaca,6-heroica ciudad de tlaxiaco,jose yuri arias cruz,persona propietaria,59,m,20,6,0,1,1,0,0,0,1,0,206josefue,0
+morena,dep,oaxaca,5-salina cruz,carol antonio altamirano,persona propietaria,60,m,20,5,1,0,0,0,0,0,0,0,205caromor,1
+sigamos haciendo historia,dep,oaxaca,1-san juan bautista tuxtepec,miriam de los angeles vazquez ruiz,persona propietaria,52,f,20,1,1,0,0,1,1,0,0,0,201mirisig,0
+fuerza y corazon por mexico,dep,oaxaca,9-puerto escondido,jose alberto hernandez clemente,persona propietaria,55,m,20,9,0,1,1,0,0,0,1,0,209josefue,0
+mc,dep,oaxaca,6-heroica ciudad de tlaxiaco,angela cortes balbuena,persona propietaria,48,f,20,6,0,0,0,0,0,1,0,0,206angemc,0
+sigamos haciendo historia,dep,oaxaca,6-heroica ciudad de tlaxiaco,jose alejandro lopez sanchez,persona propietaria,46,m,20,6,1,0,0,1,1,0,0,0,206josesig,0
+pt,dep,oaxaca,5-salina cruz,nidia del carmen castillejos fuentevilla,persona propietaria,43,f,20,5,0,0,0,1,0,0,0,0,205nidipt,0
+mc,dep,oaxaca,9-puerto escondido,neftali nicolas garcia,persona propietaria,47,m,20,9,0,0,0,0,0,1,0,0,209neftmc,0
+mc,dep,oaxaca,2-teotitlan de flores magon,mariana bolaños illescas,persona propietaria,42,f,20,2,0,0,0,0,0,1,0,0,202marimc,0
+mc,dep,oaxaca,4-tlacolula de matamoros,palemon hernandez farret,persona propietaria,44,m,20,4,0,0,0,0,0,1,0,0,204palemc,0
+mc,dep,oaxaca,1-san juan bautista tuxtepec,ivan ali elias dominguez,persona propietaria,38,m,20,1,0,0,0,0,0,1,0,0,201ivanmc,0
+fuerza y corazon por mexico,dep,puebla,13-atlixco,maria leonor apolonia popocatl gutierrez,persona propietaria,61,f,21,13,0,1,1,0,0,0,1,0,2113marifue,0
+fuerza y corazon por mexico,dep,puebla,10-cholula de rivadavia,marco humberto aguilar coronado,persona propietaria,61,m,21,10,0,1,1,0,0,0,1,0,2110marcfue,0
+fuerza y corazon por mexico,dep,puebla,15-tehuacan,oscar rene lopez cardenas,persona propietaria,59,m,21,15,0,1,1,0,0,0,1,0,2115oscafue,0
+fuerza y corazon por mexico,dep,puebla,5-san martin texmelucan de labastida,jairo salvador perez cabrera,persona propietaria,32,m,21,5,0,1,1,0,0,0,1,0,215jairfue,0
+mc,dep,puebla,2-cuautilulco barrio,alexa irendy castañeda vazquez,persona propietaria,24,f,21,2,0,0,0,0,0,1,0,0,212alexmc,0
+mc,dep,puebla,4-libres,raul moreno vazquez,persona propietaria,35,m,21,4,0,0,0,0,0,1,0,0,214raulmc,0
+mc,dep,puebla,6-heroica puebla de zaragoza,jose pellegrin romero,persona propietaria,25,m,21,6,0,0,0,0,0,1,0,0,216josemc,0
+mc,dep,puebla,15-tehuacan,fernando sanchez mayo,persona propietaria,41,m,21,15,0,0,0,0,0,1,0,0,2115fernmc,0
+mc,dep,puebla,13-atlixco,emilia herrera ramirez,persona propietaria,59,f,21,13,0,0,0,0,0,1,0,0,2113emilmc,0
+mc,dep,puebla,3-teziutlan,jaqueline vallejo melgarejo,persona propietaria,31,f,21,3,0,0,0,0,0,1,0,0,213jaqumc,0
+mc,dep,puebla,5-san martin texmelucan de labastida,victoriano melendez de la rosa,persona propietaria,62,m,21,5,0,0,0,0,0,1,0,0,215victmc,0
+mc,dep,puebla,11-heroica puebla de zaragoza,iker julian lozada xilotl,persona propietaria,21,m,21,11,0,0,0,0,0,1,0,0,2111ikermc,0
+mc,dep,puebla,10-cholula de rivadavia,maria cristina leyshon hughes sarmiento,persona propietaria,29,f,21,10,0,0,0,0,0,1,0,0,2110marimc,0
+mc,dep,puebla,7-tepeaca,guadalupe cortes gomez,persona propietaria,50,f,21,7,0,0,0,0,0,1,0,0,217guadmc,0
+fuerza y corazon por mexico,dep,puebla,9-heroica puebla de zaragoza,maria del pilar vargas moran,persona propietaria,46,f,21,9,0,1,1,0,0,0,1,0,219marifue,0
+fuerza y corazon por mexico,dep,puebla,12-heroica puebla de zaragoza,carolina beauregard martinez,persona propietaria,40,f,21,12,0,1,1,0,0,0,1,0,2112carofue,1
+sigamos haciendo historia,dep,puebla,9-heroica puebla de zaragoza,jose antonio gali lopez,persona propietaria,40,m,21,9,1,0,0,1,1,0,0,0,219josesig,0
+sigamos haciendo historia,dep,puebla,2-cuautilulco barrio,fatima almendra cruz pelaez,persona propietaria,37,f,21,2,1,0,0,1,1,0,0,0,212fatisig,0
+mc,dep,puebla,8-ciudad serdan,karla adriana lanzagorta arriola,persona propietaria,32,f,21,8,0,0,0,0,0,1,0,0,218karlmc,0
+mc,dep,puebla,1-huauchinango de degollado,cesar benavides manzano,persona propietaria,54,m,21,1,0,0,0,0,0,1,0,0,211cesamc,0
+fuerza y corazon por mexico,dep,puebla,8-ciudad serdan,ricardo giorge garay,persona propietaria,48,m,21,8,0,1,1,0,0,0,1,0,218ricafue,0
+fuerza y corazon por mexico,dep,puebla,1-huauchinango de degollado,ricardo cruz y celis jimenez,persona propietaria,31,m,21,1,0,1,1,0,0,0,1,0,211ricafue,0
+mc,dep,puebla,12-heroica puebla de zaragoza,martha irais melgarejo landa,persona propietaria,65,f,21,12,0,0,0,0,0,1,0,0,2112martmc,0
+fuerza y corazon por mexico,dep,puebla,7-tepeaca,genoveva huerta villegas,persona propietaria,43,f,21,7,0,1,1,0,0,0,1,0,217genofue,1
+fuerza y corazon por mexico,dep,puebla,14-izucar de matamoros,sergio galicia baltazar,persona propietaria,53,m,21,14,0,1,1,0,0,0,1,0,2114sergfue,0
+sigamos haciendo historia,dep,puebla,11-heroica puebla de zaragoza,jose antonio lopez ruiz,persona propietaria,39,m,21,11,1,0,0,1,1,0,0,0,2111josesig,0
+fuerza y corazon por mexico,dep,puebla,6-heroica puebla de zaragoza,julian rendon tapia,persona propietaria,54,m,21,6,0,1,1,0,0,0,1,0,216julifue,0
+fuerza y corazon por mexico,dep,puebla,3-teziutlan,josefina sanchez olmos,persona propietaria,45,f,21,3,0,1,1,0,0,0,1,0,213josefue,0
+fuerza y corazon por mexico,dep,puebla,4-libres,maria fernanda pozos ramirez,persona propietaria,23,f,21,4,0,1,1,0,0,0,1,0,214marifue,0
+fuerza y corazon por mexico,dep,puebla,11-heroica puebla de zaragoza,jose juan espinosa torres,persona propietaria,47,m,21,11,0,1,1,0,0,0,1,0,2111josefue,0
+fuerza y corazon por mexico,dep,puebla,2-cuautilulco barrio,victor herrera pozos,persona propietaria,42,m,21,2,0,1,1,0,0,0,1,0,212victfue,0
+sigamos haciendo historia,dep,puebla,3-teziutlan,maria de los angeles ballesteros garcia,persona propietaria,49,f,21,3,1,0,0,1,1,0,0,0,213marisig,0
+sigamos haciendo historia,dep,puebla,10-cholula de rivadavia,maria fabiola karina perez popoca,persona propietaria,45,f,21,10,1,0,0,1,1,0,0,0,2110marisig,0
+sigamos haciendo historia,dep,puebla,5-san martin texmelucan de labastida,rafaela vianey garcia romero,persona propietaria,30,f,21,5,1,0,0,1,1,0,0,0,215rafasig,0
+sigamos haciendo historia,dep,puebla,7-tepeaca,claudia rivera vivanco,persona propietaria,42,f,21,7,1,0,0,1,1,0,0,0,217clausig,0
+sigamos haciendo historia,dep,puebla,8-ciudad serdan,carlos ignacio mier bañuelos,persona propietaria,41,m,21,8,1,0,0,1,1,0,0,0,218carlsig,0
+sigamos haciendo historia,dep,puebla,14-izucar de matamoros,eduardo castillo lopez,persona propietaria,40,m,21,14,1,0,0,1,1,0,0,0,2114eduasig,0
+sigamos haciendo historia,dep,puebla,1-huauchinango de degollado,gissel santander soto,persona propietaria,30,f,21,1,1,0,0,1,1,0,0,0,211gisssig,0
+sigamos haciendo historia,dep,puebla,13-atlixco,mario miguel carrillo cubillas,persona propietaria,42,m,21,13,1,0,0,1,1,0,0,0,2113marisig,1
+sigamos haciendo historia,dep,puebla,4-libres,juan antonio gonzalez hernandez,persona propietaria,58,m,21,4,1,0,0,1,1,0,0,0,214juansig,0
+sigamos haciendo historia,dep,puebla,15-tehuacan,maria del rosario orozco caballero,persona propietaria,62,f,21,15,1,0,0,1,1,0,0,0,2115marisig,0
+mc,dep,puebla,14-izucar de matamoros,andrea martinez hernandez,persona propietaria,32,f,21,14,0,0,0,0,0,1,0,0,2114andrmc,0
+mc,dep,puebla,9-heroica puebla de zaragoza,rosa maria soto caballeros,persona propietaria,46,f,21,9,0,0,0,0,0,1,0,0,219rosamc,0
+sigamos haciendo historia,dep,puebla,6-heroica puebla de zaragoza,alejandro carvajal hidalgo,persona propietaria,43,m,21,6,1,0,0,1,1,0,0,0,216alejsig,1
+sigamos haciendo historia,dep,puebla,12-heroica puebla de zaragoza,nora yessica merino escamilla,persona propietaria,31,f,21,12,1,0,0,1,1,0,0,0,2112norasig,0
+fuerza y corazon por mexico,dep,puebla,16-ajalpan,mariela amil torres,persona propietaria,40,f,21,16,0,1,1,0,0,0,1,0,2116marifue,0
+sigamos haciendo historia,dep,puebla,16-ajalpan,adolfo alatriste cantu,persona propietaria,44,m,21,16,1,0,0,1,1,0,0,0,2116adolsig,0
+mc,dep,puebla,16-ajalpan,claudia lizbeth varillas altamirano,persona propietaria,28,f,21,16,0,0,0,0,0,1,0,0,2116claumc,0
+fuerza y corazon por mexico,dep,queretaro,2-san juan del rio,germain garfias alcantara,persona propietaria,45,m,22,2,0,1,1,0,0,0,1,0,222germfue,0
+fuerza y corazon por mexico,dep,queretaro,3-santiago de queretaro,ma lorena garcia jimeno alcocer,persona propietaria,61,f,22,3,0,1,1,0,0,0,1,0,223ma lfue,0
+fuerza y corazon por mexico,dep,queretaro,4-santiago de queretaro,roberto sosa pichardo,persona propietaria,47,m,22,4,0,1,1,0,0,0,1,0,224robefue,0
+mc,dep,queretaro,3-santiago de queretaro,veronica martinez estrada,persona propietaria,52,f,22,3,0,0,0,0,0,1,0,0,223veromc,0
+mc,dep,queretaro,1-cadereyta de montes,arturo calderon ruanova,persona propietaria,52,m,22,1,0,0,0,0,0,1,0,0,221artumc,0
+mc,dep,queretaro,4-santiago de queretaro,elba carolina iñiguez vargas,persona propietaria,41,f,22,4,0,0,0,0,0,1,0,0,224elbamc,0
+pvem,dep,queretaro,3-santiago de queretaro,rodrigo carrera avalos,persona propietaria,25,m,22,3,0,0,0,0,1,0,0,0,223rodrpve,0
+pvem,dep,queretaro,4-santiago de queretaro,cristina del llano feregrino,persona propietaria,37,f,22,4,0,0,0,0,1,0,0,0,224crispve,0
+fuerza y corazon por mexico,dep,queretaro,6-santiago de queretaro,beatriz guadalupe marmolejo rojas,persona propietaria,43,f,22,6,0,1,1,0,0,0,1,0,226beatfue,0
+sigamos haciendo historia,dep,queretaro,2-san juan del rio,ricardo astudillo suarez,persona propietaria,48,m,22,2,1,0,0,1,1,0,0,0,222ricasig,0
+morena,dep,queretaro,4-santiago de queretaro,ma gabriela michaus rocha,persona propietaria,55,f,22,4,1,0,0,0,0,0,0,0,224ma gmor,0
+morena,dep,queretaro,3-santiago de queretaro,maribel barron soto,persona propietaria,43,f,22,3,1,0,0,0,0,0,0,0,223marimor,0
+fuerza y corazon por mexico,dep,queretaro,1-cadereyta de montes,luz maria quintanar feregrino,persona propietaria,47,f,22,1,0,1,1,0,0,0,1,0,221luz fue,0
+fuerza y corazon por mexico,dep,queretaro,5-pedro escobedo,mario calzada mercado,persona propietaria,58,m,22,5,0,1,1,0,0,0,1,0,225marifue,0
+mc,dep,queretaro,5-pedro escobedo,javier perez rocha malcher,persona propietaria,53,m,22,5,0,0,0,0,0,1,0,0,225javimc,0
+sigamos haciendo historia,dep,queretaro,1-cadereyta de montes,gilberto herrera ruiz,persona propietaria,58,m,22,1,1,0,0,1,1,0,0,0,221gilbsig,0
+mc,dep,queretaro,2-san juan del rio,laura zitlally rubio de la isla,persona propietaria,42,f,22,2,0,0,0,0,0,1,0,0,222laurmc,0
+pt,dep,queretaro,3-santiago de queretaro,sandra beatriz vazquez meza,persona propietaria,40,f,22,3,0,0,0,1,0,0,0,0,223sandpt,0
+sigamos haciendo historia,dep,queretaro,6-santiago de queretaro,luis humberto fernandez fuentes,persona propietaria,53,m,22,6,1,0,0,1,1,0,0,0,226luissig,0
+pt,dep,queretaro,4-santiago de queretaro,pedro carrasco trejo,persona propietaria,62,m,22,4,0,0,0,1,0,0,0,0,224pedrpt,0
+sigamos haciendo historia,dep,queretaro,5-pedro escobedo,barbara escobedo lujan,persona propietaria,37,f,22,5,1,0,0,1,1,0,0,0,225barbsig,0
+fuerza y corazon por mexico,dep,quintana roo,1-playa del carmen,jose alberto quian ucan,persona propietaria,50,m,23,1,0,1,1,0,0,0,1,0,231josefue,0
+mc,dep,quintana roo,4-cancun,aridai gonzalez beltran,persona propietaria,41,f,23,4,0,0,0,0,0,1,0,0,234aridmc,0
+mc,dep,quintana roo,1-playa del carmen,carlos enrique guerra sanchez,persona propietaria,48,m,23,1,0,0,0,0,0,1,0,0,231carlmc,0
+pvem,dep,quintana roo,3-cancun,yamili del socorro gongora manrrique,persona propietaria,46,f,23,3,0,0,0,0,1,0,0,0,233yamipve,0
+sigamos haciendo historia,dep,quintana roo,1-playa del carmen,juan luis carrillo soberanis,persona propietaria,40,m,23,1,1,0,0,1,1,0,0,0,231juansig,1
+morena,dep,quintana roo,3-cancun,luis humberto aldana navarro,persona propietaria,58,m,23,3,1,0,0,0,0,0,0,0,233luismor,0
+mc,dep,quintana roo,2-chetumal,layla lorena flores terrazas,persona propietaria,45,f,23,2,0,0,0,0,0,1,0,0,232laylmc,0
+fuerza y corazon por mexico,dep,quintana roo,2-chetumal,cora amalia castilla madrid,persona propietaria,63,f,23,2,0,1,1,0,0,0,1,0,232corafue,0
+fuerza y corazon por mexico,dep,quintana roo,3-cancun,jose luis ross chale,persona propietaria,58,m,23,3,0,1,1,0,0,0,1,0,233josefue,0
+sigamos haciendo historia,dep,quintana roo,2-chetumal,elda maria xix euan,persona propietaria,57,f,23,2,1,0,0,1,1,0,0,0,232eldasig,0
+mc,dep,quintana roo,3-cancun,maria fernanda gonzalez baeza,persona propietaria,24,f,23,3,0,0,0,0,0,1,0,0,233marimc,0
+pt,dep,quintana roo,3-cancun,emmanuel enrique chacon medina,persona propietaria,41,m,23,3,0,0,0,1,0,0,0,0,233emmapt,0
+sigamos haciendo historia,dep,quintana roo,4-cancun,mildred concepcion avila vera,persona propietaria,58,f,23,4,1,0,0,1,1,0,0,0,234mildsig,0
+fuerza y corazon por mexico,dep,quintana roo,4-cancun,martha margarita rodriguez rodriguez,persona propietaria,60,f,23,4,0,1,1,0,0,0,1,0,234martfue,0
+fuerza y corazon por mexico,dep,san luis potosi,5-san luis potosi,david azuara zuñiga,persona propietaria,33,m,24,5,0,1,1,0,0,0,1,0,245davifue,0
+mc,dep,san luis potosi,6-san luis potosi,luis enrique lopez martinez,persona propietaria,30,m,24,6,0,0,0,0,0,1,0,0,246luismc,0
+mc,dep,san luis potosi,4-ciudad valles,daniela dominguez rubio,persona propietaria,33,f,24,4,0,0,0,0,0,1,0,0,244danimc,0
+mc,dep,san luis potosi,1-matehuala,erika sanchez quiroz,persona propietaria,36,f,24,1,0,0,0,0,0,1,0,0,241erikmc,0
+mc,dep,san luis potosi,2-soledad de graciano sanchez,maria teresa camacho araujo,persona propietaria,47,f,24,2,0,0,0,0,0,1,0,0,242marimc,0
+sigamos haciendo historia,dep,san luis potosi,3-rioverde,oscar bautista villegas,persona propietaria,60,m,24,3,1,0,0,1,1,0,0,0,243oscasig,0
+sigamos haciendo historia,dep,san luis potosi,6-san luis potosi,juan carlos valladares eichelmann,persona propietaria,42,m,24,6,1,0,0,1,1,0,0,0,246juansig,0
+fuerza y corazon por mexico,dep,san luis potosi,2-soledad de graciano sanchez,wendy guadalupe rodriguez galarza,persona propietaria,42,f,24,2,0,1,1,0,0,0,1,0,242wendfue,0
+sigamos haciendo historia,dep,san luis potosi,2-soledad de graciano sanchez,jose luis fernandez martinez,persona propietaria,51,m,24,2,1,0,0,1,1,0,0,0,242josesig,0
+fuerza y corazon por mexico,dep,san luis potosi,1-matehuala,carla lorena garzon spota,persona propietaria,32,f,24,1,0,1,1,0,0,0,1,0,241carlfue,0
+fuerza y corazon por mexico,dep,san luis potosi,6-san luis potosi,meiyu hernandez ham,persona propietaria,29,f,24,6,0,1,1,0,0,0,1,0,246meiyfue,0
+fuerza y corazon por mexico,dep,san luis potosi,3-rioverde,eira haramara noyola rios,persona propietaria,47,f,24,3,0,1,1,0,0,0,1,0,243eirafue,0
+sigamos haciendo historia,dep,san luis potosi,1-matehuala,aremy velazco bautista,persona propietaria,31,f,24,1,1,0,0,1,1,0,0,0,241aremsig,0
+sigamos haciendo historia,dep,san luis potosi,4-ciudad valles,francisco adrian castillo morales,persona propietaria,41,m,24,4,1,0,0,1,1,0,0,0,244fransig,0
+sigamos haciendo historia,dep,san luis potosi,5-san luis potosi,daniel guillen sanchez,persona propietaria,32,m,24,5,1,0,0,1,1,0,0,0,245danisig,0
+mc,dep,san luis potosi,5-san luis potosi,maria esther velazquez esparza,persona propietaria,53,f,24,5,0,0,0,0,0,1,0,0,245marimc,0
+fuerza y corazon por mexico,dep,san luis potosi,4-ciudad valles,gabriela martinez larraga,persona propietaria,50,f,24,4,0,1,1,0,0,0,1,0,244gabrfue,0
+fuerza y corazon por mexico,dep,san luis potosi,7-tamazunchale,nubia iris castillo medina,persona propietaria,32,f,24,7,0,1,1,0,0,0,1,0,247nubifue,0
+mc,dep,san luis potosi,3-rioverde,hector mauricio ramirez konishi,persona propietaria,45,m,24,3,0,0,0,0,0,1,0,0,243hectmc,0
+sigamos haciendo historia,dep,san luis potosi,7-tamazunchale,briceyda garcia antonio,persona propietaria,36,f,24,7,1,0,0,1,1,0,0,0,247bricsig,0
+mc,dep,san luis potosi,7-tamazunchale,mayra hernandez anastacio,persona propietaria,30,f,24,7,0,0,0,0,0,1,0,0,247mayrmc,0
+fuerza y corazon por mexico,dep,sinaloa,5-culiacan de rosales,sergio raul esquer peiro,persona propietaria,66,m,25,5,0,1,1,0,0,0,1,0,255sergfue,0
+fuerza y corazon por mexico,dep,sinaloa,1-mazatlan,juan alfonso mejia lopez,persona propietaria,50,m,25,1,0,1,1,0,0,0,1,0,251juanfue,0
+fuerza y corazon por mexico,dep,sinaloa,2-los mochis,brenda elisa latigo ruiz,persona propietaria,58,f,25,2,0,1,1,0,0,0,1,0,252brenfue,0
+fuerza y corazon por mexico,dep,sinaloa,4-guasave,luis humberto valenzuela muñoz,persona propietaria,63,m,25,4,0,1,1,0,0,0,1,0,254luisfue,0
+sigamos haciendo historia,dep,sinaloa,3-guamuchil,jesus fernando garcia hernandez,persona propietaria,66,m,25,3,1,0,0,1,1,0,0,0,253jesusig,1
+sigamos haciendo historia,dep,sinaloa,4-guasave,felicita pompa robles,persona propietaria,42,f,25,4,1,0,0,1,1,0,0,0,254felisig,0
+sigamos haciendo historia,dep,sinaloa,1-mazatlan,graciela dominguez nava,persona propietaria,48,f,25,1,1,0,0,1,1,0,0,0,251gracsig,0
+fuerza y corazon por mexico,dep,sinaloa,3-guamuchil,liliana angelica cardenas valenzuela,persona propietaria,50,f,25,3,0,1,1,0,0,0,1,0,253lilifue,0
+fuerza y corazon por mexico,dep,sinaloa,6-mazatlan,german escobar manjarrez,persona propietaria,58,m,25,6,0,1,1,0,0,0,1,0,256germfue,0
+fuerza y corazon por mexico,dep,sinaloa,7-culiacan de rosales,cruz noe heredia ayon,persona propietaria,44,m,25,7,0,1,1,0,0,0,1,0,257cruzfue,0
+morena,dep,sinaloa,2-los mochis,ana  elizabeth ayala leyva,persona propietaria,48,f,25,2,1,0,0,0,0,0,0,0,252ana mor,0
+morena,dep,sinaloa,6-mazatlan,olegaria carrazco macias,persona propietaria,64,f,25,6,1,0,0,0,0,0,0,0,256olegmor,1
+sigamos haciendo historia,dep,sinaloa,7-culiacan de rosales,merary villegas sanchez,persona propietaria,37,f,25,7,1,0,0,1,1,0,0,0,257merasig,1
+sigamos haciendo historia,dep,sinaloa,5-culiacan de rosales,jesus alfonso ibarra ramos,persona propietaria,43,m,25,5,1,0,0,1,1,0,0,0,255jesusig,0
+mc,dep,sinaloa,1-mazatlan,diana paulina peña tirado,persona propietaria,38,f,25,1,0,0,0,0,0,1,0,0,251dianmc,0
+mc,dep,sinaloa,6-mazatlan,monica del carmen lopez gomez,persona propietaria,49,f,25,6,0,0,0,0,0,1,0,0,256monimc,0
+mc,dep,sinaloa,3-guamuchil,wilber adayr aguilar lugo,persona propietaria,42,m,25,3,0,0,0,0,0,1,0,0,253wilbmc,0
+mc,dep,sinaloa,7-culiacan de rosales,hector raul garcia fox,persona propietaria,57,m,25,7,0,0,0,0,0,1,0,0,257hectmc,0
+mc,dep,sinaloa,5-culiacan de rosales,ivanjov valenzuela perez,persona propietaria,47,m,25,5,0,0,0,0,0,1,0,0,255ivanmc,0
+pvem,dep,sinaloa,6-mazatlan,carmen julieta torres lizarraga,persona propietaria,65,f,25,6,0,0,0,0,1,0,0,0,256carmpve,0
+pvem,dep,sinaloa,2-los mochis,gilberto esquer suarez,persona propietaria,53,m,25,2,0,0,0,0,1,0,0,0,252gilbpve,0
+pt,dep,sinaloa,6-mazatlan,iliana zenith garcia dueñas,persona propietaria,49,f,25,6,0,0,0,1,0,0,0,0,256iliapt,0
+pt,dep,sinaloa,2-los mochis,luis manuel rivera villela,persona propietaria,58,m,25,2,0,0,0,1,0,0,0,0,252luispt,0
+mc,dep,sinaloa,4-guasave,alfonso gonzalez lopez,persona propietaria,57,m,25,4,0,0,0,0,0,1,0,0,254alfomc,0
+mc,dep,sinaloa,2-los mochis,barbara fox mora,persona propietaria,31,f,25,2,0,0,0,0,0,1,0,0,252barbmc,0
+fuerza y corazon por mexico,dep,sonora,3-hermosillo,jorge armando arce armenta,persona propietaria,45,m,26,3,0,1,1,0,0,0,1,0,263jorgfue,0
+sigamos haciendo historia,dep,sonora,4-guaymas,ramon angel flores robles,persona propietaria,43,m,26,4,1,0,0,1,1,0,0,0,264ramosig,0
+fuerza y corazon por mexico,dep,sonora,1-san luis rio colorado,ana maria gutierrez coronado,persona propietaria,60,f,26,1,0,1,1,0,0,0,1,0,261ana fue,0
+fuerza y corazon por mexico,dep,sonora,6-cd. obregon,eduardo flores moreno,persona propietaria,61,m,26,6,0,1,1,0,0,0,1,0,266eduafue,0
+sigamos haciendo historia,dep,sonora,3-hermosillo,diana karina barreras samaniego,persona propietaria,41,f,26,3,1,0,0,1,1,0,0,0,263diansig,0
+mc,dep,sonora,3-hermosillo,rogelio enrique cota gutierrez,persona propietaria,40,m,26,3,0,0,0,0,0,1,0,0,263rogemc,0
+mc,dep,sonora,4-guaymas,carolina velarde tesisteco,persona propietaria,24,f,26,4,0,0,0,0,0,1,0,0,264caromc,0
+mc,dep,sonora,7-navojoa,ramon rene garcia vallejo,persona propietaria,63,m,26,7,0,0,0,0,0,1,0,0,267ramomc,0
+mc,dep,sonora,5-hermosillo,adolfo enrique clausen iberri,persona propietaria,61,m,26,5,0,0,0,0,0,1,0,0,265adolmc,0
+mc,dep,sonora,1-san luis rio colorado,claudia myriam hernandez mendoza,persona propietaria,50,f,26,1,0,0,0,0,0,1,0,0,261claumc,0
+mc,dep,sonora,2-nogales,jose guillermo garcia gomez,persona propietaria,41,m,26,2,0,0,0,0,0,1,0,0,262josemc,0
+sigamos haciendo historia,dep,sonora,6-cd. obregon,anabel acosta islas,persona propietaria,43,f,26,6,1,0,0,1,1,0,0,0,266anabsig,0
+fuerza y corazon por mexico,dep,sonora,2-nogales,jose adalberto rubio ozuna,persona propietaria,56,m,26,2,0,1,1,0,0,0,1,0,262josefue,0
+fuerza y corazon por mexico,dep,sonora,7-navojoa,guadalupe maria soto holguin,persona propietaria,46,f,26,7,0,1,1,0,0,0,1,0,267guadfue,0
+fuerza y corazon por mexico,dep,sonora,5-hermosillo,ernesto gandara camou,persona propietaria,63,m,26,5,0,1,1,0,0,0,1,0,265ernefue,0
+sigamos haciendo historia,dep,sonora,7-navojoa,alma manuela higuera esquer,persona propietaria,58,f,26,7,1,0,0,1,1,0,0,0,267almasig,0
+sigamos haciendo historia,dep,sonora,2-nogales,jesus antonio pujol irastorza,persona propietaria,45,m,26,2,1,0,0,1,1,0,0,0,262jesusig,0
+sigamos haciendo historia,dep,sonora,5-hermosillo,jacobo mendoza ruiz,persona propietaria,50,m,26,5,1,0,0,1,1,0,0,0,265jacosig,0
+sigamos haciendo historia,dep,sonora,1-san luis rio colorado,manuel de jesus baldenebro arredondo,persona propietaria,62,m,26,1,1,0,0,1,1,0,0,0,261manusig,0
+fuerza y corazon por mexico,dep,sonora,4-guaymas,javier dagnino escobosa,persona propietaria,54,m,26,4,0,1,1,0,0,0,1,0,264javifue,0
+mc,dep,sonora,6-cd. obregon,gustavo ignacio almada borquez,persona propietaria,60,m,26,6,0,0,0,0,0,1,0,0,266gustmc,0
+fuerza y corazon por mexico,dep,tabasco,5-paraiso,rocio hernandez lopez,persona propietaria,61,f,27,5,0,1,1,0,0,0,1,0,275rocifue,0
+fuerza y corazon por mexico,dep,tabasco,2-heroica cardenas,rafael acosta leon,persona propietaria,45,m,27,2,0,1,1,0,0,0,1,0,272rafafue,0
+mc,dep,tabasco,1-macuspana,adriana concepcion jimenez govea,persona propietaria,36,f,27,1,0,0,0,0,0,1,0,0,271adrimc,0
+mc,dep,tabasco,6-rancheria ixtacomitan 1ra seccion,juan pablo de la fuente utrilla,persona propietaria,37,m,27,6,0,0,0,0,0,1,0,0,276juanmc,0
+pvem,dep,tabasco,2-heroica cardenas,ana alicia morales leon,persona propietaria,62,f,27,2,0,0,0,0,1,0,0,0,272ana pve,0
+pvem,dep,tabasco,4-villahermosa,eustacio perez garcia,persona propietaria,39,m,27,4,0,0,0,0,1,0,0,0,274eustpve,0
+pvem,dep,tabasco,5-paraiso,jorge luis aguirre leyva,persona propietaria,54,m,27,5,0,0,0,0,1,0,0,0,275jorgpve,0
+morena,dep,tabasco,2-heroica cardenas,ivan peña vidal,persona propietaria,56,m,27,2,1,0,0,0,0,0,0,0,272ivanmor,0
+pvem,dep,tabasco,3-comalcalco,enrique gonzalez peregrino,persona propietaria,44,m,27,3,0,0,0,0,1,0,0,0,273enripve,0
+pvem,dep,tabasco,6-rancheria ixtacomitan 1ra seccion,rosa maria diaz carrasco,persona propietaria,51,f,27,6,0,0,0,0,1,0,0,0,276rosapve,0
+morena,dep,tabasco,4-villahermosa,jaime humberto lastra bastar,persona propietaria,69,m,27,4,1,0,0,0,0,0,0,0,274jaimmor,0
+morena,dep,tabasco,3-comalcalco,rosa margarita graniel zenteno,persona propietaria,56,f,27,3,1,0,0,0,0,0,0,0,273rosamor,0
+morena,dep,tabasco,5-paraiso,beatriz milland perez,persona propietaria,41,f,27,5,1,0,0,0,0,0,0,0,275beatmor,0
+morena,dep,tabasco,1-macuspana,julio ernesto gutierrez bocanegra,persona propietaria,53,m,27,1,1,0,0,0,0,0,0,0,271julimor,0
+morena,dep,tabasco,6-rancheria ixtacomitan 1ra seccion,tey mollinedo cano,persona propietaria,39,f,27,6,1,0,0,0,0,0,0,0,276tey mor,0
+fuerza y corazon por mexico,dep,tabasco,3-comalcalco,esteban sanchez gonzalez,persona propietaria,49,m,27,3,0,1,1,0,0,0,1,0,273estefue,0
+fuerza y corazon por mexico,dep,tabasco,4-villahermosa,alberto gular solorzano,persona propietaria,75,m,27,4,0,1,1,0,0,0,1,0,274albefue,0
+fuerza y corazon por mexico,dep,tabasco,1-macuspana,elizabeth de la cruz miranda,persona propietaria,41,f,27,1,0,1,1,0,0,0,1,0,271elizfue,0
+mc,dep,tabasco,3-comalcalco,ledin yasbek cardenas garcia,persona propietaria,29,f,27,3,0,0,0,0,0,1,0,0,273ledimc,0
+mc,dep,tabasco,4-villahermosa,ileana kristell carrera lopez,persona propietaria,40,f,27,4,0,0,0,0,0,1,0,0,274ileamc,0
+mc,dep,tabasco,5-paraiso,mario eduardo neri guajardo,persona propietaria,46,m,27,5,0,0,0,0,0,1,0,0,275marimc,0
+pt,dep,tabasco,1-macuspana,stalin rodriguez rivera,persona propietaria,45,m,27,1,0,0,0,1,0,0,0,0,271stalpt,0
+pt,dep,tabasco,2-heroica cardenas,flor elena arias herrera,persona propietaria,52,f,27,2,0,0,0,1,0,0,0,0,272florpt,0
+pt,dep,tabasco,3-comalcalco,gabriela pestaña sanchez,persona propietaria,48,f,27,3,0,0,0,1,0,0,0,0,273gabrpt,0
+pt,dep,tabasco,6-rancheria ixtacomitan 1ra seccion,carlos alberto cordero martinez,persona propietaria,51,m,27,6,0,0,0,1,0,0,0,0,276carlpt,0
+pt,dep,tabasco,4-villahermosa,sandra crystel acevedo leon,persona propietaria,33,f,27,4,0,0,0,1,0,0,0,0,274sandpt,0
+pt,dep,tabasco,5-paraiso,flor de li gomez bravata,persona propietaria,54,f,27,5,0,0,0,1,0,0,0,0,275florpt,0
+mc,dep,tabasco,2-heroica cardenas,ramon arturo gonzalez de la cruz,persona propietaria,57,m,27,2,0,0,0,0,0,1,0,0,272ramomc,0
+fuerza y corazon por mexico,dep,tabasco,6-rancheria ixtacomitan 1ra seccion,cristian emmanuel jeronimo alvarez,persona propietaria,39,m,27,6,0,1,1,0,0,0,1,0,276crisfue,0
+pvem,dep,tabasco,1-macuspana,amparo hernandez gomez,persona propietaria,59,f,27,1,0,0,0,0,1,0,0,0,271ampapve,0
+fuerza y corazon por mexico,dep,tamaulipas,6-ciudad mante,marcelina orta coronado,persona propietaria,55,f,28,6,0,1,1,0,0,0,1,0,286marcfue,0
+fuerza y corazon por mexico,dep,tamaulipas,8-tampico,jesus antonio nader nasrallah,persona propietaria,65,m,28,8,0,1,1,0,0,0,1,0,288jesufue,0
+fuerza y corazon por mexico,dep,tamaulipas,1-nuevo laredo,manuel canales bermea,persona propietaria,58,m,28,1,0,1,1,0,0,0,1,0,281manufue,0
+fuerza y corazon por mexico,dep,tamaulipas,2-reynosa,gisela abigail gallegos garcia,persona propietaria,33,f,28,2,0,1,1,0,0,0,1,0,282gisefue,0
+mc,dep,tamaulipas,1-nuevo laredo,alfonso aramis salas perez,persona propietaria,40,m,28,1,0,0,0,0,0,1,0,0,281alfomc,0
+mc,dep,tamaulipas,3-rio bravo,jesus hector garcia gonzalez,persona propietaria,55,m,28,3,0,0,0,0,0,1,0,0,283jesumc,0
+mc,dep,tamaulipas,4-h. matamoros,hector miguel treviño duran,persona propietaria,44,m,28,4,0,0,0,0,0,1,0,0,284hectmc,0
+mc,dep,tamaulipas,5-ciudad victoria,adriana gloria santos,persona propietaria,42,f,28,5,0,0,0,0,0,1,0,0,285adrimc,0
+mc,dep,tamaulipas,7-reynosa,azeneth anali de la rosa rios,persona propietaria,34,f,28,7,0,0,0,0,0,1,0,0,287azenmc,0
+mc,dep,tamaulipas,6-ciudad mante,roberto raya espinosa,persona propietaria,65,m,28,6,0,0,0,0,0,1,0,0,286robemc,0
+fuerza y corazon por mexico,dep,tamaulipas,7-reynosa,patricia lopez moreno,persona propietaria,53,f,28,7,0,1,1,0,0,0,1,0,287patrfue,0
+mc,dep,tamaulipas,8-tampico,edna rivera lopez,persona propietaria,59,f,28,8,0,0,0,0,0,1,0,0,288ednamc,0
+sigamos haciendo historia,dep,tamaulipas,6-ciudad mante,blanca araceli narro panameño,persona propietaria,58,f,28,6,1,0,0,1,1,0,0,0,286blansig,0
+sigamos haciendo historia,dep,tamaulipas,7-reynosa,olga juliana elizondo guerra,persona propietaria,59,f,28,7,1,0,0,1,1,0,0,0,287olgasig,1
+sigamos haciendo historia,dep,tamaulipas,2-reynosa,claudia alejandra hernandez saenz,persona propietaria,46,f,28,2,1,0,0,1,1,0,0,0,282clausig,1
+sigamos haciendo historia,dep,tamaulipas,8-tampico,adrian oseguera kernion,persona propietaria,49,m,28,8,1,0,0,1,1,0,0,0,288adrisig,0
+fuerza y corazon por mexico,dep,tamaulipas,5-ciudad victoria,arlette a marcos ruiz,persona propietaria,58,f,28,5,0,1,1,0,0,0,1,0,285arlefue,0
+fuerza y corazon por mexico,dep,tamaulipas,3-rio bravo,isnelia esperanza treviño salinas,persona propietaria,49,f,28,3,0,1,1,0,0,0,1,0,283isnefue,0
+fuerza y corazon por mexico,dep,tamaulipas,4-h. matamoros,hector escobar salazar,persona propietaria,40,m,28,4,0,1,1,0,0,0,1,0,284hectfue,0
+sigamos haciendo historia,dep,tamaulipas,3-rio bravo,casandra prisilla de los santos flores,persona propietaria,37,f,28,3,1,0,0,1,1,0,0,0,283casasig,0
+sigamos haciendo historia,dep,tamaulipas,1-nuevo laredo,carlos enrique canturosas villarreal,persona propietaria,51,m,28,1,1,0,0,1,1,0,0,0,281carlsig,0
+sigamos haciendo historia,dep,tamaulipas,5-ciudad victoria,jose braña mojica,persona propietaria,47,m,28,5,1,0,0,1,1,0,0,0,285josesig,0
+sigamos haciendo historia,dep,tamaulipas,4-h. matamoros,mario alberto lopez hernandez,persona propietaria,61,m,28,4,1,0,0,1,1,0,0,0,284marisig,0
+mc,dep,tamaulipas,2-reynosa,martha gloria gonzalez elizondo,persona propietaria,69,f,28,2,0,0,0,0,0,1,0,0,282martmc,0
+fuerza y corazon por mexico,dep,tlaxcala,3-zacatelco,juan manuel cambron soria,persona propietaria,46,m,29,3,0,1,1,0,0,0,1,0,293juanfue,0
+sigamos haciendo historia,dep,tlaxcala,1-apizaco,jose alejandro aguilar lopez,persona propietaria,61,m,29,1,1,0,0,1,1,0,0,0,291josesig,0
+mc,dep,tlaxcala,1-apizaco,delfino suarez piedras,persona propietaria,56,m,29,1,0,0,0,0,0,1,0,0,291delfmc,0
+mc,dep,tlaxcala,3-zacatelco,rosa isela sanchez rivera,persona propietaria,55,f,29,3,0,0,0,0,0,1,0,0,293rosamc,0
+fuerza y corazon por mexico,dep,tlaxcala,2-tlaxcala de xicohtencatl,eladia torres muñoz,persona propietaria,52,f,29,2,0,1,1,0,0,0,1,0,292eladfue,0
+mc,dep,tlaxcala,2-tlaxcala de xicohtencatl,danae cecilia figueroa martinez,persona propietaria,49,f,29,2,0,0,0,0,0,1,0,0,292danamc,0
+sigamos haciendo historia,dep,tlaxcala,2-tlaxcala de xicohtencatl,raymundo vazquez conchas,persona propietaria,58,m,29,2,1,0,0,1,1,0,0,0,292raymsig,0
+fuerza y corazon por mexico,dep,tlaxcala,1-apizaco,mariana guadalupe jimenez zamora,persona propietaria,33,f,29,1,0,1,1,0,0,0,1,0,291marifue,0
+sigamos haciendo historia,dep,tlaxcala,3-zacatelco,irma yordana garay loredo,persona propietaria,36,f,29,3,1,0,0,1,1,0,0,0,293irmasig,1
+fuerza y corazon por mexico,dep,veracruz,7-martinez de la torre,jose de la torre sanchez,persona propietaria,67,m,30,7,0,1,1,0,0,0,1,0,307josefue,0
+fuerza y corazon por mexico,dep,veracruz,8-las trancas,perla patricia montiel escobar,persona propietaria,54,f,30,8,0,1,1,0,0,0,1,0,308perlfue,0
+fuerza y corazon por mexico,dep,veracruz,12-veracruz,veronica pulido herrera,persona propietaria,49,f,30,12,0,1,1,0,0,0,1,0,3012verofue,0
+fuerza y corazon por mexico,dep,veracruz,16-cordoba,adrian antonio perez croda,persona propietaria,41,m,30,16,0,1,1,0,0,0,1,0,3016adrifue,0
+fuerza y corazon por mexico,dep,veracruz,4-boca del rio,maria josefina gamboa torales,persona propietaria,46,f,30,4,0,1,1,0,0,0,1,0,304marifue,1
+pvem,dep,veracruz,8-las trancas,nazario perea aguilar,persona propietaria,53,m,30,8,0,0,0,0,1,0,0,0,308nazapve,0
+sigamos haciendo historia,dep,veracruz,13-huatusco,blanca estela hernandez rodriguez,persona propietaria,40,f,30,13,1,0,0,1,1,0,0,0,3013blansig,0
+sigamos haciendo historia,dep,veracruz,1-panuco,maria del carmen pinete vargas,persona propietaria,63,f,30,1,1,0,0,1,1,0,0,0,301marisig,1
+mc,dep,veracruz,2-alamo,elizabeth gassos ramirez,persona propietaria,45,f,30,2,0,0,0,0,0,1,0,0,302elizmc,0
+mc,dep,veracruz,14-minatitlan,carlos cruz orozco,persona propietaria,57,m,30,14,0,0,0,0,0,1,0,0,3014carlmc,0
+mc,dep,veracruz,19-san andres tuxtla,renato de gasperin zilli,persona propietaria,51,m,30,19,0,0,0,0,0,1,0,0,3019renamc,0
+mc,dep,veracruz,8-las trancas,miguel angel castillo lopez,persona propietaria,53,m,30,8,0,0,0,0,0,1,0,0,308migumc,0
+mc,dep,veracruz,4-boca del rio,maria de jesus lavalle rendon,persona propietaria,57,f,30,4,0,0,0,0,0,1,0,0,304marimc,0
+mc,dep,veracruz,3-cosoleacaque,julio cesar gonzalez fernandez,persona propietaria,33,m,30,3,0,0,0,0,0,1,0,0,303julimc,0
+mc,dep,veracruz,1-panuco,crescencio emilio marquez ricardo,persona propietaria,41,m,30,1,0,0,0,0,0,1,0,0,301cresmc,0
+mc,dep,veracruz,5-poza rica de hidalgo,adela elizabeth morales mendez,persona propietaria,42,f,30,5,0,0,0,0,0,1,0,0,305adelmc,0
+mc,dep,veracruz,7-martinez de la torre,karla estrada gomez,persona propietaria,51,f,30,7,0,0,0,0,0,1,0,0,307karlmc,0
+mc,dep,veracruz,10-xalapa,erika monserrat blix portilla,persona propietaria,40,f,30,10,0,0,0,0,0,1,0,0,3010erikmc,0
+mc,dep,veracruz,15-orizaba,letty hernandez miranda,persona propietaria,34,f,30,15,0,0,0,0,0,1,0,0,3015lettmc,0
+mc,dep,veracruz,13-huatusco,rodrigo ferrer galvan acosta,persona propietaria,46,m,30,13,0,0,0,0,0,1,0,0,3013rodrmc,0
+mc,dep,veracruz,9-coatepec,maria elena cano servin,persona propietaria,42,f,30,9,0,0,0,0,0,1,0,0,309marimc,0
+fuerza y corazon por mexico,dep,veracruz,17-cosamaloapan,haydee montero sanchez,persona propietaria,45,f,30,17,0,1,1,0,0,0,1,0,3017haydfue,0
+sigamos haciendo historia,dep,veracruz,3-cosoleacaque,magaly armenta oliveros,persona propietaria,44,f,30,3,1,0,0,1,1,0,0,0,303magasig,0
+morena,dep,veracruz,8-las trancas,jorge alberto mier acolt,persona propietaria,54,m,30,8,1,0,0,0,0,0,0,0,308jorgmor,0
+mc,dep,veracruz,16-cordoba,felix emilio sacre luna,persona propietaria,61,m,30,16,0,0,0,0,0,1,0,0,3016felimc,0
+sigamos haciendo historia,dep,veracruz,2-alamo,elizabeth cervantes de la cruz,persona propietaria,36,f,30,2,1,0,0,1,1,0,0,0,302elizsig,0
+fuerza y corazon por mexico,dep,veracruz,11-coatzacoalcos,martha gabriela fernandez de leon,persona propietaria,52,f,30,11,0,1,1,0,0,0,1,0,3011martfue,0
+sigamos haciendo historia,dep,veracruz,10-xalapa,ana miriam ferraez centeno,persona propietaria,54,f,30,10,1,0,0,1,1,0,0,0,3010ana sig,0
+mc,dep,veracruz,12-veracruz,karina guzman marin,persona propietaria,43,f,30,12,0,0,0,0,0,1,0,0,3012karimc,0
+sigamos haciendo historia,dep,veracruz,4-boca del rio,byron boris barranco aguirre,persona propietaria,56,m,30,4,1,0,0,1,1,0,0,0,304byrosig,0
+sigamos haciendo historia,dep,veracruz,16-cordoba,zenyazen roberto escobar garcia,persona propietaria,39,m,30,16,1,0,0,1,1,0,0,0,3016zenysig,0
+sigamos haciendo historia,dep,veracruz,12-veracruz,rosa hernandez espejo,persona propietaria,62,f,30,12,1,0,0,1,1,0,0,0,3012rosasig,1
+sigamos haciendo historia,dep,veracruz,15-orizaba,dulce maria corina villegas guarneros,persona propietaria,57,f,30,15,1,0,0,1,1,0,0,0,3015dulcsig,0
+sigamos haciendo historia,dep,veracruz,11-coatzacoalcos,roberto ramos alor,persona propietaria,72,m,30,11,1,0,0,1,1,0,0,0,3011robesig,0
+sigamos haciendo historia,dep,veracruz,5-poza rica de hidalgo,francisco javier velazquez vallejo,persona propietaria,78,m,30,5,1,0,0,1,1,0,0,0,305fransig,0
+sigamos haciendo historia,dep,veracruz,9-coatepec,adrian gonzalez naveda,persona propietaria,40,m,30,9,1,0,0,1,1,0,0,0,309adrisig,0
+fuerza y corazon por mexico,dep,veracruz,9-coatepec,abundio morales rosas,persona propietaria,41,m,30,9,0,1,1,0,0,0,1,0,309abunfue,0
+fuerza y corazon por mexico,dep,veracruz,14-minatitlan,miguel rogel grajales,persona propietaria,36,m,30,14,0,1,1,0,0,0,1,0,3014migufue,0
+fuerza y corazon por mexico,dep,veracruz,3-cosoleacaque,irma araceli romero rodriguez,persona propietaria,47,f,30,3,0,1,1,0,0,0,1,0,303irmafue,0
+fuerza y corazon por mexico,dep,veracruz,10-xalapa,americo zuñiga martinez,persona propietaria,45,m,30,10,0,1,1,0,0,0,1,0,3010amerfue,0
+fuerza y corazon por mexico,dep,veracruz,15-orizaba,carla canales reyes,persona propietaria,44,f,30,15,0,1,1,0,0,0,1,0,3015carlfue,0
+fuerza y corazon por mexico,dep,veracruz,19-san andres tuxtla,juan manuel rayas arvizu,persona propietaria,54,m,30,19,0,1,1,0,0,0,1,0,3019juanfue,0
+sigamos haciendo historia,dep,veracruz,14-minatitlan,jessica ramirez cisneros,persona propietaria,38,f,30,14,1,0,0,1,1,0,0,0,3014jesssig,0
+sigamos haciendo historia,dep,veracruz,17-cosamaloapan,margarita corro mendoza,persona propietaria,66,f,30,17,1,0,0,1,1,0,0,0,3017margsig,0
+sigamos haciendo historia,dep,veracruz,19-san andres tuxtla,paola tenorio adame,persona propietaria,58,f,30,19,1,0,0,1,1,0,0,0,3019paolsig,1
+fuerza y corazon por mexico,dep,veracruz,2-alamo,ana laura vazquez villalobos,persona propietaria,52,f,30,2,0,1,1,0,0,0,1,0,302ana fue,0
+mc,dep,veracruz,6-papantla de olarte,xochith lopez castillo,persona propietaria,52,f,30,6,0,0,0,0,0,1,0,0,306xochmc,0
+fuerza y corazon por mexico,dep,veracruz,1-panuco,maria del rosario guzman aviles,persona propietaria,60,f,30,1,0,1,1,0,0,0,1,0,301marifue,0
+pt,dep,veracruz,8-las trancas,constantino aguilar aguilar,persona propietaria,62,m,30,8,0,0,0,1,0,0,0,0,308conspt,0
+fuerza y corazon por mexico,dep,veracruz,13-huatusco,victor serralde martinez,persona propietaria,52,m,30,13,0,1,1,0,0,0,1,0,3013victfue,0
+fuerza y corazon por mexico,dep,veracruz,5-poza rica de hidalgo,areli bautista perez,persona propietaria,55,f,30,5,0,1,1,0,0,0,1,0,305arelfue,0
+mc,dep,veracruz,11-coatzacoalcos,jose francisco gonzalez aynes,persona propietaria,63,m,30,11,0,0,0,0,0,1,0,0,3011josemc,0
+sigamos haciendo historia,dep,veracruz,18-zongolica,benito aguas atlahua,persona propietaria,45,m,30,18,1,0,0,1,1,0,0,0,3018benisig,0
+sigamos haciendo historia,dep,veracruz,7-martinez de la torre,monica herrera villavicencio,persona propietaria,38,f,30,7,1,0,0,1,1,0,0,0,307monisig,1
+mc,dep,veracruz,17-cosamaloapan,angel federico alvarez medina,persona propietaria,32,m,30,17,0,0,0,0,0,1,0,0,3017angemc,0
+mc,dep,veracruz,18-zongolica,ignacio ramirez flores,persona propietaria,27,m,30,18,0,0,0,0,0,1,0,0,3018ignamc,0
+fuerza y corazon por mexico,dep,veracruz,6-papantla de olarte,sergio villa consejo,persona propietaria,52,m,30,6,0,1,1,0,0,0,1,0,306sergfue,0
+fuerza y corazon por mexico,dep,veracruz,18-zongolica,erika neri medina,persona propietaria,49,f,30,18,0,1,1,0,0,0,1,0,3018erikfue,0
+sigamos haciendo historia,dep,veracruz,6-papantla de olarte,jaime humberto perez bernabe,persona propietaria,51,m,30,6,1,0,0,1,1,0,0,0,306jaimsig,1
+fuerza y corazon por mexico,dep,yucatan,4-merida,maria isabel rodriguez heredia,persona propietaria,43,f,31,4,0,1,1,0,0,0,1,0,314marifue,0
+fuerza y corazon por mexico,dep,yucatan,6-merida,victor hugo lozano poveda,persona propietaria,51,m,31,6,0,1,1,0,0,0,1,0,316victfue,0
+mc,dep,yucatan,3-merida,pepe luis flota castillo,persona propietaria,34,m,31,3,0,0,0,0,0,1,0,0,313pepemc,0
+mc,dep,yucatan,4-merida,francisco javier cardosa torres,persona propietaria,48,m,31,4,0,0,0,0,0,1,0,0,314franmc,0
+fuerza y corazon por mexico,dep,yucatan,3-merida,sergio martin vadillo lora,persona propietaria,42,m,31,3,0,1,1,0,0,0,1,0,313sergfue,0
+sigamos haciendo historia,dep,yucatan,3-merida,oscar ivan brito zapata,persona propietaria,34,m,31,3,1,0,0,1,1,0,0,0,313oscasig,0
+sigamos haciendo historia,dep,yucatan,6-merida,jessica saiden quiroz,persona propietaria,43,f,31,6,1,0,0,1,1,0,0,0,316jesssig,0
+sigamos haciendo historia,dep,yucatan,4-merida,geovani cecilia campos vazquez,persona propietaria,52,f,31,4,1,0,0,1,1,0,0,0,314geovsig,0
+fuerza y corazon por mexico,dep,yucatan,1-valladolid,esteban abraham macari,persona propietaria,39,m,31,1,0,1,1,0,0,0,1,0,311estefue,0
+fuerza y corazon por mexico,dep,yucatan,2-progreso,julian zacarias curi,persona propietaria,48,m,31,2,0,1,1,0,0,0,1,0,312julifue,0
+fuerza y corazon por mexico,dep,yucatan,5-uman,juan jose canul perez,persona propietaria,52,m,31,5,0,1,1,0,0,0,1,0,315juanfue,0
+mc,dep,yucatan,6-merida,maria fernanda arceo olivera,persona propietaria,23,f,31,6,0,0,0,0,0,1,0,0,316marimc,0
+sigamos haciendo historia,dep,yucatan,5-uman,jazmin yaneli villanueva moo,persona propietaria,31,f,31,5,1,0,0,1,1,0,0,0,315jazmsig,0
+sigamos haciendo historia,dep,yucatan,2-progreso,jorge luis sanchez reyes,persona propietaria,36,m,31,2,1,0,0,1,1,0,0,0,312jorgsig,0
+mc,dep,yucatan,2-progreso,nayelly esthefania basto rosado,persona propietaria,29,f,31,2,0,0,0,0,0,1,0,0,312nayemc,0
+mc,dep,yucatan,1-valladolid,yurgi yoselin hoil may,persona propietaria,25,f,31,1,0,0,0,0,0,1,0,0,311yurgmc,0
+sigamos haciendo historia,dep,yucatan,1-valladolid,rocio natali barrera puc,persona propietaria,38,f,31,1,1,0,0,1,1,0,0,0,311rocisig,0
+mc,dep,yucatan,5-uman,fatima del rosario chay che,persona propietaria,26,f,31,5,0,0,0,0,0,1,0,0,315fatimc,0
+sigamos haciendo historia,dep,zacatecas,3-zacatecas,ulises mejia haro,persona propietaria,39,m,32,3,1,0,0,1,1,0,0,0,323ulissig,0
+fuerza y corazon por mexico,dep,zacatecas,2-jerez de garcia salinas,jose guadalupe correa valdez,persona propietaria,43,m,32,2,0,1,1,0,0,0,1,0,322josefue,0
+fuerza y corazon por mexico,dep,zacatecas,3-zacatecas,raymundo moreno romero,persona propietaria,44,m,32,3,0,1,1,0,0,0,1,0,323raymfue,0
+mc,dep,zacatecas,2-jerez de garcia salinas,sandra veronica rivera ramirez,persona propietaria,30,f,32,2,0,0,0,0,0,1,0,0,322sandmc,0
+mc,dep,zacatecas,1-fresnillo,gabriela marielena jauregui torres,persona propietaria,29,f,32,1,0,0,0,0,0,1,0,0,321gabrmc,0
+mc,dep,zacatecas,3-zacatecas,elvira quintero fernandez,persona propietaria,30,f,32,3,0,0,0,0,0,1,0,0,323elvimc,0
+mc,dep,zacatecas,4-guadalupe,luis gerardo garcia ramirez,persona propietaria,30,m,32,4,0,0,0,0,0,1,0,0,324luismc,0
+fuerza y corazon por mexico,dep,zacatecas,4-guadalupe,carolina davila ramirez,persona propietaria,36,f,32,4,0,1,1,0,0,0,1,0,324carofue,1
+sigamos haciendo historia,dep,zacatecas,1-fresnillo,maria soledad luevano cantu,persona propietaria,65,f,32,1,1,0,0,1,1,0,0,0,321marisig,0
+sigamos haciendo historia,dep,zacatecas,4-guadalupe,ana luisa del muro garcia,persona propietaria,34,f,32,4,1,0,0,1,1,0,0,0,324ana sig,0
+fuerza y corazon por mexico,dep,zacatecas,1-fresnillo,norma angelica castorena berrelleza,persona propietaria,55,f,32,1,0,1,1,0,0,0,1,0,321normfue,0
+sigamos haciendo historia,dep,zacatecas,2-jerez de garcia salinas,julia arcelia olguin serna,persona propietaria,55,f,32,2,1,0,0,1,1,0,0,0,322julisig,0
+mc,sen,aguascalientes,no aplica,sara imelda miranda rodriguez,persona propietaria,50,f,1,0,0,0,0,0,0,1,0,0,10saramc,0
+mc,sen,aguascalientes,no aplica,jorge armando narvaez narvaez,persona propietaria,49,m,1,0,0,0,0,0,0,1,0,0,10jorgmc,0
+fuerza y corazon por mexico,sen,aguascalientes,no aplica,maria de jesus diaz marmolejo,persona propietaria,57,f,1,0,0,1,1,0,0,0,1,0,10marifue,0
+fuerza y corazon por mexico,sen,aguascalientes,no aplica,juan antonio martin del campo martin del campo,persona propietaria,52,m,1,0,0,1,1,0,0,0,1,0,10juanfue,0
+sigamos haciendo historia,sen,aguascalientes,no aplica,daniel gutierrez castorena,persona propietaria,69,m,1,0,1,0,0,1,1,0,0,0,10danisig,1
+sigamos haciendo historia,sen,aguascalientes,no aplica,nora ruvalcaba gamez,persona propietaria,56,f,1,0,1,0,0,1,1,0,0,0,10norasig,0
+mc,sen,baja california,no aplica,david saul guakil,persona propietaria,60,m,2,0,0,0,0,0,0,1,0,0,20davimc,0
+fuerza y corazon por mexico,sen,baja california,no aplica,gustavo sanchez vasquez,persona propietaria,60,m,2,0,0,1,1,0,0,0,1,0,20gustfue,0
+fuerza y corazon por mexico,sen,baja california,no aplica,guadalupe gutierrez fregozo,persona propietaria,65,f,2,0,0,1,1,0,0,0,1,0,20guadfue,0
+mc,sen,baja california,no aplica,dora argelia nuñez garcia,persona propietaria,46,f,2,0,0,0,0,0,0,1,0,0,20doramc,0
+pt,sen,baja california,no aplica,janeth raquel tapia barrera,persona propietaria,43,f,2,0,0,0,0,1,0,0,0,0,20janept,0
+pt,sen,baja california,no aplica,jaime bonilla valdez,persona propietaria,73,m,2,0,0,0,0,1,0,0,0,0,20jaimpt,1
+morena,sen,baja california,no aplica,armando ayala robles,persona propietaria,47,m,2,0,1,0,0,0,0,0,0,0,20armamor,0
+pvem,sen,baja california,no aplica,juan carlos hank krauss,persona propietaria,36,m,2,0,0,0,0,0,1,0,0,0,20juanpve,0
+pvem,sen,baja california,no aplica,monica juliana vega aguirre,persona propietaria,41,f,2,0,0,0,0,0,1,0,0,0,20monipve,0
+morena,sen,baja california,no aplica,julieta andrea ramirez padilla,persona propietaria,29,f,2,0,1,0,0,0,0,0,0,0,20julimor,0
+mc,sen,baja california sur,no aplica,alvaro de la peña angulo,persona propietaria,55,m,3,0,0,0,0,0,0,1,0,0,30alvamc,0
+mc,sen,baja california sur,no aplica,maritza muñoz vargas,persona propietaria,55,f,3,0,0,0,0,0,0,1,0,0,30marimc,0
+fuerza y corazon por mexico,sen,baja california sur,no aplica,susana del carmen zatarain garcia,persona propietaria,30,f,3,0,0,1,1,0,0,0,1,0,30susafue,0
+fuerza y corazon por mexico,sen,baja california sur,no aplica,antonio benjamin manriquez guluarte,persona propietaria,72,m,3,0,0,1,1,0,0,0,1,0,30antofue,0
+sigamos haciendo historia,sen,baja california sur,no aplica,jesus lucia trasviña waldenrath,persona propietaria,69,f,3,0,1,0,0,1,1,0,0,0,30jesusig,0
+sigamos haciendo historia,sen,baja california sur,no aplica,homero davis castro,persona propietaria,56,m,3,0,1,0,0,1,1,0,0,0,30homesig,0
+mc,sen,campeche,no aplica,dulce maria dorantes cervera,persona propietaria,38,f,4,0,0,0,0,0,0,1,0,0,40dulcmc,0
+fuerza y corazon por mexico,sen,campeche,no aplica,karla guadalupe toledo zamora,persona propietaria,52,f,4,0,0,1,1,0,0,0,1,0,40karlfue,0
+fuerza y corazon por mexico,sen,campeche,no aplica,lydia helena marquart lliteras,persona propietaria,45,f,4,0,0,1,1,0,0,0,1,0,40lydifue,0
+sigamos haciendo historia,sen,campeche,no aplica,anibal ostoa ortega,persona propietaria,75,m,4,0,1,0,0,1,1,0,0,0,40anibsig,1
+sigamos haciendo historia,sen,campeche,no aplica,maria martina kantun can,persona propietaria,60,f,4,0,1,0,0,1,1,0,0,0,40marisig,0
+fuerza y corazon por mexico,sen,coahuila,no aplica,miguel angel riquelme solis,persona propietaria,53,m,5,0,0,1,1,0,0,0,1,0,50migufue,0
+fuerza y corazon por mexico,sen,coahuila,no aplica,maria barbara cepeda boehringer,persona propietaria,40,f,5,0,0,1,1,0,0,0,1,0,50marifue,0
+sigamos haciendo historia,sen,coahuila,no aplica,cecilia guadalupe guadiana mandujano,persona propietaria,29,f,5,0,1,0,0,1,1,0,0,0,50cecisig,0
+mc,sen,coahuila,no aplica,jorge haro santa cruz,persona propietaria,37,m,5,0,0,0,0,0,0,1,0,0,50jorgmc,0
+mc,sen,coahuila,no aplica,valeria lopez luevanos,persona propietaria,28,f,5,0,0,0,0,0,0,1,0,0,50valemc,0
+sigamos haciendo historia,sen,coahuila,no aplica,luis fernando salazar fernandez,persona propietaria,46,m,5,0,1,0,0,1,1,0,0,0,50luissig,0
+sigamos haciendo historia,sen,colima,no aplica,virgilio mendoza amezcua,persona propietaria,52,m,6,0,1,0,0,1,1,0,0,0,60virgsig,0
+fuerza y corazon por mexico,sen,colima,no aplica,mely romero celis,persona propietaria,46,f,6,0,0,1,1,0,0,0,1,0,60melyfue,0
+fuerza y corazon por mexico,sen,colima,no aplica,german sanchez alvarez,persona propietaria,31,m,6,0,0,1,1,0,0,0,1,0,60germfue,0
+sigamos haciendo historia,sen,colima,no aplica,ana karen hernandez aceves,persona propietaria,35,f,6,0,1,0,0,1,1,0,0,0,60ana sig,0
+mc,sen,colima,no aplica,jose de jesus dueñas garcia,persona propietaria,37,m,6,0,0,0,0,0,0,1,0,0,60josemc,0
+mc,sen,colima,no aplica,griselda martinez martinez,persona propietaria,55,f,6,0,0,0,0,0,0,1,0,0,60grismc,0
+fuerza y corazon por mexico,sen,chiapas,no aplica,williams oswaldo ochoa gallegos,persona propietaria,45,m,7,0,0,1,1,0,0,0,1,0,70willfue,0
+pvem,sen,chiapas,no aplica,luis armando melgar bravo,persona propietaria,57,m,7,0,0,0,0,0,1,0,0,0,70luispve,0
+pvem,sen,chiapas,no aplica,maria eugenia culebro perez,persona propietaria,31,f,7,0,0,0,0,0,1,0,0,0,70maripve,0
+morena,sen,chiapas,no aplica,jose manuel cruz castellanos,persona propietaria,63,m,7,0,1,0,0,0,0,0,0,0,70josemor,0
+morena,sen,chiapas,no aplica,sasil dora luz de leon villard,persona propietaria,41,f,7,0,1,0,0,0,0,0,0,0,70sasimor,0
+pt,sen,chiapas,no aplica,edwin rolando herrera rodriguez,persona propietaria,32,m,7,0,0,0,0,1,0,0,0,0,70edwipt,0
+pt,sen,chiapas,no aplica,leticia mendez intzin,persona propietaria,46,f,7,0,0,0,0,1,0,0,0,0,70letipt,0
+mc,sen,chiapas,no aplica,flor de maria gonzalez perez,persona propietaria,34,f,7,0,0,0,0,0,0,1,0,0,70flormc,0
+fuerza y corazon por mexico,sen,chiapas,no aplica,micaela teratol gomez,persona propietaria,36,f,7,0,0,1,1,0,0,0,1,0,70micafue,0
+mc,sen,chiapas,no aplica,sergio luis morales hernandez,persona propietaria,39,m,7,0,0,0,0,0,0,1,0,0,70sergmc,0
+fuerza y corazon por mexico,sen,chihuahua,no aplica,daniela soraya alvarez hernandez,persona propietaria,41,f,8,0,0,1,1,0,0,0,1,0,80danifue,0
+fuerza y corazon por mexico,sen,chihuahua,no aplica,mario humberto vazquez robles,persona propietaria,61,m,8,0,0,1,1,0,0,0,1,0,80marifue,0
+mc,sen,chihuahua,no aplica,zury fernanda espino garcia,persona propietaria,28,f,8,0,0,0,0,0,0,1,0,0,80zurymc,0
+mc,sen,chihuahua,no aplica,cesar alberto peña valles,persona propietaria,39,m,8,0,0,0,0,0,0,1,0,0,80cesamc,0
+sigamos haciendo historia,sen,chihuahua,no aplica,andrea chavez treviño,persona propietaria,27,f,8,0,1,0,0,1,1,0,0,0,80andrsig,0
+sigamos haciendo historia,sen,chihuahua,no aplica,juan carlos loera de la rosa,persona propietaria,55,m,8,0,1,0,0,1,1,0,0,0,80juansig,0
+fuerza y corazon por mexico,sen,ciudad de mexico,no aplica,cynthia iliana lopez castro,persona propietaria,37,f,9,0,0,1,1,0,0,0,1,0,90cyntfue,0
+fuerza y corazon por mexico,sen,ciudad de mexico,no aplica,veronica beatriz juarez piña,persona propietaria,52,f,9,0,0,1,1,0,0,0,1,0,90verofue,0
+mc,sen,ciudad de mexico,no aplica,sandra xantall cuevas nieves,persona propietaria,38,f,9,0,0,0,0,0,0,1,0,0,90sandmc,0
+sigamos haciendo historia,sen,ciudad de mexico,no aplica,ernestina godoy ramos,persona propietaria,70,f,9,0,1,0,0,1,1,0,0,0,90ernesig,0
+sigamos haciendo historia,sen,ciudad de mexico,no aplica,omar hamid garcia harfuch,persona propietaria,42,m,9,0,1,0,0,1,1,0,0,0,90omarsig,0
+mc,sen,ciudad de mexico,no aplica,maria alejandra barrales magdaleno,persona propietaria,56,f,9,0,0,0,0,0,0,1,0,0,90marimc,0
+fuerza y corazon por mexico,sen,durango,no aplica,gina gerardina campuzano gonzalez,persona propietaria,58,f,10,0,0,1,1,0,0,0,1,0,100ginafue,0
+sigamos haciendo historia,sen,durango,no aplica,alejandro gonzalez yañez,persona propietaria,67,m,10,0,1,0,0,1,1,0,0,0,100alejsig,0
+fuerza y corazon por mexico,sen,durango,no aplica,gabriela hernandez lopez,persona propietaria,31,f,10,0,0,1,1,0,0,0,1,0,100gabrfue,0
+mc,sen,durango,no aplica,karla beatriz tello arellano,persona propietaria,39,f,10,0,0,0,0,0,0,1,0,0,100karlmc,0
+mc,sen,durango,no aplica,jorge alejandro salum del palacio,persona propietaria,61,m,10,0,0,0,0,0,0,1,0,0,100jorgmc,0
+sigamos haciendo historia,sen,durango,no aplica,lilia margarita valdez martinez,persona propietaria,68,f,10,0,1,0,0,1,1,0,0,0,100lilisig,0
+pan,sen,guanajuato,no aplica,adriana rodriguez vizcarra velazquez,persona propietaria,74,f,11,0,0,1,0,0,0,0,0,0,110adripan,0
+prd,sen,guanajuato,no aplica,erika del rocio ortiz vela,persona propietaria,39,f,11,0,0,0,0,0,0,0,1,0,110erikprd,0
+pan,sen,guanajuato,no aplica,miguel marquez marquez,persona propietaria,55,m,11,0,0,1,0,0,0,0,0,0,110migupan,0
+sigamos haciendo historia,sen,guanajuato,no aplica,virginia marie magaña fonseca,persona propietaria,48,f,11,0,1,0,0,1,1,0,0,0,110virgsig,0
+mc,sen,guanajuato,no aplica,jorge lerma santillan,persona propietaria,56,m,11,0,0,0,0,0,0,1,0,0,110jorgmc,0
+mc,sen,guanajuato,no aplica,guadalupe valenzuela rios,persona propietaria,56,f,11,0,0,0,0,0,0,1,0,0,110guadmc,0
+pri,sen,guanajuato,no aplica,alicia muñoz olivares,persona propietaria,58,f,11,0,0,0,1,0,0,0,0,0,110alicpri,0
+pri,sen,guanajuato,no aplica,fernando avila gonzalez,persona propietaria,49,m,11,0,0,0,1,0,0,0,0,0,110fernpri,0
+sigamos haciendo historia,sen,guanajuato,no aplica,francisco ricardo sheffield padilla,persona propietaria,57,m,11,0,1,0,0,1,1,0,0,0,110fransig,0
+prd,sen,guanajuato,no aplica,geovanni jesus palacios barajas,persona propietaria,27,m,11,0,0,0,0,0,0,0,1,0,110geovprd,0
+fuerza y corazon por mexico,sen,guerrero,no aplica,manuel añorve baños,persona propietaria,67,m,12,0,0,1,1,0,0,0,1,0,120manufue,0
+morena,sen,guerrero,no aplica,j felix salgado macedonio,persona propietaria,67,m,12,0,1,0,0,0,0,0,0,0,120j femor,0
+pvem,sen,guerrero,no aplica,eduardo ignacio neil cueva ruiz,persona propietaria,41,m,12,0,0,0,0,0,1,0,0,0,120eduapve,0
+pvem,sen,guerrero,no aplica,ma luisa vargas mejia,persona propietaria,58,f,12,0,0,0,0,0,1,0,0,0,120ma lpve,0
+pt,sen,guerrero,no aplica,yuridia guerrero martinez,persona propietaria,32,f,12,0,0,0,0,1,0,0,0,0,120yuript,0
+mc,sen,guerrero,no aplica,enei aranely bustamante rodriguez,persona propietaria,35,f,12,0,0,0,0,0,0,1,0,0,120eneimc,0
+pt,sen,guerrero,no aplica,guillermo galeana garcia,persona propietaria,34,m,12,0,0,0,0,1,0,0,0,0,120guilpt,0
+morena,sen,guerrero,no aplica,beatriz mojica morga,persona propietaria,51,f,12,0,1,0,0,0,0,0,0,0,120beatmor,0
+fuerza y corazon por mexico,sen,guerrero,no aplica,ivet diaz bahena,persona propietaria,43,f,12,0,0,1,1,0,0,0,1,0,120ivetfue,0
+mc,sen,guerrero,no aplica,coyolxauhqui soria morales,persona propietaria,38,f,12,0,0,0,0,0,0,1,0,0,120coyomc,0
+fuerza y corazon por mexico,sen,hidalgo,no aplica,alma carolina viggiano austria,persona propietaria,55,f,13,0,0,1,1,0,0,0,1,0,130almafue,0
+fuerza y corazon por mexico,sen,hidalgo,no aplica,isidro romero alcantara,persona propietaria,77,m,13,0,0,1,1,0,0,0,1,0,130isidfue,0
+pt,sen,hidalgo,no aplica,oscar damian sosa castelan,persona propietaria,56,m,13,0,0,0,0,1,0,0,0,0,130oscapt,0
+pt,sen,hidalgo,no aplica,karen daniela chavez martinez,persona propietaria,33,f,13,0,0,0,0,1,0,0,0,0,130karept,0
+morena,sen,hidalgo,no aplica,sandra simey olvera bautista,persona propietaria,40,f,13,0,1,0,0,0,0,0,0,0,130sandmor,0
+morena,sen,hidalgo,no aplica,cuauhtemoc ochoa fernandez,persona propietaria,53,m,13,0,1,0,0,0,0,0,0,0,130cuaumor,0
+pvem,sen,hidalgo,no aplica,elizabeth flores valdespino,persona propietaria,43,f,13,0,0,0,0,0,1,0,0,0,130elizpve,0
+pvem,sen,hidalgo,no aplica,yarely melo rodriguez,persona propietaria,45,f,13,0,0,0,0,0,1,0,0,0,130yarepve,0
+mc,sen,hidalgo,no aplica,elizabeth adriana flores torres,persona propietaria,42,f,13,0,0,0,0,0,0,1,0,0,130elizmc,0
+mc,sen,hidalgo,no aplica,martha hernandez hernandez,persona propietaria,53,f,13,0,0,0,0,0,0,1,0,0,130martmc,0
+fuerza y corazon por mexico,sen,jalisco,no aplica,francisco javier ramirez acuña,persona propietaria,72,m,14,0,0,1,1,0,0,0,1,0,140franfue,0
+sigamos haciendo historia,sen,jalisco,no aplica,maria del rocio corona nakamura,persona propietaria,60,f,14,0,1,0,0,1,1,0,0,0,140marisig,0
+mc,sen,jalisco,no aplica,alberto esquer gutierrez,persona propietaria,45,m,14,0,0,0,0,0,0,1,0,0,140albemc,0
+mc,sen,jalisco,no aplica,mirza flores gomez,persona propietaria,50,f,14,0,0,0,0,0,0,1,0,0,140mirzmc,0
+fuerza y corazon por mexico,sen,jalisco,no aplica,erika natalia juarez miranda,persona propietaria,47,f,14,0,0,1,1,0,0,0,1,0,140erikfue,0
+sigamos haciendo historia,sen,jalisco,no aplica,carlos lomeli bolaños,persona propietaria,64,m,14,0,1,0,0,1,1,0,0,0,140carlsig,0
+mc,sen,mexico,no aplica,fernando alberto garcia cuevas,persona propietaria,71,m,15,0,0,0,0,0,0,1,0,0,150fernmc,0
+mc,sen,mexico,no aplica,karla nelly maldonado burguete,persona propietaria,33,f,15,0,0,0,0,0,0,1,0,0,150karlmc,0
+fuerza y corazon por mexico,sen,mexico,no aplica,enrique vargas del villar,persona propietaria,48,m,15,0,0,1,1,0,0,0,1,0,150enrifue,0
+fuerza y corazon por mexico,sen,mexico,no aplica,brenda maria izontli alvarado sanchez,persona propietaria,54,f,15,0,0,1,1,0,0,0,1,0,150brenfue,0
+sigamos haciendo historia,sen,mexico,no aplica,mariela gutierrez escalante,persona propietaria,52,f,15,0,1,0,0,1,1,0,0,0,150marisig,0
+sigamos haciendo historia,sen,mexico,no aplica,higinio martinez miranda,persona propietaria,67,m,15,0,1,0,0,1,1,0,0,0,150higisig,1
+fuerza y corazon por mexico,sen,michoacan,no aplica,carlos humberto lucatero blanco,persona propietaria,34,m,16,0,0,1,1,0,0,0,1,0,160carlfue,0
+mc,sen,michoacan,no aplica,carlos herrera tello,persona propietaria,53,m,16,0,0,0,0,0,0,1,0,0,160carlmc,0
+fuerza y corazon por mexico,sen,michoacan,no aplica,araceli saucedo reyes,persona propietaria,44,f,16,0,0,1,1,0,0,0,1,0,160aracfue,0
+mc,sen,michoacan,no aplica,michelle anaid garibay cocco,persona propietaria,28,f,16,0,0,0,0,0,0,1,0,0,160michmc,0
+sigamos haciendo historia,sen,michoacan,no aplica,raul moron orozco,persona propietaria,65,m,16,0,1,0,0,1,1,0,0,0,160raulsig,0
+sigamos haciendo historia,sen,michoacan,no aplica,reyna celeste ascencio ortega,persona propietaria,31,f,16,0,1,0,0,1,1,0,0,0,160reynsig,0
+mc,sen,morelos,no aplica,diana aurea recio tellez,persona propietaria,66,f,17,0,0,0,0,0,0,1,0,0,170dianmc,0
+fuerza y corazon por mexico,sen,morelos,no aplica,maria de la luz villa figueroa,persona propietaria,39,f,17,0,0,1,1,0,0,0,1,0,170marifue,0
+mc,sen,morelos,no aplica,jorge arizmendi garcia,persona propietaria,67,m,17,0,0,0,0,0,0,1,0,0,170jorgmc,0
+sigamos haciendo historia,sen,morelos,no aplica,juanita guerra mena,persona propietaria,41,f,17,0,1,0,0,1,1,0,0,0,170juansig,0
+fuerza y corazon por mexico,sen,morelos,no aplica,angel garcia yañez,persona propietaria,56,m,17,0,0,1,1,0,0,0,1,0,170angefue,0
+sigamos haciendo historia,sen,morelos,no aplica,victor aureliano mercado salgado,persona propietaria,62,m,17,0,1,0,0,1,1,0,0,0,170victsig,0
+fuerza y corazon por mexico,sen,nayarit,no aplica,ivideliza reyes hernandez,persona propietaria,45,f,18,0,0,1,1,0,0,0,1,0,180ividfue,0
+sigamos haciendo historia,sen,nayarit,no aplica,jasmine maria bugarin,persona propietaria,37,f,18,0,1,0,0,1,1,0,0,0,180jasmsig,0
+fuerza y corazon por mexico,sen,nayarit,no aplica,yolanda anahi gutierrez guzman,persona propietaria,29,f,18,0,0,1,1,0,0,0,1,0,180yolafue,0
+mc,sen,nayarit,no aplica,julieta mejia ibañez,persona propietaria,38,f,18,0,0,0,0,0,0,1,0,0,180julimc,0
+mc,sen,nayarit,no aplica,ignacio flores medina,persona propietaria,42,m,18,0,0,0,0,0,0,1,0,0,180ignamc,0
+sigamos haciendo historia,sen,nayarit,no aplica,miguel pavel jarero velazquez,persona propietaria,46,m,18,0,1,0,0,1,1,0,0,0,180migusig,0
+fuerza y corazon por mexico,sen,nuevo leon,no aplica,fernando jesus margain sada,persona propietaria,48,m,19,0,0,1,1,0,0,0,1,0,190fernfue,0
+sigamos haciendo historia,sen,nuevo leon,no aplica,waldo fernandez gonzalez,persona propietaria,53,m,19,0,1,0,0,1,1,0,0,0,190waldsig,0
+fuerza y corazon por mexico,sen,nuevo leon,no aplica,karina marlen barron perales,persona propietaria,44,f,19,0,0,1,1,0,0,0,1,0,190karifue,0
+mc,sen,nuevo leon,no aplica,martha patricia herrera gonzalez,persona propietaria,55,f,19,0,0,0,0,0,0,1,0,0,190martmc,0
+mc,sen,nuevo leon,no aplica,luis donaldo colosio riojas,persona propietaria,38,m,19,0,0,0,0,0,0,1,0,0,190luismc,0
+sigamos haciendo historia,sen,nuevo leon,no aplica,blanca judith diaz delgado,persona propietaria,66,f,19,0,1,0,0,1,1,0,0,0,190blansig,0
+pan,sen,oaxaca,no aplica,griselda galicia garcia,persona propietaria,57,f,20,0,0,1,0,0,0,0,0,0,200grispan,0
+prd,sen,oaxaca,no aplica,tomas basaldu gutierrez,persona propietaria,49,m,20,0,0,0,0,0,0,0,1,0,200tomaprd,0
+pt,sen,oaxaca,no aplica,karla gabriela jimenez carrasco,persona propietaria,47,f,20,0,0,0,0,1,0,0,0,0,200karlpt,0
+prd,sen,oaxaca,no aplica,daisy araceli ortiz jimenez,persona propietaria,39,f,20,0,0,0,0,0,0,0,1,0,200daisprd,0
+pt,sen,oaxaca,no aplica,angel benjamin robles montoya,persona propietaria,64,m,20,0,0,0,0,1,0,0,0,0,200angept,0
+pan,sen,oaxaca,no aplica,abigail vasconcelos castellanos,persona propietaria,60,f,20,0,0,1,0,0,0,0,0,0,200abigpan,0
+morena,sen,oaxaca,no aplica,antonino morales toledo,persona propietaria,41,m,20,0,1,0,0,0,0,0,0,0,200antomor,0
+morena,sen,oaxaca,no aplica,luisa cortes garcia,persona propietaria,57,f,20,0,1,0,0,0,0,0,0,0,200luismor,0
+pvem,sen,oaxaca,no aplica,laura estrada mauro,persona propietaria,49,f,20,0,0,0,0,0,1,0,0,0,200laurpve,0
+mc,sen,oaxaca,no aplica,elvira melo velazquez,persona propietaria,44,f,20,0,0,0,0,0,0,1,0,0,200elvimc,0
+pri,sen,oaxaca,no aplica,maria del carmen ricardez vela,persona propietaria,57,f,20,0,0,0,1,0,0,0,0,0,200maripri,0
+pvem,sen,oaxaca,no aplica,roberto camerino perez delgado,persona propietaria,45,m,20,0,0,0,0,0,1,0,0,0,200robepve,0
+pri,sen,oaxaca,no aplica,adolfo romero lainas,persona propietaria,65,m,20,0,0,0,1,0,0,0,0,0,200adolpri,0
+mc,sen,oaxaca,no aplica,florencia carolina aparicio sanchez,persona propietaria,65,f,20,0,0,0,0,0,0,1,0,0,200flormc,0
+fuerza y corazon por mexico,sen,puebla,no aplica,ana teresa aranda orozco,persona propietaria,70,f,21,0,0,1,1,0,0,0,1,0,210ana fue,0
+sigamos haciendo historia,sen,puebla,no aplica,lizeth sanchez garcia,persona propietaria,47,f,21,0,1,0,0,1,1,0,0,0,210lizesig,0
+mc,sen,puebla,no aplica,alida diaz balcazar,persona propietaria,46,f,21,0,0,0,0,0,0,1,0,0,210alidmc,0
+mc,sen,puebla,no aplica,sofia araceli pezzat said,persona propietaria,52,f,21,0,0,0,0,0,0,1,0,0,210sofimc,0
+sigamos haciendo historia,sen,puebla,no aplica,moises ignacio mier velazco,persona propietaria,63,m,21,0,1,0,0,1,1,0,0,0,210moissig,0
+fuerza y corazon por mexico,sen,puebla,no aplica,nestor camarillo medina,persona propietaria,36,m,21,0,0,1,1,0,0,0,1,0,210nestfue,0
+fuerza y corazon por mexico,sen,queretaro,no aplica,agustin dorantes lambarri,persona propietaria,37,m,22,0,0,1,1,0,0,0,1,0,220agusfue,0
+fuerza y corazon por mexico,sen,queretaro,no aplica,maria guadalupe murguia gutierrez,persona propietaria,68,f,22,0,0,1,1,0,0,0,1,0,220marifue,0
+pvem,sen,queretaro,no aplica,gabriela arguelles solis,persona propietaria,36,f,22,0,0,0,0,0,1,0,0,0,220gabrpve,0
+pvem,sen,queretaro,no aplica,alejandro evencio hernandez olvera,persona propietaria,64,m,22,0,0,0,0,0,1,0,0,0,220alejpve,0
+pt,sen,queretaro,no aplica,carlos alberto renteria rivera,persona propietaria,49,m,22,0,0,0,0,1,0,0,0,0,220carlpt,0
+morena,sen,queretaro,no aplica,beatriz silvia robles gutierrez,persona propietaria,59,f,22,0,1,0,0,0,0,0,0,0,220beatmor,0
+morena,sen,queretaro,no aplica,santiago nieto castillo,persona propietaria,51,m,22,0,1,0,0,0,0,0,0,0,220santmor,0
+mc,sen,queretaro,no aplica,iliana del carmen luna gomez,persona propietaria,46,f,22,0,0,0,0,0,0,1,0,0,220iliamc,0
+mc,sen,queretaro,no aplica,jose antonio ortega cerbon,persona propietaria,51,m,22,0,0,0,0,0,0,1,0,0,220josemc,0
+pt,sen,queretaro,no aplica,alma ingrid rodriguez morales,persona propietaria,36,f,22,0,0,0,0,1,0,0,0,0,220almapt,0
+fuerza y corazon por mexico,sen,quintana roo,no aplica,mayuli latifa martinez simon,persona propietaria,42,f,23,0,0,1,1,0,0,0,1,0,230mayufue,0
+mc,sen,quintana roo,no aplica,mayusa isolina gonzalez cauich,persona propietaria,43,f,23,0,0,0,0,0,0,1,0,0,230mayumc,0
+mc,sen,quintana roo,no aplica,roberto palazuelos badeaux,persona propietaria,57,m,23,0,0,0,0,0,0,1,0,0,230robemc,0
+sigamos haciendo historia,sen,quintana roo,no aplica,eugenio segura vazquez,persona propietaria,30,m,23,0,1,0,0,1,1,0,0,0,230eugesig,0
+sigamos haciendo historia,sen,quintana roo,no aplica,alma anahi gonzalez hernandez,persona propietaria,32,f,23,0,1,0,0,1,1,0,0,0,230almasig,0
+fuerza y corazon por mexico,sen,quintana roo,no aplica,cindy yareli cocom dzidz,persona propietaria,27,f,23,0,0,1,1,0,0,0,1,0,230cindfue,0
+fuerza y corazon por mexico,sen,san luis potosi,no aplica,veronica rodriguez hernandez,persona propietaria,39,f,24,0,0,1,1,0,0,0,1,0,240verofue,0
+pvem,sen,san luis potosi,no aplica,ruth miriam gonzalez silva,persona propietaria,37,f,24,0,0,0,0,0,1,0,0,0,240ruthpve,0
+fuerza y corazon por mexico,sen,san luis potosi,no aplica,jaime chalita zarur,persona propietaria,72,m,24,0,0,1,1,0,0,0,1,0,240jaimfue,0
+mc,sen,san luis potosi,no aplica,josefina salazar baez,persona propietaria,50,f,24,0,0,0,0,0,0,1,0,0,240josemc,0
+morena,sen,san luis potosi,no aplica,juan ignacio segura morquecho,persona propietaria,40,m,24,0,1,0,0,0,0,0,0,0,240juanmor,0
+morena,sen,san luis potosi,no aplica,rita  ozalia rodriguez velazquez,persona propietaria,62,f,24,0,1,0,0,0,0,0,0,0,240ritamor,0
+mc,sen,san luis potosi,no aplica,arturo carral adan,persona propietaria,31,m,24,0,0,0,0,0,0,1,0,0,240artumc,0
+pvem,sen,san luis potosi,no aplica,gilberto hernandez villafuerte,persona propietaria,62,m,24,0,0,0,0,0,1,0,0,0,240gilbpve,0
+pt,sen,san luis potosi,no aplica,rene oyarvide ibarra,persona propietaria,52,m,24,0,0,0,0,1,0,0,0,0,240renept,0
+pt,sen,san luis potosi,no aplica,teresa de jesus mendoza rivera,persona propietaria,57,f,24,0,0,0,0,1,0,0,0,0,240terept,0
+fuerza y corazon por mexico,sen,sinaloa,no aplica,eduardo ortiz hernandez,persona propietaria,60,m,25,0,0,1,1,0,0,0,1,0,250eduafue,0
+pt,sen,sinaloa,no aplica,yolanda de la cruz cardenas avilez,persona propietaria,56,f,25,0,0,0,0,1,0,0,0,0,250yolapt,0
+pt,sen,sinaloa,no aplica,jesus estrada ferreiro,persona propietaria,70,m,25,0,0,0,0,1,0,0,0,0,250jesupt,0
+mc,sen,sinaloa,no aplica,maria fernanda rivera romo,persona propietaria,51,f,25,0,0,0,0,0,0,1,0,0,250marimc,0
+morena,sen,sinaloa,no aplica,enrique inzunza cazarez,persona propietaria,52,m,25,0,1,0,0,0,0,0,0,0,250enrimor,0
+morena,sen,sinaloa,no aplica,imelda castro castro,persona propietaria,55,f,25,0,1,0,0,0,0,0,0,0,250imelmor,1
+mc,sen,sinaloa,no aplica,miguel angel vicente renteria,persona propietaria,35,m,25,0,0,0,0,0,0,1,0,0,250migumc,0
+pvem,sen,sinaloa,no aplica,nubia xiclali ramos carbajal,persona propietaria,44,f,25,0,0,0,0,0,1,0,0,0,250nubipve,0
+pvem,sen,sinaloa,no aplica,jesus antonio valdes palazuelos,persona propietaria,45,m,25,0,0,0,0,0,1,0,0,0,250jesupve,0
+fuerza y corazon por mexico,sen,sinaloa,no aplica,paloma sanchez ramos,persona propietaria,38,f,25,0,0,1,1,0,0,0,1,0,250palofue,0
+pvem,sen,sonora,no aplica,paola guadalupe dixon chaira,persona propietaria,40,f,26,0,0,0,0,0,1,0,0,0,260paolpve,0
+pvem,sen,sonora,no aplica,lizbeth gutierrez obeso,persona propietaria,40,f,26,0,0,0,0,0,1,0,0,0,260lizbpve,0
+mc,sen,sonora,no aplica,ernesto de lucas hopkins,persona propietaria,47,m,26,0,0,0,0,0,0,1,0,0,260ernemc,0
+mc,sen,sonora,no aplica,maria dolores rosas almada,persona propietaria,49,f,26,0,0,0,0,0,0,1,0,0,260marimc,0
+fuerza y corazon por mexico,sen,sonora,no aplica,maria lilly del carmen tellez garcia,persona propietaria,56,f,26,0,0,1,1,0,0,0,1,0,260marifue,0
+fuerza y corazon por mexico,sen,sonora,no aplica,manlio fabio beltrones rivera,persona propietaria,71,m,26,0,0,1,1,0,0,0,1,0,260manlfue,0
+pt,sen,sonora,no aplica,froylan gamez gamboa,persona propietaria,39,m,26,0,0,0,0,1,0,0,0,0,260froypt,0
+pt,sen,sonora,no aplica,celida teresa lopez cardenas,persona propietaria,44,f,26,0,0,0,0,1,0,0,0,0,260celipt,0
+morena,sen,sonora,no aplica,lorenia iveth valles sampedro,persona propietaria,47,f,26,0,1,0,0,0,0,0,0,0,260loremor,0
+morena,sen,sonora,no aplica,heriberto marcelo aguilar castillo,persona propietaria,49,m,26,0,1,0,0,0,0,0,0,0,260herimor,0
+fuerza y corazon por mexico,sen,tabasco,no aplica,jose sabino herrera dagdug,persona propietaria,43,m,27,0,0,1,1,0,0,0,1,0,270josefue,0
+mc,sen,tabasco,no aplica,gerardo gaudiano rovirosa,persona propietaria,43,m,27,0,0,0,0,0,0,1,0,0,270geramc,0
+mc,sen,tabasco,no aplica,maria leticia gonzalez calcaneo,persona propietaria,34,f,27,0,0,0,0,0,0,1,0,0,270marimc,0
+fuerza y corazon por mexico,sen,tabasco,no aplica,leda ferrer ruiz,persona propietaria,60,f,27,0,0,1,1,0,0,0,1,0,270ledafue,0
+pvem,sen,tabasco,no aplica,miguel armando velez mier y concha,persona propietaria,41,m,27,0,0,0,0,0,1,0,0,0,270migupve,0
+pvem,sen,tabasco,no aplica,barbara paola aranguren rosique,persona propietaria,25,f,27,0,0,0,0,0,1,0,0,0,270barbpve,0
+morena,sen,tabasco,no aplica,oscar canton zetina,persona propietaria,70,m,27,0,1,0,0,0,0,0,0,0,270oscamor,0
+morena,sen,tabasco,no aplica,rosalinda lopez hernandez,persona propietaria,56,f,27,0,1,0,0,0,0,0,0,0,270rosamor,0
+pt,sen,tabasco,no aplica,gladys del carmen lopez gomez,persona propietaria,56,f,27,0,0,0,0,1,0,0,0,0,270gladpt,0
+pt,sen,tabasco,no aplica,juan carlos ortiz celaya,persona propietaria,55,m,27,0,0,0,0,1,0,0,0,0,270juanpt,0
+mc,sen,tamaulipas,no aplica,andrea garcia garcia,persona propietaria,38,f,28,0,0,0,0,0,0,1,0,0,280andrmc,0
+mc,sen,tamaulipas,no aplica,david carlos feliciano cordero herrera,persona propietaria,36,m,28,0,0,0,0,0,0,1,0,0,280davimc,0
+fuerza y corazon por mexico,sen,tamaulipas,no aplica,imelda margarita sanmiguel sanchez,persona propietaria,40,f,28,0,0,1,1,0,0,0,1,0,280imelfue,0
+pvem,sen,tamaulipas,no aplica,eugenio javier hernandez flores,persona propietaria,64,m,28,0,0,0,0,0,1,0,0,0,280eugepve,0
+fuerza y corazon por mexico,sen,tamaulipas,no aplica,arturo fidel nuñez ruiz,persona propietaria,48,m,28,0,0,1,1,0,0,0,1,0,280artufue,0
+pvem,sen,tamaulipas,no aplica,maki esther ortiz dominguez,persona propietaria,61,f,28,0,0,0,0,0,1,0,0,0,280makipve,0
+pt,sen,tamaulipas,no aplica,cendy yarelly robles mendez,persona propietaria,40,f,28,0,0,0,0,1,0,0,0,0,280cendpt,0
+morena,sen,tamaulipas,no aplica,olga patricia sosa ruiz,persona propietaria,49,f,28,0,1,0,0,0,0,0,0,0,280olgamor,0
+morena,sen,tamaulipas,no aplica,jose ramon gomez leal,persona propietaria,46,m,28,0,1,0,0,0,0,0,0,0,280josemor,0
+pt,sen,tamaulipas,no aplica,jose francisco chavira martinez,persona propietaria,54,m,28,0,0,0,0,1,0,0,0,0,280josept,0
+fuerza y corazon por mexico,sen,tlaxcala,no aplica,jose domingo meneses rodriguez,persona propietaria,57,m,29,0,0,1,1,0,0,0,1,0,290josefue,0
+mc,sen,tlaxcala,no aplica,alfonso gonzalez corona,persona propietaria,28,m,29,0,0,0,0,0,0,1,0,0,290alfomc,0
+pvem,sen,tlaxcala,no aplica,isela rojas amador,persona propietaria,50,f,29,0,0,0,0,0,1,0,0,0,290iselpve,0
+pvem,sen,tlaxcala,no aplica,sergio gonzalez hernandez,persona propietaria,68,m,29,0,0,0,0,0,1,0,0,0,290sergpve,0
+fuerza y corazon por mexico,sen,tlaxcala,no aplica,anabell avalos zempoalteca,persona propietaria,59,f,29,0,0,1,1,0,0,0,1,0,290anabfue,0
+morena,sen,tlaxcala,no aplica,ana lilia rivera rivera,persona propietaria,51,f,29,0,1,0,0,0,0,0,0,0,290ana mor,1
+morena,sen,tlaxcala,no aplica,jose antonio cruz alvarez lima,persona propietaria,82,m,29,0,1,0,0,0,0,0,0,0,290josemor,0
+pt,sen,tlaxcala,no aplica,rodrigo cuahutle salazar,persona propietaria,47,m,29,0,0,0,0,1,0,0,0,0,290rodrpt,0
+pt,sen,tlaxcala,no aplica,beatriz mendez guevara,persona propietaria,53,f,29,0,0,0,0,1,0,0,0,0,290beatpt,0
+mc,sen,tlaxcala,no aplica,elsa cordero martinez,persona propietaria,52,f,29,0,0,0,0,0,0,1,0,0,290elsamc,0
+fuerza y corazon por mexico,sen,veracruz,no aplica,miguel angel yunes marquez,persona propietaria,48,m,30,0,0,1,1,0,0,0,1,0,300migufue,0
+fuerza y corazon por mexico,sen,veracruz,no aplica,sara deifilia ladron de guevara gonzalez,persona propietaria,60,f,30,0,0,1,1,0,0,0,1,0,300sarafue,0
+mc,sen,veracruz,no aplica,angelica sanchez hernandez,persona propietaria,58,f,30,0,0,0,0,0,0,1,0,0,300angemc,0
+sigamos haciendo historia,sen,veracruz,no aplica,manuel rafael huerta ladron de guevara,persona propietaria,63,m,30,0,1,0,0,1,1,0,0,0,300manusig,0
+sigamos haciendo historia,sen,veracruz,no aplica,claudia tello espinosa,persona propietaria,59,f,30,0,1,0,0,1,1,0,0,0,300clausig,0
+mc,sen,veracruz,no aplica,dante alfonso delgado morales,persona propietaria,43,m,30,0,0,0,0,0,0,1,0,0,300dantmc,0
+sigamos haciendo historia,sen,yucatan,no aplica,jorge carlos ramirez marin,persona propietaria,62,m,31,0,1,0,0,1,1,0,0,0,310jorgsig,1
+fuerza y corazon por mexico,sen,yucatan,no aplica,kathia maria bolio pinelo,persona propietaria,46,f,31,0,0,1,1,0,0,0,1,0,310kathfue,0
+mc,sen,yucatan,no aplica,mariana zepeda lahud,persona propietaria,32,f,31,0,0,0,0,0,0,1,0,0,310marimc,0
+fuerza y corazon por mexico,sen,yucatan,no aplica,rolando rodrigo zapata bello,persona propietaria,55,m,31,0,0,1,1,0,0,0,1,0,310rolafue,0
+sigamos haciendo historia,sen,yucatan,no aplica,veronica noemi camino farjat,persona propietaria,40,f,31,0,1,0,0,1,1,0,0,0,310verosig,0
+mc,sen,yucatan,no aplica,nayelli concepcion hernandez crespo,persona propietaria,38,f,31,0,0,0,0,0,0,1,0,0,310nayemc,0
+mc,sen,zacatecas,no aplica,tomas torres torres,persona propietaria,36,m,32,0,0,0,0,0,0,1,0,0,320tomamc,0
+fuerza y corazon por mexico,sen,zacatecas,no aplica,claudia edith anaya mota,persona propietaria,44,f,32,0,0,1,1,0,0,0,1,0,320claufue,0
+fuerza y corazon por mexico,sen,zacatecas,no aplica,miguel angel torres rosales,persona propietaria,60,m,32,0,0,1,1,0,0,0,1,0,320migufue,0
+mc,sen,zacatecas,no aplica,maria teresa villegas santillan,persona propietaria,64,f,32,0,0,0,0,0,0,1,0,0,320marimc,0
+sigamos haciendo historia,sen,zacatecas,no aplica,saul monreal avila,persona propietaria,46,m,32,0,1,0,0,1,1,0,0,0,320saulsig,0
+sigamos haciendo historia,sen,zacatecas,no aplica,veronica del carmen diaz robles,persona propietaria,43,f,32,0,1,0,0,1,1,0,0,0,320verosig,0
+sigamos haciendo historia,pres,nacional,no aplica,claudia sheinbaum pardo,persona propietaria,61,f,33,0,1,0,0,1,1,0,0,0,330clausig,0
+fuerza y corazon por mexico,pres,nacional,no aplica,bertha xochitl galvez ruiz,persona propietaria,61,f,33,0,0,1,1,0,0,0,1,0,330bertfue,0
+mc,pres,nacional,no aplica,jorge alvarez maynez,persona propietaria,38,m,33,0,0,0,0,0,0,1,0,0,330jorgmc,0

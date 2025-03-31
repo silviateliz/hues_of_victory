@@ -1,0 +1,245 @@
+---
+title: "Data preprocessing - candidate dataset"
+author: "Silvia Téliz"
+date: "2025-03-25"
+output: html_document
+---
+
+This script carries out the preprocessing of the data for candidates in the 2024 elections. Only proprietary and representative majority candidates are included.
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, message = FALSE, warning = FALSE)
+#setwd("~/Documents/Research/hues_of_victory")
+```
+
+
+```{r packages}
+library(tidyverse)
+library(magrittr)
+library(readxl)
+library(stringi)
+```
+
+# Import data
+```{r data}
+# Import original candidate dataset
+all_candidates <- read_excel("raw_data/candidate_list/baseDatosCandidatos.xls")
+
+```
+
+# General wrangling
+```{r wrang_general}
+# Exclude irrelevant columns
+all_candidates %<>% select(-c("CIRCUNSCRIPCION", "MUNICIPIO", "NUM_LISTA_O_FORMULA", "ESTATUS", "DIRECCION_CASA_CAMPAÑA", "TELEFONO", "CORREO_ELECTRONICO", "PAGINA_WEB", "REDES", "ESCOLARIDAD", "ESTATUS_ESCOLARIDAD", "CURSOS", "HISTORIA_PROFESIONAL", "TRAYECTORIA_POLITICA", "MOTIVO_CARGO_PUBLICO", "PROPUESTA_1", "PROPUESTA_2", "PROPUESTA_GENERO"))
+
+names(all_candidates) <- c("party", "position", "state", "district", "name", "type", "age", "sex")
+
+# Turn all content to lowercase
+all_candidates %<>% mutate_all(tolower)
+
+# Remove punctuation from name column
+all_candidates$name <- str_remove_all(all_candidates$name, "[[:punct:]]")
+
+# Recode sex
+all_candidates$sex %<>% fct_recode("f" = "mujer", "m" = "hombre")
+
+# Recode position
+all_candidates$position %<>% fct_recode("pres" = "presidencia de la república",
+                                        "dep" = "diputación federal mr",
+                                        "sen" = "senaduría federal mr")
+```
+
+
+```{r state_id}
+# Create a state_id column
+all_candidates$state_id <- all_candidates$state 
+  
+all_candidates$state_id %<>%
+           fct_recode("1" = "aguascalientes",
+                      "2" = "baja california",
+                      "3" = "baja california sur",
+                      "4" = "campeche",
+                      "5" = "coahuila",
+                      "6" = "colima",
+                      "7" = "chiapas",
+                      "8" = "chihuahua",
+                      "9" = "ciudad de mexico",
+                      "10" = "durango",
+                      "11" = "guanajuato",
+                      "12" = "guerrero",
+                      "13" = "hidalgo",
+                      "14" = "jalisco",
+                      "15" = "mexico",
+                      "16" = "michoacan",
+                      "17" = "morelos",
+                      "18" = "nayarit",
+                      "19" = "nuevo leon",
+                      "20" = "oaxaca",
+                      "21" = "puebla",
+                      "22" = "queretaro",
+                      "23" = "quintana roo",
+                      "24" = "san luis potosi",
+                      "25" = "sinaloa",
+                      "26" = "sonora",
+                      "27" = "tabasco",
+                      "28" = "tamaulipas",
+                      "29" = "tlaxcala",
+                      "30" = "veracruz",
+                      "31" = "yucatan",
+                      "32" = "zacatecas",
+                      "33" = "nacional")
+
+
+
+#summary(as_factor(all_candidates$state_id))
+```
+
+```{r district_id}
+# Create a district_id column that extracts the number from the district column. In case the content of district is "no aplica", the value of district_id will be 0.
+all_candidates <- all_candidates %>%
+  mutate(district_id = ifelse(str_detect(district, "no aplica"), 
+                              0, 
+                              as.numeric(str_extract(district, "\\d+"))))
+```
+
+
+```{r party_single}
+# Create dummy variables to determine candidates' party affiliation
+summary(as_factor(all_candidates$party))
+
+# Create MORENA column
+all_candidates$morena <- ifelse(str_detect(all_candidates$party, "morena|sigamos haciendo historia"), 1, 0)
+
+# Create PAN column
+all_candidates$pan <- ifelse(str_detect(all_candidates$party, "partido acción nacional|fuerza y corazon por mexico"), 1, 0)
+
+# Create PRI column
+all_candidates$pri <- ifelse(str_detect(all_candidates$party, "partido revolucionario institucional|fuerza y corazon por mexico"), 1, 0)
+
+# Create PT column
+all_candidates$pt <- ifelse(str_detect(all_candidates$party, "partido del trabajo|sigamos haciendo historia"), 1, 0)
+
+# Create PVEM column
+all_candidates$pvem <- ifelse(str_detect(all_candidates$party, "partido verde ecologista de méxico|sigamos haciendo historia"), 1, 0)
+
+# Create MC column
+all_candidates$mc <- ifelse(str_detect(all_candidates$party, "movimiento ciudadano"), 1, 0)
+
+# Create PRD column
+all_candidates$prd <- ifelse(str_detect(all_candidates$party, "partido de la revolución democrática|fuerza y corazon por mexico"), 1, 0)
+
+# Create IND column
+all_candidates$ind <- ifelse(str_detect(all_candidates$party, "candidatura independiente"), 1, 0)
+
+```
+
+```{r recode_party}
+# Recode party column
+all_candidates$party %<>%
+  fct_recode("morena" = "morena",
+             "pan" = "partido acción nacional",
+             "pri" = "partido revolucionario institucional",
+             "pt" = "partido del trabajo",
+             "pvem" = "partido verde ecologista de méxico",
+             "mc" = "movimiento ciudadano",
+             "prd" = "partido de la revolución democrática",
+             "ind" = "candidatura independiente")
+```
+
+
+```{r unique_id}
+# Create a unique_id column that concatenates the state_id, district_id, and the first five letters of the name column.
+all_candidates <- all_candidates %>%
+  mutate(unique_id = paste0(state_id, district_id, substr(name, 1, 4), substr(party, 1, 3)))
+```
+
+# Create dataset per position
+
+## Chamber of deputies
+
+```{r dep_candidates}
+dep_candidates <- all_candidates %>% filter(position == "dep" & type == "persona propietaria")
+
+dep_candidates %>% count(unique_id) %>% filter(n > 1)
+```
+
+
+## Senate
+```{r sen_candidates}
+sen_candidates <- all_candidates %>% filter(position == "sen" & type == "persona propietaria")
+
+sen_candidates %>% count(unique_id) %>% filter(n > 1)
+```
+
+
+## Presidency
+
+```{r sen_candidates}
+pres_candidates <- all_candidates %>% filter(position == "pres" & type == "persona propietaria")
+
+pres_candidates %>% count(unique_id) %>% filter(n > 1)
+```
+
+
+# Add incumbency variable
+```{r wrang_incumbency}
+# Import list of previous congress and senate (LXV legislature)
+dep_65 <- read.csv("data/deputies_65.csv")
+sen_65 <- read.csv("data/senators_65.csv")
+
+# Convert name column to lowercase in dep_65 and sen_65
+dep_65$name <- tolower(dep_65$name)
+sen_65$name <- tolower(sen_65$name)
+
+# Remove punctuation from name column
+dep_65$name <- str_remove_all(dep_65$name, "[[:punct:]]")
+sen_65$name <- str_remove_all(sen_65$name, "[[:punct:]]")
+
+# Remove accents from name column
+dep_65$name <- stri_trans_general(dep_65$name, "Latin-ASCII")
+sen_65$name <- stri_trans_general(sen_65$name, "Latin-ASCII")
+
+# check uniqueness of name columns
+dep_candidates %>% count(name) %>% filter(n > 1)
+sen_candidates %>% count(name) %>% filter(n > 1)
+pres_candidates %>% count(name) %>% filter(n > 1)
+
+dep_65 %>% count(name) %>% filter(n > 1)
+sen_65 %>% count(name) %>% filter(n > 1)
+```
+
+
+```{r incumbency}
+# Create incumbency variable in dep_candidates. If name in dep_candidates is present in name in dep_65, then incumbency is 1, otherwise 0.
+dep_candidates %<>% 
+  mutate(incumbency = ifelse(name %in% dep_65$name, 1, 0))
+
+# Create incumbency for sen_candidates
+sen_candidates %<>% 
+  mutate(incumbency = ifelse(name %in% sen_65$name, 1, 0))
+
+# Count incumbency
+dep_candidates %>% count(incumbency)
+sen_candidates %>% count(incumbency)
+
+# Create incumbency for pres_candidates
+pres_candidates %<>% 
+  mutate(incumbency = 0)
+```
+
+
+# Export dataset
+```{r join}
+# Join datasets
+candidates <- bind_rows(dep_candidates, sen_candidates, pres_candidates)
+```
+
+```{r export}
+# Export dataset
+write_csv(candidates, "data/candidates.csv")
+```
+
+
+
+
