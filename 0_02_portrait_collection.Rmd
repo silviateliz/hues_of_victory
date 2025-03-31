@@ -1,0 +1,21 @@
+---
+title: "0_01_portrait_collection"
+author: "Silvia Téliz"
+date: "2025-03-24"
+output: html_document
+---
+
+# Setup
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+setwd("~/Documents/Research/hues_of_victory/data_collection/portraits")
+```
+
+```{r packages}
+library(tidyverse)
+library(magrittr)
+library(rvest)
+library(httr)
+library(xml2)
+```
