@@ -24,7 +24,7 @@ library(stringi)
 # Import data
 ```{r data}
 # Import original candidate dataset
-all_candidates <- read_excel("raw_data/candidate_list/baseDatosCandidatos.xls")
+all_candidates <- read_excel("data/raw_files/candidate_list/baseDatosCandidatos.xls")
 
 ```
 

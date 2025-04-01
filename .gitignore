@@ -6,6 +6,7 @@
 .RData
 .RDataTmp
 .DS_Store
+*.Rproj
 
 # User-specific files
 .Ruserdata
