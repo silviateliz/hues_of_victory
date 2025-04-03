@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>  
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+		<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+
+		<link href="/error/rsc/img/faviconINE.ico" rel="shortcut icon">
+
+		<link rel="stylesheet" type="text/css" href="/error/rsc/css/bootstrap.css">		
+		<link rel="stylesheet" type="text/css" href="/error/rsc/css/font-awesome.css">
+		<link rel='stylesheet' type='text/css' href="/error/rsc/css/error.css" />
+
+		<title>Error 404 | Instituto Nacional Electoral</title>
+		
+		<script>
+			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+			})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+			ga('create', 'UA-1038699-16', 'auto');
+			ga('send', 'pageview');
+		</script>
+	</head>
+	<body>
+		<div class="row">
+			<div class="col-md-offset-2 col-md-8">
+				<section class="cuadroLogin">
+					<div class="seccion_titulo">
+						<h1 class="color_1 tituloLogo">
+							<img alt="INE" src="/error/rsc/img/logoINE_blanco.png" />
+						</h1>
+					</div>					
+					<section class="margenSuperior-md">
+						<div class="row margenCero">
+							<div class="col-md-offset-1 col-md-6 error">	
+								<h1>
+									Página no encontrada
+								</h1>
+								<h3>
+									No podemos encontrar la página que estás solicitando debido a:
+								</h3>
+								<ul>
+									<li>La página está temporalmente fuera de servicio por mantenimiento</li>
+									<li>Escribiste incorrectamente la liga o dirección</li>
+									<li>El contenido ya no existe o perdió vigencia</li>
+								</ul>				
+							</div>
+							<h1 class="col-md-5 compas text-center">
+								<span><i class="fa fa-compass fa-3x"></i></span>
+							</h1>
+						</div>
+					</section>																
+					<div class="margenSuperior-md">					
+						<p align=center class="color_3" style="font-size:10.0pt;">
+							INETEL, llámanos desde cualquier parte del país sin costo: 01 800 433 2000
+						</p>
+					</div>
+				</section>
+			</div>
+		</div>	
+	</body>
+</html>

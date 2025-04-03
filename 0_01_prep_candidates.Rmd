@@ -10,7 +10,6 @@ This script carries out the preprocessing of the data for candidates in the 2024
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE, message = FALSE, warning = FALSE)
-#setwd("~/Documents/Research/hues_of_victory")
 ```
 
 
@@ -31,9 +30,9 @@ all_candidates <- read_excel("data/raw_files/candidate_list/baseDatosCandidatos.
 # General wrangling
 ```{r wrang_general}
 # Exclude irrelevant columns
-all_candidates %<>% select(-c("CIRCUNSCRIPCION", "MUNICIPIO", "NUM_LISTA_O_FORMULA", "ESTATUS", "DIRECCION_CASA_CAMPAÑA", "TELEFONO", "CORREO_ELECTRONICO", "PAGINA_WEB", "REDES", "ESCOLARIDAD", "ESTATUS_ESCOLARIDAD", "CURSOS", "HISTORIA_PROFESIONAL", "TRAYECTORIA_POLITICA", "MOTIVO_CARGO_PUBLICO", "PROPUESTA_1", "PROPUESTA_2", "PROPUESTA_GENERO"))
+all_candidates %<>% select(-c("CIRCUNSCRIPCION", "MUNICIPIO", "NUM_LISTA_O_FORMULA", "DIRECCION_CASA_CAMPAÑA", "TELEFONO", "CORREO_ELECTRONICO", "ESCOLARIDAD", "ESTATUS_ESCOLARIDAD", "CURSOS", "HISTORIA_PROFESIONAL", "TRAYECTORIA_POLITICA", "MOTIVO_CARGO_PUBLICO"))
 
-names(all_candidates) <- c("party", "position", "state", "district", "name", "type", "age", "sex")
+names(all_candidates) <- c("party", "position", "state", "district", "name", "profile_url", "type", "estatus", "age", "sex", "webpage", "social_media", "prop_1", "prop_2", "prop_gender")
 
 # Turn all content to lowercase
 all_candidates %<>% mutate_all(tolower)
@@ -42,13 +41,67 @@ all_candidates %<>% mutate_all(tolower)
 all_candidates$name <- str_remove_all(all_candidates$name, "[[:punct:]]")
 
 # Recode sex
-all_candidates$sex %<>% fct_recode("f" = "mujer", "m" = "hombre")
+all_candidates$sex %<>% fct_recode("f" = "mujer", "m" = "hombre", "nb" = "no binario")
 
 # Recode position
 all_candidates$position %<>% fct_recode("pres" = "presidencia de la república",
                                         "dep" = "diputación federal mr",
                                         "sen" = "senaduría federal mr")
 ```
+
+```{r portrait_url}
+# Extract the number in "profile_url" that lies in between "detallecandidato/" and "/"
+all_candidates$candidate_num <- as.numeric(str_extract(all_candidates$profile_url, "(?<=detallecandidato\\/)\\d*(?=\\/\\d)"))
+
+# Create a new column "portrait_url" 
+all_candidates$portrait_url <- paste0("https://candidaturas.ine.mx/cycc/img/fotocandidato/", all_candidates$candidate_num, ".jpg")
+
+```
+
+
+```{r portrait_dummy}
+# Create a portrait column that indicates whether a candidate has a portrait or not
+all_candidates$portrait_d <- ifelse(all_candidates$estatus=="sin captura", 0, 1)
+
+# Remove estatus column
+all_candidates <- all_candidates %>% select(-estatus)
+```
+
+```{r webpage_dummy}
+# Create webpage column that indicates whether a candidate has a webpage or not. If pagina_web is NA or "no proporcionó", then webpage is 0, otherwise 1.
+all_candidates$webpage_d <- ifelse(is.na(all_candidates$webpage) | all_candidates$webpage == "no proporcionó", 0, 1)
+
+# Replace "no proporcionó" with NA
+all_candidates$webpage <- ifelse(all_candidates$webpage == "no proporcionó", NA, all_candidates$webpage)
+
+```
+
+```{r socialmedia_dummy}
+# Create socialmedia column that indicates whether a candidate has social media or not. If redes is NA or "no proporcionó", then socialmedia is 0, otherwise 1.
+all_candidates$social_media_d <- ifelse(is.na(all_candidates$social_media) | all_candidates$social_media == "no proporcionó", 0, 1)
+
+# Separate social_media column into different columns based on string separator ","
+#all_candidates <- all_candidates %>%
+ # separate(social_media, into = c("sm_1", "sm_2", "sm_3", "sm_4", "sm_5"), sep = ",", remove = F)
+
+# Replace "no proporcionó" with NA
+all_candidates$social_media <- ifelse(all_candidates$social_media == "no proporcionó", NA, all_candidates$social_media)
+#all_candidates$sm_1 <- ifelse(all_candidates$sm_1 == "no proporcionó", NA, all_candidates$sm_1)
+```
+
+
+```{r sm_d}
+# Create separate columns for facebook, instagram, twitter, youtube, and linkedin urls from content in sm_1, sm_2, sm_3, sm_4, and sm_5 columns.
+
+all_candidates$facebook <- str_extract(all_candidates$social_media, "https://www.facebook.com/[^,]+")
+
+all_candidates$instagram <- str_extract(all_candidates$social_media, "https://www.instagram.com/[^,]+")
+
+all_candidates$twitter <- str_extract(all_candidates$social_media, "https://twitter.com/[^,]+")
+
+all_candidates$youtube <- str_extract(all_candidates$social_media, "https://www.youtube.com/[^,]+")
+```
+
 
 
 ```{r state_id}
@@ -148,10 +201,14 @@ all_candidates$party %<>%
 ```
 
 
-```{r unique_id}
-# Create a unique_id column that concatenates the state_id, district_id, and the first five letters of the name column.
+```{r id}
+# Create a id column that concatenates the state_id, district_id, and the first five letters of the name column.
 all_candidates <- all_candidates %>%
-  mutate(unique_id = paste0(state_id, district_id, substr(name, 1, 4), substr(party, 1, 3)))
+  mutate(id = paste0(state_id, district_id, substr(name, 1, 4), substr(party, 1, 3)))
+
+# Remove blank spaces in id
+all_candidates$id <- str_replace_all(all_candidates$id, " ", "")
+
 ```
 
 # Create dataset per position
@@ -161,7 +218,7 @@ all_candidates <- all_candidates %>%
 ```{r dep_candidates}
 dep_candidates <- all_candidates %>% filter(position == "dep" & type == "persona propietaria")
 
-dep_candidates %>% count(unique_id) %>% filter(n > 1)
+dep_candidates %>% count(id) %>% filter(n > 1)
 ```
 
 
@@ -169,7 +226,7 @@ dep_candidates %>% count(unique_id) %>% filter(n > 1)
 ```{r sen_candidates}
 sen_candidates <- all_candidates %>% filter(position == "sen" & type == "persona propietaria")
 
-sen_candidates %>% count(unique_id) %>% filter(n > 1)
+sen_candidates %>% count(id) %>% filter(n > 1)
 ```
 
 
@@ -178,7 +235,7 @@ sen_candidates %>% count(unique_id) %>% filter(n > 1)
 ```{r sen_candidates}
 pres_candidates <- all_candidates %>% filter(position == "pres" & type == "persona propietaria")
 
-pres_candidates %>% count(unique_id) %>% filter(n > 1)
+pres_candidates %>% count(id) %>% filter(n > 1)
 ```
 
 
@@ -233,6 +290,13 @@ pres_candidates %<>%
 ```{r join}
 # Join datasets
 candidates <- bind_rows(dep_candidates, sen_candidates, pres_candidates)
+
+# Remove "type" column
+candidates <- candidates %>% select(-type)
+
+# Place id and name columns at the beginning
+candidates <- candidates %>% select(id, name, party, position, state, state_id, district, district_id, incumbency, everything())
+
 ```
 
 ```{r export}

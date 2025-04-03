@@ -9,7 +9,6 @@ output: html_document
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
-setwd("~/Documents/Research/hues_of_victory/data_collection/portraits")
 ```
 
 ```{r packages}
@@ -19,3 +18,36 @@ library(rvest)
 library(httr)
 library(xml2)
 ```
+
+```{r data}
+candidates <- read_csv("data/candidates.csv")
+
+# Create a directory to store the images
+dir.create("portraits", showWarnings = FALSE)
+```
+
+# Scrape portraits
+```{r scrape_functions}
+# Define a function to download and save the image
+download_and_save_image <- function(image_url, id) {
+  tryCatch({
+    if (!is.null(image_url)) {
+      img_data <- GET(image_url)
+      dir.create("portraits", showWarnings = FALSE)  # Ensure the directory exists
+      img_file <- file.path("portraits", paste0(id, ".jpg"))
+      writeBin(content(img_data, "raw"), img_file)
+    }
+  }, error = function(e) {
+    message("Failed to download image for ID: ", id)
+  })
+}
+
+```
+
+
+```{r portraits}
+# Apply the download_and_save_image function to all rows
+candidates %>%
+  mutate(download_status = map2(portrait_url, id, ~download_and_save_image(.x, .y)))
+```
+
