@@ -100,6 +100,8 @@ all_candidates$instagram <- str_extract(all_candidates$social_media, "https://ww
 all_candidates$twitter <- str_extract(all_candidates$social_media, "https://twitter.com/[^,]+")
 
 all_candidates$youtube <- str_extract(all_candidates$social_media, "https://www.youtube.com/[^,]+")
+
+all_candidates$tiktok <- str_extract(all_candidates$social_media, "https://www.tiktok.com/[^,]+")
 ```
 
 
