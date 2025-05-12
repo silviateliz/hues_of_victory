@@ -21,7 +21,7 @@ library(purrr)
 ```
 
 ```{r data}
-candidates <- read_csv("data/candidates.csv")
+candidates <- read_csv("data/01_candidates.csv")
 
 # Create a directory to store the images
 dir.create("portraits/ine", showWarnings = FALSE)
@@ -65,8 +65,4 @@ candidates %>%
   mutate(download_status = pmap(list(image_url = sv_pp, id = id, subdir = "sv"), download_and_save_image))
 ```
 
-
-```{r match}
-
-```
 

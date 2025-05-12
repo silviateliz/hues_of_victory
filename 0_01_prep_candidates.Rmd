@@ -168,6 +168,11 @@ all_candidates <- all_candidates %>%
                               as.numeric(str_extract(district, "\\d+"))))
 ```
 
+```{r state_district}
+# Create a state_district column that concatenates the state_id and district_id columns
+all_candidates$state_district <- paste(all_candidates$state_id, all_candidates$district_id, sep="_")
+```
+
 
 ```{r party_single}
 # Create dummy variables to determine candidates' party affiliation
@@ -209,7 +214,9 @@ all_candidates$party %<>%
              "pvem" = "partido verde ecologista de méxico",
              "mc" = "movimiento ciudadano",
              "prd" = "partido de la revolución democrática",
-             "ind" = "candidatura independiente")
+             "ind" = "candidatura independiente",
+             "pvem_pt_morena" = "sigamos haciendo historia",
+             "pan_pri_prd" = "fuerza y corazon por mexico")
 ```
 
 
@@ -254,8 +261,8 @@ pres_candidates %>% count(id) %>% filter(n > 1)
 # Add incumbency variable
 ```{r wrang_incumbency}
 # Import list of previous congress and senate (LXV legislature)
-dep_65 <- read.csv("data/deputies_65.csv")
-sen_65 <- read.csv("data/senators_65.csv")
+dep_65 <- read.csv("data/raw_files/deputies_65.csv")
+sen_65 <- read.csv("data/raw_files/senators_65.csv")
 
 # Convert name column to lowercase in dep_65 and sen_65
 dep_65$name <- tolower(dep_65$name)
@@ -307,7 +314,7 @@ candidates <- bind_rows(dep_candidates, sen_candidates, pres_candidates)
 candidates <- candidates %>% select(-type)
 
 # Place id and name columns at the beginning
-candidates <- candidates %>% select(id, name, party, position, state, state_id, district, district_id, incumbency, everything())
+candidates <- candidates %>% select(id, name, party, position, state, state_id, district, district_id, state_district, incumbency, everything())
 ```
 
 
@@ -315,7 +322,7 @@ candidates <- candidates %>% select(id, name, party, position, state, state_id, 
 
 ```{r export}
 # Export dataset
-write_csv(candidates, "data/candidates.csv")
+write_csv(candidates, "data/01_candidates.csv")
 ```
 
 
