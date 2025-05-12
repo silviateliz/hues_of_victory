@@ -8,6 +8,8 @@
 .DS_Store
 *.Rproj
 presentations/
+ine_portraits/
+sv_portraits/
 
 # User-specific files
 .Ruserdata
