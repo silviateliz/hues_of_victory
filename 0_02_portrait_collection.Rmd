@@ -17,24 +17,30 @@ library(magrittr)
 library(rvest)
 library(httr)
 library(xml2)
+library(purrr)
 ```
 
 ```{r data}
 candidates <- read_csv("data/candidates.csv")
 
 # Create a directory to store the images
-dir.create("portraits", showWarnings = FALSE)
+dir.create("portraits/ine", showWarnings = FALSE)
+dir.create("portraits/sv", showWarnings = FALSE)
+
 ```
 
 # Scrape portraits
 ```{r scrape_functions}
 # Define a function to download and save the image
-download_and_save_image <- function(image_url, id) {
+download_and_save_image <- function(image_url, id, subdir) {
   tryCatch({
     if (!is.null(image_url)) {
       img_data <- GET(image_url)
-      dir.create("portraits", showWarnings = FALSE)  # Ensure the directory exists
-      img_file <- file.path("portraits", paste0(id, ".jpg"))
+      # Construct the full directory path
+      full_dir <- file.path("portraits", subdir)
+      # dir.create(full_dir, recursive = TRUE, showWarnings = FALSE)  # Create if not exists
+      # Construct the full file path
+      img_file <- file.path(full_dir, paste0(id, ".jpg"))
       writeBin(content(img_data, "raw"), img_file)
     }
   }, error = function(e) {
@@ -42,12 +48,25 @@ download_and_save_image <- function(image_url, id) {
   })
 }
 
+
+
 ```
 
 
-```{r portraits}
+```{r portraits_ine}
 # Apply the download_and_save_image function to all rows
 candidates %>%
-  mutate(download_status = map2(portrait_url, id, ~download_and_save_image(.x, .y)))
+  mutate(download_status = pmap(list(image_url = ine_pp, id = id, subdir = "ine"), download_and_save_image))
+
+```
+
+```{r portraits_sv}
+candidates %>%
+  mutate(download_status = pmap(list(image_url = sv_pp, id = id, subdir = "sv"), download_and_save_image))
+```
+
+
+```{r match}
+
 ```
 

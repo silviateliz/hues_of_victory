@@ -54,7 +54,7 @@ all_candidates$position %<>% fct_recode("pres" = "presidencia de la república",
 
 ```{r ine_pp}
 # Extract the number in "ine_profile" that lies in between "detallecandidato/" and "/"
-all_candidates$candidate_num <- as.numeric(str_extract(all_candidates$ine_profile, "(?<=detallecandidato\\/)\\d*(?=\\/\\d)"))
+all_candidates$candidate_num <- as.numeric(str_extract(all_candidates$ine_profile, "(?<=detalleCandidato\\/)\\d*(?=\\/\\d)"))
 
 # Create a new column "ine_pp" 
 all_candidates$ine_pp <- paste0("https://candidaturas.ine.mx/cycc/img/fotocandidato/", all_candidates$candidate_num, ".jpg")
