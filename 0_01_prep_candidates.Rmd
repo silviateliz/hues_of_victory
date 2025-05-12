@@ -23,7 +23,7 @@ library(stringi)
 # Import data
 ```{r data}
 # Import original candidate dataset
-all_candidates <- read_excel("data/raw_files/candidate_list/baseDatosCandidatos.xls")
+all_candidates <- read_excel("data/raw_files/baseDatosCandidatos.xls")
 
 ```
 
@@ -32,10 +32,13 @@ all_candidates <- read_excel("data/raw_files/candidate_list/baseDatosCandidatos.
 # Exclude irrelevant columns
 all_candidates %<>% select(-c("CIRCUNSCRIPCION", "MUNICIPIO", "NUM_LISTA_O_FORMULA", "DIRECCION_CASA_CAMPAÑA", "TELEFONO", "CORREO_ELECTRONICO", "ESCOLARIDAD", "ESTATUS_ESCOLARIDAD", "CURSOS", "HISTORIA_PROFESIONAL", "TRAYECTORIA_POLITICA", "MOTIVO_CARGO_PUBLICO"))
 
-names(all_candidates) <- c("party", "position", "state", "district", "name", "profile_url", "type", "estatus", "age", "sex", "webpage", "social_media", "prop_1", "prop_2", "prop_gender")
 
-# Turn all content to lowercase
-all_candidates %<>% mutate_all(tolower)
+names(all_candidates) <- c("party", "position", "state", "district", "name", "sv_pp", "ine_profile", "type", "estatus", "age", "sex", "webpage", "social_media", "prop_1", "prop_2", "prop_gender")
+
+# Turn all content to lowercase except urls
+all_candidates %<>% 
+  mutate(across(c(party, position, state, district, name, type, estatus, age,
+                  sex, webpage, social_media, prop_1, prop_2, prop_gender), tolower))
 
 # Remove punctuation from name column
 all_candidates$name <- str_remove_all(all_candidates$name, "[[:punct:]]")
@@ -49,23 +52,33 @@ all_candidates$position %<>% fct_recode("pres" = "presidencia de la república",
                                         "sen" = "senaduría federal mr")
 ```
 
-```{r portrait_url}
-# Extract the number in "profile_url" that lies in between "detallecandidato/" and "/"
-all_candidates$candidate_num <- as.numeric(str_extract(all_candidates$profile_url, "(?<=detallecandidato\\/)\\d*(?=\\/\\d)"))
+```{r ine_pp}
+# Extract the number in "ine_profile" that lies in between "detallecandidato/" and "/"
+all_candidates$candidate_num <- as.numeric(str_extract(all_candidates$ine_profile, "(?<=detallecandidato\\/)\\d*(?=\\/\\d)"))
 
-# Create a new column "portrait_url" 
-all_candidates$portrait_url <- paste0("https://candidaturas.ine.mx/cycc/img/fotocandidato/", all_candidates$candidate_num, ".jpg")
+# Create a new column "ine_pp" 
+all_candidates$ine_pp <- paste0("https://candidaturas.ine.mx/cycc/img/fotocandidato/", all_candidates$candidate_num, ".jpg")
+
+# Remove candidate_num column
+all_candidates <- all_candidates %>% select(-candidate_num)
 
 ```
 
 
-```{r portrait_dummy}
+```{r other_dummy}
 # Create a portrait column that indicates whether a candidate has a portrait or not
-all_candidates$portrait_d <- ifelse(all_candidates$estatus=="sin captura", 0, 1)
+all_candidates$sv_d <- ifelse(is.na(all_candidates$sv_pp), 0, 1)
+```
+
+
+```{r ine_dummy}
+# Create a portrait column that indicates whether a candidate has a portrait or not
+all_candidates$ine_d <- ifelse(all_candidates$estatus=="sin captura", 0, 1)
 
 # Remove estatus column
 all_candidates <- all_candidates %>% select(-estatus)
 ```
+
 
 ```{r webpage_dummy}
 # Create webpage column that indicates whether a candidate has a webpage or not. If pagina_web is NA or "no proporcionó", then webpage is 0, otherwise 1.
@@ -76,17 +89,14 @@ all_candidates$webpage <- ifelse(all_candidates$webpage == "no proporcionó", NA
 
 ```
 
+
 ```{r socialmedia_dummy}
 # Create socialmedia column that indicates whether a candidate has social media or not. If redes is NA or "no proporcionó", then socialmedia is 0, otherwise 1.
 all_candidates$social_media_d <- ifelse(is.na(all_candidates$social_media) | all_candidates$social_media == "no proporcionó", 0, 1)
 
-# Separate social_media column into different columns based on string separator ","
-#all_candidates <- all_candidates %>%
- # separate(social_media, into = c("sm_1", "sm_2", "sm_3", "sm_4", "sm_5"), sep = ",", remove = F)
-
 # Replace "no proporcionó" with NA
 all_candidates$social_media <- ifelse(all_candidates$social_media == "no proporcionó", NA, all_candidates$social_media)
-#all_candidates$sm_1 <- ifelse(all_candidates$sm_1 == "no proporcionó", NA, all_candidates$sm_1)
+
 ```
 
 
@@ -161,7 +171,7 @@ all_candidates <- all_candidates %>%
 
 ```{r party_single}
 # Create dummy variables to determine candidates' party affiliation
-summary(as_factor(all_candidates$party))
+# summary(as_factor(all_candidates$party))
 
 # Create MORENA column
 all_candidates$morena <- ifelse(str_detect(all_candidates$party, "morena|sigamos haciendo historia"), 1, 0)
@@ -287,8 +297,8 @@ pres_candidates %<>%
   mutate(incumbency = 0)
 ```
 
+# Join datasets
 
-# Export dataset
 ```{r join}
 # Join datasets
 candidates <- bind_rows(dep_candidates, sen_candidates, pres_candidates)
@@ -298,8 +308,10 @@ candidates <- candidates %>% select(-type)
 
 # Place id and name columns at the beginning
 candidates <- candidates %>% select(id, name, party, position, state, state_id, district, district_id, incumbency, everything())
-
 ```
+
+
+# Export dataset
 
 ```{r export}
 # Export dataset
