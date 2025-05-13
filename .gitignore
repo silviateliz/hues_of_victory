@@ -1,3 +1,11 @@
+# Project folders
+presentations/
+portraits/
+data/processed/skintone_ine/
+data/processed/skintone_sv/
+
+
+
 # History files
 .Rhistory
 .Rapp.history
@@ -7,8 +15,6 @@
 .RDataTmp
 .DS_Store
 *.Rproj
-presentations/
-portraits/
 
 # User-specific files
 .Ruserdata
