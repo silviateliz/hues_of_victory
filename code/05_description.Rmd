@@ -1,0 +1,74 @@
+---
+title: "Descriptive analysis"
+author: "Silvia Téliz"
+date: "2025-05-13"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r packages}
+library(tidyverse)
+library(magrittr)
+```
+
+```{r data}
+# Candidate-results data
+dep_cand_results <- read_csv("../data/processed/03_dep_cand_results.csv")
+pres_cand_results <- read_csv("../data/processed/03_pres_cand_results.csv")
+sen_cand_results <- read_csv("../data/processed/03_sen_cand_results.csv")
+
+# Skin tone measurement data
+skintone <- read_csv("../data/processed/04_skintone.csv")
+```
+
+# General wrangling
+
+```{r clean_skintone}
+# Select relevant variables from skintone data
+
+skintone_ine <- skintone %>%
+  filter(source == "ine") %>%
+  select(file, tone_label)
+names(skintone_ine) <- c("id", "skin_ine")
+
+
+skintone_sv <- skintone %>%
+  filter(source == "sv") %>%
+  select(file, tone_label)
+names(skintone_sv) <- c("id", "skin_sv")
+
+# Remove .jpg extension from id column
+skintone_ine <- skintone_ine %>%
+  mutate(id = str_remove(id, ".jpg"))
+skintone_sv <- skintone_sv %>%
+  mutate(id = str_remove(id, ".jpg"))
+
+```
+
+```{r match}
+# Match skin tone data with candidate results
+
+# Deputies dataset
+dep_cand_results <- dep_cand_results %>%
+  left_join(skintone_ine, by = "id") %>%
+  left_join(skintone_sv, by = "id")
+
+# Senators dataset
+sen_cand_results <- sen_cand_results %>%
+  left_join(skintone_ine, by = "id") %>%
+  left_join(skintone_sv, by = "id")
+
+# President dataset
+pres_cand_results <- pres_cand_results %>%
+  left_join(skintone_ine, by = "id") %>%
+  left_join(skintone_sv, by = "id")
+
+```
+
+
+
+
+
