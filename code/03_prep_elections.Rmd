@@ -5,6 +5,10 @@ date: "2025-05-12"
 output: html_document
 ---
 
+This script contains the data preprocessing steps for the elections dataset. 
+
+# Setup
+
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
@@ -241,6 +245,9 @@ dep_cand_results %<>%
   mutate(win = ifelse(dense_rank(desc(earned_votes)) <= 1, 1, 0)) %>%
   ungroup()
 
+# Remove party columns
+dep_cand_results %<>%
+  select(-c(pan, pri, prd, pvem, pt, mc, morena, ind, pan_pri_prd, pan_pri, pan_prd, pri_prd, pvem_pt_morena, pvem_pt, pvem_morena, pt_morena))
 
 ```
 
@@ -282,6 +289,10 @@ sen_cand_results %<>%
   group_by(state_id) %>%
   mutate(win = ifelse(dense_rank(desc(earned_votes)) <= 1, 1, 0)) %>%
   ungroup()
+
+# Remove party columns
+sen_cand_results %<>%
+  select(-c(pan, pri, prd, pvem, pt, mc, morena, pan_pri_prd, pan_pri, pan_prd, pri_prd, pvem_pt_morena, pvem_pt, pvem_morena, pt_morena))
 
 ```
 
@@ -331,11 +342,12 @@ pres_cand_results %<>%
     party == "mc" ~ ifelse(earned_votes == max(earned_votes), 1, 0),
     TRUE ~ NA_real_
   ))
+
   
 ```
 
 
-# Export files
+# Export datasets
 
 ```{r export_csv}
 # Export the results to CSV files

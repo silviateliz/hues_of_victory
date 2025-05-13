@@ -5,6 +5,8 @@ date: "2025-03-24"
 output: html_document
 ---
 
+This script scrapes the portraits of candidates from the INE and Sabervotar websites. The portraits are stored in a local directory for further analysis.
+
 # Setup
 
 ```{r setup, include=FALSE}
@@ -19,6 +21,8 @@ library(httr)
 library(xml2)
 library(purrr)
 ```
+
+# Import data
 
 ```{r data}
 candidates <- read_csv("../data/processed/01_candidates.csv")

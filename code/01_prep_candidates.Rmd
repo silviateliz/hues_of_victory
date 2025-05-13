@@ -7,6 +7,7 @@ output: html_document
 
 This script carries out the preprocessing of the data for candidates in the 2024 elections. Only proprietary and representative majority candidates are included.
 
+# Setup
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE, message = FALSE, warning = FALSE)
