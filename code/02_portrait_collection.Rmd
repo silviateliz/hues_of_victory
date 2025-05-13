@@ -1,0 +1,67 @@
+---
+title: "0_01_portrait_collection"
+author: "Silvia Téliz"
+date: "2025-03-24"
+output: html_document
+---
+
+# Setup
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r packages}
+library(tidyverse)
+library(magrittr)
+library(rvest)
+library(httr)
+library(xml2)
+library(purrr)
+```
+
+```{r data}
+candidates <- read_csv("data/01_candidates.csv")
+
+# Create a directory to store the images
+dir.create("portraits/ine", showWarnings = FALSE)
+dir.create("portraits/sv", showWarnings = FALSE)
+
+```
+
+# Scrape portraits
+```{r scrape_functions}
+# Define a function to download and save the image
+download_and_save_image <- function(image_url, id, subdir) {
+  tryCatch({
+    if (!is.null(image_url)) {
+      img_data <- GET(image_url)
+      # Construct the full directory path
+      full_dir <- file.path("portraits", subdir)
+      # dir.create(full_dir, recursive = TRUE, showWarnings = FALSE)  # Create if not exists
+      # Construct the full file path
+      img_file <- file.path(full_dir, paste0(id, ".jpg"))
+      writeBin(content(img_data, "raw"), img_file)
+    }
+  }, error = function(e) {
+    message("Failed to download image for ID: ", id)
+  })
+}
+
+
+
+```
+
+```{r portraits_ine}
+# Apply the download_and_save_image function to all rows
+candidates %>%
+  mutate(download_status = pmap(list(image_url = ine_pp, id = id, subdir = "ine"), download_and_save_image))
+
+```
+
+```{r portraits_sv}
+candidates %>%
+  mutate(download_status = pmap(list(image_url = sv_pp, id = id, subdir = "sv"), download_and_save_image))
+```
+
+

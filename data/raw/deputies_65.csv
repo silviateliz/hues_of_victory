@@ -1,0 +1,501 @@
+﻿state,district,name,party,type
+Aguascalientes,1,Noel Mata Atilano,pan,mr
+Aguascalientes,2,Mónica Becerra Moreno,pan,mr
+Aguascalientes,3,Paulo Gonzalo Martínez López,pan,mr
+Baja California,1,Yesenia Olúa González,morena,mr
+Baja California,2,Julieta Ramírez Padilla,morena,mr
+Baja California,3,Armando Reyes Ledesma,pt,mr
+Baja California,4,Irma Andazola Gómez,morena,mr
+Baja California,5,Evangelina Moreno Guerra,morena,mr
+Baja California,6,Héctor Mares Cossío,morena,mr
+Baja California,7,Isaías Bertín Sandoval,morena,mr
+Baja California,8,Fausto Gallardo García,pvem,mr
+Baja California Sur,1,Marco Antonio Almendáriz Puppo,pan,mr
+Baja California Sur,2,Alfredo Porras Domínguez,morena,mr
+Campeche,1,José Luis Flores Pacheco,mc,mr
+Campeche,2,María Sierra Damián,morena,mr
+Chiapas,1,Manuela Obrador Narváez,morena,mr
+Chiapas,2,Adela Ramos Juárez,pan,mr
+Chiapas,3,Alfredo Vázquez Vázquez,morena,mr
+Chiapas,4,Joaquín Zebadúa Alva,morena,mr
+Chiapas,5,Yeimi Aguilar Cifuentes,pri,mr
+Chiapas,6,Jorge Llaven Abarca,morena,mr
+Chiapas,7,Manuel Narcia Coutiño,morena,mr
+Chiapas,8,Ismael Brito Mazariegos,morena,mr
+Chiapas,9,Adriana Bustamante Castellanos,morena,mr
+Chiapas,10,Juan Pablo Montes de Oca Avendaño,pvem,mr
+Chiapas,11,Roberto Rubio Montejo,pvem,mr
+Chiapas,12,José Luis Elorza Flores,morena,mr
+Chiapas,13,Luis Armando Melgar Bravo,pvem,mr
+Chihuahua,1,Daniel Murguía Lardizábal,morena,mr
+Chihuahua,2,Maité Vargas Meraz,morena,mr
+Chihuahua,3,Lilia Aguilar Gil,pt,mr
+Chihuahua,4,Daniela Álvarez Hernández,pan,mr
+Chihuahua,5,Mario Mata Carrasco,pan,mr
+Chihuahua,6,Laura Contreras Duarte,pan,mr
+Chihuahua,7,Patricia Terrazas Baca,pan,mr
+Chihuahua,8,Rocío González Alonso,pan,mr
+Chihuahua,9,Ángeles Gutiérrez Valdez,pan,mr
+Ciudad de México,1,Vanessa del Castillo Ibarra,morena,mr
+Ciudad de México,2,Maribel Villaseñor Dávila,pri,mr
+Ciudad de México,3,Wendy González Urrutia,pan,mr
+Ciudad de México,4,Gerardo Fernández Noroña,pt,mr
+Ciudad de México,5,Karla Ayala Villalobos,pri,mr
+Ciudad de México,6,Diana Lara Carreón,pan,mr
+Ciudad de México,7,Beatriz Rojas Martínez,morena,mr
+Ciudad de México,8,María Rosete Sánchez,pt,mr
+Ciudad de México,9,Guadalupe Chavira de la Rosa,morena,mr
+Ciudad de México,10,Margarita Zavala,pan,mr
+Ciudad de México,11,Lidia Pérez Bárcenas,morena,mr
+Ciudad de México,12,Gabriela Sodi Miranda,prd,mr
+Ciudad de México,13,Óscar Gutiérrez Camacho,morena,mr
+Ciudad de México,14,Rocío Banquells,mc,mr
+Ciudad de México,15,Luis Mendoza Acevedo,pan,mr
+Ciudad de México,16,Xavier González Zirión,pri,mr
+Ciudad de México,17,Jorge Triana Tena,pan,mr
+Ciudad de México,18,Marcelino Castañeda Navarrete,ind,mr
+Ciudad de México,19,Aleida Alavez Ruiz,morena,mr
+Ciudad de México,20,Ana Karina Rojo Pimentel,pt,mr
+Ciudad de México,21,Flor Ivone Morales Miranda,morena,mr
+Ciudad de México,22,Víctor Varela López,morena,mr
+Ciudad de México,23,Gabriel Quadri,pan,mr
+Ciudad de México,24,Héctor Saúl Téllez Hernández,pan,mr
+Coahuila,1,Brígido Moreno Hernández,pt,mr
+Coahuila,2,Javier Borrego Adame,morena,mr
+Coahuila,3,Cristina Amezcua González,pri,mr
+Coahuila,4,Jericó Abramo Masso,pri,mr
+Coahuila,5,José Antonio Gutiérrez Jardón,pri,mr
+Coahuila,6,Shamir Fernández Hernández,pri,mr
+Coahuila,7,Jaime Bueno Zertuche,pri,mr
+Colima,1,Riult Rivera Gutiérrez,pan,mr
+Colima,2,Rosa María Bayardo Cabrera,morena,mr
+Durango,1,Francisco Castrellón Garza,pan,mr
+Durango,2,Omar Castañeda González,mc,mr
+Durango,3,Maribel Aguilera Cháirez,morena,mr
+Durango,4,Gina Campuzano González,pan,mr
+Guanajuato,1,Berenice Montes Estrada,pan,mr
+Guanajuato,2,Ricardo Villarreal García,pan,mr
+Guanajuato,3,Fernando Torres Graciano,pan,mr
+Guanajuato,4,Juan Carlos Romero Hicks,pan,mr
+Guanajuato,5,Éctor Jaime Ramírez Barba,pan,mr
+Guanajuato,6,Ana María Esquivel Arrona,pan,mr
+Guanajuato,7,Michel González Márquez,pan,mr
+Guanajuato,8,Justino Arriaga Rojas,morena,mr
+Guanajuato,9,Jorge Romero Vázquez,pan,mr
+Guanajuato,10,Pedro David Ortega Fonseca,morena,mr
+Guanajuato,11,Jorge Espadas Galván,pan,mr
+Guanajuato,12,Sarai Núñez Cerón,pan,mr
+Guanajuato,13,Emmanuel Reyes Carmona,morena,mr
+Guanajuato,14,Esther Mandujano Tinajero,pan,mr
+Guanajuato,15,Itzel Balderas Hernández,pan,mr
+Guerrero,1,Reynel Rodríguez Muñoz,pri,mr
+Guerrero,2,Araceli Ocampo Manzanares,morena,mr
+Guerrero,3,Luis Edgardo Palacios Díaz,pvem,mr
+Guerrero,4,Pablo Amílcar Sandoval,morena,mr
+Guerrero,5,Victoriano Wences Real,pt,mr
+Guerrero,6,Fabiola Rafael Dircio,prd,mr
+Guerrero,7,Carlos Sánchez Barrios,morena,mr
+Guerrero,8,Eunice Monzón García,pvem,mr
+Guerrero,9,Rosario Merlín García,morena,mr
+Hidalgo,1,Sayonara Vargas Rodríguez,pri,mr
+Hidalgo,2,Yamile Salomón Durán,pvem,mr
+Hidalgo,3,Simey Olvera Bautista,morena,mr
+Hidalgo,4,María Isabel Alfaro Morales,morena,mr
+Hidalgo,5,Cuauhtémoc Ochoa Fernández,morena,mr
+Hidalgo,6,Lidia García Anaya,morena,mr
+Hidalgo,7,Navor Rojas Mancera,morena,mr
+Jalisco,1,Gustavo Macías Zambrano,pan,mr
+Jalisco,2,Martha Romo Cuéllar,pan,mr
+Jalisco,3,Desiderio Tinajero Robles,pan,mr
+Jalisco,4,Irisay Rodríguez González,mc,mr
+Jalisco,5,Bruno Blancas Mercado,morena,mr
+Jalisco,6,Manuel Herrera Vega,mc,mr
+Jalisco,7,Alberto Villa Villegas,morena,mr
+Jalisco,8,Mauro Garza Marín,mc,mr
+Jalisco,9,Rocío Corona Nakamura,pvem,mr
+Jalisco,10,Horacio Fernández Castillo,mc,mr
+Jalisco,11,Claudia Delgadillo González,morena,mr
+Jalisco,12,María Asención Álvarez Solís,mc,mr
+Jalisco,13,Sergio Barrera Sepúlveda,mc,mr
+Jalisco,14,Leticia Chávez Pérez,mc,mr
+Jalisco,15,Ana Laura Sánchez Velázquez,pan,mr
+Jalisco,16,Laura Imelda Pérez Segura,morena,mr
+Jalisco,17,Antonio de Jesús Ramírez Ramos,pvem,mr
+Jalisco,18,José Guadalupe Fletes Araiza,pri,mr
+Jalisco,19,Luz Adriana Candelario Figueroa,morena,mr
+Jalisco,20,María del Refugio Camarena Jauregui,pri,mr
+México,1,Miguel Sámano Peralta,pri,mr
+México,2,Dionicia Vázquez García,pt,mr
+México,3,Oscar Cárdenas Monroy,pri,mr
+México,4,Nelly Carrasco Godínez,morena,mr
+México,5,Francisco Favela Peñuñuri,pt,mr
+México,6,Ali Sayuri Núñez Meneses,pan,mr
+México,7,Joanna Felipe Torres,pan,mr
+México,8,Gustavo Contreras Montes,morena,mr
+México,9,Eduardo Zarzosa Sánchez,pri,mr
+México,10,Alma Delia Navarrete Rivera,morena,mr
+México,11,María Eugenia Hernández Pérez,morena,mr
+México,12,Armando Corona Arvizu,morena,mr
+México,13,Olimpia Tamara Girón Hernández,morena,mr
+México,14,Ana María Balderas Trejo,pan,mr
+México,15,Carlos Madrazo Limón,pan,mr
+México,16,Marisela Garduño Garduño,pt,mr
+México,17,María Guadalupe Román Ávila,morena,mr
+México,18,José Antonio García García,pan,mr
+México,19,Krishna Romero Velázquez,pan,mr
+México,20,Juan Pablo Sánchez Rodríguez,morena,mr
+México,21,Graciela Sánchez Ortiz,morena,mr
+México,22,Iván Arturo Rodríguez Rivera,pan,mr
+México,23,Martha Azucena Camacho Reynoso,morena,mr
+México,24,Gabriela Olvera Higuera,pan,mr
+México,25,Carlos López Guadarrama,morena,mr
+México,26,Melissa Vargas Camacho,pri,mr
+México,27,Ana Lilia Herrera Anzaldo,pri,mr
+México,28,Roberto Ángel Domínguez Rodríguez,morena,mr
+México,29,Martha Robles Ortiz,morena,mr
+México,30,César Agustín Hernández Pérez,morena,mr
+México,31,Juan Ángel Bautista Bravo,morena,mr
+México,32,Luis Enrique Martínez Ventura,pt,mr
+México,33,Vicente Onofre Vázquez,morena,mr
+México,34,María Teresa Castell de Oro Palacios,pan,mr
+México,35,Arturo Roberto Hernández Tapia,morena,mr
+México,36,Jazmín Jaimes Albarrán,pri,mr
+México,37,Javier Huerta Jurado,morena,mr
+México,38,Karla Almazán Burgos,morena,mr
+México,39,Alan Castellanos Ramírez,pri,mr
+México,40,Javier González Zepeda,pan,mr
+México,41,Sue Ellen Bernal Bolnik,pri,mr
+Michoacán,1,Leonel Godoy Rangel,morena,mr
+Michoacán,2,Mauricio Prieto Gómez,prd,mr
+Michoacán,3,Mary Carmen Bernal Martínez,pt,mr
+Michoacán,4,Rodrigo Sánchez Zepeda,pan,mr
+Michoacán,5,Enrique Godínez Del Río,pan,mr
+Michoacán,6,Berenice Juárez Navarrete,pan,mr
+Michoacán,7,Adriana Campos Huirache,pri,mr
+Michoacán,8,Roberto Carlos López García,pri,mr
+Michoacán,9,Carlos Alberto Manzo Rodríguez,morena,mr
+Michoacán,10,Carlos Quintana Martínez,pan,mr
+Michoacán,11,Macarena Chávez Flores,prd,mr
+Michoacán,12,Francisco Javier Huacus Esquivel,prd,mr
+Morelos,1,Jorge Alberto Barrera Toledo,morena,mr
+Morelos,2,Alejandra Pani Barragán,morena,mr
+Morelos,3,Juanita Guerra Mena,morena,mr
+Morelos,4,Brenda Espinoza López,morena,mr
+Morelos,5,José Guadalupe Ambrocio Gachuz,morena,mr
+Nayarit,1,Pavel Jarero Velázquez,morena,mr
+Nayarit,2,Jasmine Bugarín Rodríguez,pvem,mr
+Nayarit,3,Jorge Armando Ortiz Rodríguez,pt,mr
+Nuevo León,1,Héctor Castillo Olivares,pan,mr
+Nuevo León,2,Andrés Cantú Ramírez,pri,mr
+Nuevo León,3,Wendy Cordero González,pan,mr
+Nuevo León,4,Pedro Salgado Almaguer,pan,mr
+Nuevo León,5,Marcela Guerra Castillo,pri,mr
+Nuevo León,6,Annia Gómez Cárdenas,pan,mr
+Nuevo León,7,Andrés Pintos Caballero,mc,mr
+Nuevo León,8,María de Jesús Aguirre Maldonado,pri,mr
+Nuevo León,9,Juan Francisco Espinosa Eguía,pri,mr
+Nuevo León,10,Karina Barrón Perales,pri,mr
+Nuevo León,11,Pedro Garza Treviño,pan,mr
+Nuevo León,12,José Luis Garza Ochoa,pri,mr
+Oaxaca,1,Ángel Domínguez Escobar,morena,mr
+Oaxaca,2,Irma Juan Carlos,morena,mr
+Oaxaca,3,Margarita García García,pt,mr
+Oaxaca,4,Azael Santiago Chepi,morena,mr
+Oaxaca,5,Carol Antonio Altamirano,morena,mr
+Oaxaca,6,Beatriz Pérez López,morena,mr
+Oaxaca,7,José Antonio Estefan Gillessen,pvem,mr
+Oaxaca,8,Benjamín Robles Montoya,pt,mr
+Oaxaca,9,María del Carmen Bautista Pelaez,morena,mr
+Oaxaca,10,Daniel Gutiérrez Gutiérrez,morena,mr
+Puebla,1,Marco Antonio Natale Gutiérrez,pvem,mr
+Puebla,2,Fátima Cruz Peláez,pvem,mr
+Puebla,3,Esther Martínez Romano,pt,mr
+Puebla,4,Inés Parra Juárez,morena,mr
+Puebla,5,Mauricio Toledo Gutiérrez,pt,mr
+Puebla,6,Alejandro Carvajal Hidalgo,morena,mr
+Puebla,7,Raymundo Atanacio Luna,morena,mr
+Puebla,8,Odette Almazán Múñoz,morena,mr
+Puebla,9,Ana Teresa Aranda,pan,mr
+Puebla,10,Humberto Aguilar Coronado,pan,mr
+Puebla,11,Carolina Beauregard Martínez,pan,mr
+Puebla,12,Mario Riestra Piña,pan,mr
+Puebla,13,Mario Miguel Carrillo Cubillas,morena,mr
+Puebla,14,Nelly Maceda Carrera,pt,mr
+Puebla,15,Araceli Celestino Rosas,pt,mr
+Querétaro,1,Sonia Rocha Acosta,pan,mr
+Querétaro,2,Marcia Solórzano Gallego,pan,mr
+Querétaro,3,Ignacio Loyola Vera,pan,mr
+Querétaro,4,Felipe Fernando Macías Olvera,pan,mr
+Querétaro,5,Erika Díaz Villalón,pan,mr
+Quintana Roo,1,Juan Luis Carrillo Soberanis,pvem,mr
+Quintana Roo,2,Anahí González Hernández,morena,mr
+Quintana Roo,3,Alberto Batun Chulim,morena,mr
+Quintana Roo,4,Laura Fernández Piña,ind,mr
+San Luis Potosí,1,Alejandro Segovia Hernández,pvem,mr
+San Luis Potosí,2,Juan Manuel Navarro Muñíz,pvem,mr
+San Luis Potosí,3,Kevin Angelo Aguilar Piña,pvem,mr
+San Luis Potosí,4,Antolin Guerrero Márquez,morena,mr
+San Luis Potosí,5,José Antonio Zapata Meraz,pan,mr
+San Luis Potosí,6,Gilberto Hernández Villafuerte,pvem,mr
+San Luis Potosí,7,Christian Sánchez Sánchez,pvem,mr
+Sinaloa,1,Leobardo Alcántara Martínez,pt,mr
+Sinaloa,2,Ana Elizabeth Ayala Leyva,morena,mr
+Sinaloa,3,Jesús Fernando García Hernández,pt,mr
+Sinaloa,4,Casimiro Zamora Valdéz,morena,mr
+Sinaloa,5,Yadira Santiago Marcos,morena,mr
+Sinaloa,6,Olegaria Carrazco Macías,morena,mr
+Sinaloa,7,Merary Villegas Sánchez,morena,mr
+Sonora,1,Manuel Baldenebro Arredondo,morena,mr
+Sonora,2,Ana Bernal Camarena,pt,mr
+Sonora,3,Lorenia Valles Sampedro,morena,mr
+Sonora,4,Heriberto Aguilar Castillo,morena,mr
+Sonora,5,Wendy Briceño Zuloaga,morena,mr
+Sonora,6,Gabriela Martínez Espinoza,morena,mr
+Sonora,7,Shirley Guadalupe Vázquez Romero,pt,mr
+Tabasco,1,Marcos Rosendo Medina Filigrana,morena,mr
+Tabasco,2,Karla María Rabelo Estrada,morena,mr
+Tabasco,3,Lorena Méndez Denis,morena,mr
+Tabasco,4,Manuel Rodríguez González,morena,mr
+Tabasco,5,Janicie Contreras García,morena,mr
+Tabasco,6,Mario Rafael Llergo Latournerie,morena,mr
+Tamaulipas,1,Ana Laura Huerta Valdovinos,pvem,mr
+Tamaulipas,2,Olga Juliana Elizondo Guerra,pt,mr
+Tamaulipas,3,Tomás Gloria Requena,pvem,mr
+Tamaulipas,4,Adriana Lozano Rodríguez,morena,mr
+Tamaulipas,5,Óscar Almaraz Smer,pan,mr
+Tamaulipas,6,Vicente Verástegui Ostos,pan,mr
+Tamaulipas,7,Erasmo González Robledo,morena,mr
+Tamaulipas,8,Rosa María González Azcárraga,pan,mr
+Tamaulipas,9,Claudia Alejandra Hernández Sáenz,pt,mr
+Tlaxcala,1,Alejandro Aguilar López,pt,mr
+Tlaxcala,2,Irma Yordana Garay Loredo,pt,mr
+Tlaxcala,3,Carlos Augusto Pérez Hernández,morena,mr
+Veracruz,1,Armando Antonio Gómez Betancourt,pvem,mr
+Veracruz,2,María del Carmen Pinete Vargas,pvem,mr
+Veracruz,3,Bertha Espinoza Segura,morena,mr
+Veracruz,4,Rosa Hernández Espejo,morena,mr
+Veracruz,5,Raquel Bonilla Herrera,morena,mr
+Veracruz,6,Jaime Humberto Pérez Bernabé,morena,mr
+Veracruz,7,Mónica Herrera Villavicencio,morena,mr
+Veracruz,8,Claudia Tello Espinosa,morena,mr
+Veracruz,9,José Francisco Yunes Zorrilla,pri,mr
+Veracruz,10,Rafael Hernández Villalpando,morena,mr
+Veracruz,11,Flora Tania Cruz Santos,morena,mr
+Veracruz,12,María Josefina Gamboa Torales,pan,mr
+Veracruz,13,Angélica Peña Martínez,pvem,mr
+Veracruz,14,Rosalba Valencia Cruz,morena,mr
+Veracruz,15,Corina Villegas Guarneros,morena,mr
+Veracruz,16,Martha Rosa Morales Romero,morena,mr
+Veracruz,17,Valentín Reyes López,morena,mr
+Veracruz,18,Itzel Domínguez Zopiyactle,pvem,mr
+Veracruz,19,Paola Tenorio Adame,morena,mr
+Veracruz,20,Esteban Bautista Hernández,morena,mr
+Yucatán,1,Sergio Chale Cauich,pan,mr
+Yucatán,2,Mario Xavier Peraza Ramírez,pvem,mr
+Yucatán,3,Rommel Pacheco,morena,mr
+Yucatán,4,Cecilia Patrón Laviada,pan,mr
+Yucatán,5,Carmen Navarrete Navarro,pvem,mr
+Zacatecas,1,Bennelly Hernández Ruedas,morena,mr
+Zacatecas,2,Miguel Ángel Varela Pinedo,pan,mr
+Zacatecas,3,Alfredo Femat Bañuelos,pt,mr
+Zacatecas,4,Carolina Dávila Ramírez,pri,mr
+na,na,Rocío Reza Gallegos,pan,rp
+na,na,Luis Serrato Castell,pan,rp
+na,na,Paulina Rubio Fernández,pan,rp
+na,na,Eliseo Compeán Fernández,pan,rp
+na,na,Sonia Murillo Manríquez,pan,rp
+na,na,Juan Carlos Maturino Manzanera,pan,rp
+na,na,Lizbeth Mata Lozano,pan,rp
+na,na,Miguel Monraz Ibarra,pan,rp
+na,na,Laura Haro Ramírez,pri,rp
+na,na,Ismael Hernández Deras,pri,rp
+na,na,Paloma Sánchez Ramos,pri,rp
+na,na,Hiram Hernández Zetina,pri,rp
+na,na,Nelida Ivonne Díaz Tejeda,pri,rp
+na,na,Mariano González Aguirre,pri,rp
+na,na,Yolanda de la Torre Valdez,pri,rp
+na,na,Leslie Estefanía Rodríguez Sarabia,prd,rp
+na,na,Celeste Sánchez Romero,pt,rp
+na,na,Arturo González Cruz,pvem,rp
+na,na,Mirza Flores Gómez,mc,rp
+na,na,Jorge Álvarez Máynez,mc,rp
+na,na,María Elena Limón García,mc,rp
+na,na,Salvador Caro Cabrera,mc,rp
+na,na,Julieta Mejía Ibáñez,mc,rp
+na,na,Mario Alberto Rodríguez Carrillo,mc,rp
+na,na,Elvia Yolanda Martínez Cosío,mc,rp
+na,na,Rubén Muñoz Álvarez,morena,rp
+na,na,Sandra Luz Navarro Conkle,morena,rp
+na,na,Armando Cabada Alvídrez,morena,rp
+na,na,Zulema Adams Pereyra,mc,rp
+na,na,Antonio Pérez Garibay,morena,rp
+na,na,Susana Prieto Terrazas,ind,rp
+na,na,Maximiano Barboza Llamas,morena,rp
+na,na,Cecilia Márquez Alkadef Cortés,morena,rp
+na,na,Guillermo Chapman Moreno,morena,rp
+na,na,Brianda Aurora Vázquez Álvarez,morena,rp
+na,na,Juan Guadalupe Torres Navarro,morena,rp
+na,na,Andrea Chávez Treviño,morena,rp
+na,na,Jesús Roberto Briano Borunda,morena,rp
+na,na,Martha Nabetse Arellano Reyes,morena,rp
+na,na,Hamlet García Almaguer,morena,rp
+na,na,María Teresa Jiménez Esquivel,pan,rp
+na,na,José Luis Báez Guerrero,pan,rp
+na,na,Mariana Mancillas Cabrera,pan,rp
+na,na,Román Cifuentes Negrete,pan,rp
+na,na,Mariela López Sosa,pan,rp
+na,na,Roberto Valenzuela Corral,pan,rp
+na,na,Paulina Aguado Romero,mc,rp
+na,na,Víctor Pérez Díaz,pan,rp
+na,na,Nora Elva Oranday Aguirre,pan,rp
+na,na,Xavier Azuara Zúñiga,pan,rp
+na,na,Noemí Luna Ayala,pan,rp
+na,na,Gerardo Peña Flores,pan,rp
+na,na,Diana Gutiérrez Valtierra,pan,rp
+na,na,Montserrat Arcos Velázquez,pri,rp
+na,na,Rubén Moreira Valdez,pri,rp
+na,na,Fuensanta Guerrero Esquivel,pri,rp
+na,na,Rodrigo Fuentes Ávila,pri,rp
+na,na,Frinné Azuara Yarzábal,pri,rp
+na,na,Ildefonso Guajardo Villarreal,pri,rp
+na,na,Sofía Carvajal Isunza,pri,rp
+na,na,Tereso Medina Ramírez,pri,rp
+na,na,Miguel Torres Rosales,prd,rp
+na,na,Alberto Anaya,pt,rp
+na,na,Sonia Mendoza Díaz,pvem,rp
+na,na,Carlos Alberto Puente Salas,pvem,rp
+na,na,Mary José Alcalá,pvem,rp
+na,na,Agustín Basave Alanís,mc,rp
+na,na,Amalia García,mc,rp
+na,na,Arturo B. de la Garza Garza,mc,rp
+na,na,Blanca Narro Panameño,morena,rp
+na,na,Carlos Noriega Romero,morena,rp
+na,na,Martha Barajas García,morena,rp
+na,na,Saúl Hernández Hernández,morena,rp
+na,na,Olga Leticia Chávez Rojas,morena,rp
+na,na,Juan Ramiro Robledo,morena,rp
+na,na,Salma Luévano Luna,morena,rp
+na,na,Favio Castellanos Polanco,morena,rp
+na,na,Esther Berenice Martínez Díaz,morena,rp
+na,na,Marco Antonio Flores Sánchez,morena,rp
+na,na,Karla Estrella Díaz García,morena,rp
+na,na,María del Carmen Escudero Fabre,pan,rp
+na,na,Carlos Alberto Valenzuela González,pan,rp
+na,na,Kathia Bolio Pinelo,pan,rp
+na,na,Elías Lixa Abimerhi,pan,rp
+na,na,Alma Rosa Hernández Escobar,pan,rp
+na,na,Pablo Angulo Briceño,pri,rp
+na,na,Eufrosina Cruz Mendoza,pri,rp
+na,na,Carlos Miguel Aysa Damas,morena,rp
+na,na,Lorena Piñón Rivera,pri,rp
+na,na,Pablo Gamboa Miner,pri,rp
+na,na,Mariana Nassar Piñeyro,pri,rp
+na,na,Pedro Armentía López,mc,rp
+na,na,Olga Luz Espinosa Morales,prd,rp
+na,na,Rogelio Franco Castán,prd,rp
+na,na,Maribel Martínez Ruiz,pt,rp
+na,na,Francisco Amadeo Espinosa Ramos,pt,rp
+na,na,Valeria Santiago Barrientos,pvem,rp
+na,na,Juan Carlos Natale López,pvem,rp
+na,na,Janine Patricia Quijano Tapia,pvem,rp
+na,na,Santy Montemayor Castillo,pvem,rp
+na,na,Ivonne Ortega Pacheco,mc,rp
+na,na,Gerardo Gaudiano Rovirosa,mc,rp
+na,na,Rosa María Alvarado Murguía,morena,rp
+na,na,Óscar Cantón Zetina,morena,rp
+na,na,Patricia Armendáriz,morena,rp
+na,na,Manuel Vázquez Arellano,morena,rp
+na,na,Blanca Carolina Pérez Gutiérrez,morena,rp
+na,na,Alfredo Aurelio González Cruz,morena,rp
+na,na,Rosalinda Domínguez Flores,morena,rp
+na,na,Iran Santiago Manuel,morena,rp
+na,na,Sonia Rincón Chanona,morena,rp
+na,na,Mario Alberto Torres Escudero,morena,rp
+na,na,Rocío Barrera Puc,morena,rp
+na,na,Armando Contreras Castillo,morena,rp
+na,na,Mayra Alicia Mendoza Álvarez,morena,rp
+na,na,Faustino Vidal Benavides,morena,rp
+na,na,Ivonne Cisneros Luján,morena,rp
+na,na,Zeus García Sandoval,morena,rp
+na,na,Leonor Coutiño Gutiérrez,morena,rp
+na,na,Jorge Ángel Sibaja Mendoza,morena,rp
+na,na,Jorge Romero Herrera,pan,rp
+na,na,Mariana Gómez del Campo,pan,rp
+na,na,Santiago Creel Miranda,pan,rp
+na,na,Genoveva Huerta Villegas,pan,rp
+na,na,Santiago Torreblanca Engell,pan,rp
+na,na,Lilia Caritina Olvera Coronel,pan,rp
+na,na,Yesenia Galarza Castro,pan,rp
+na,na,Guillermo Octavio Huerta Ling,pan,rp
+na,na,Ana Laura Valenzuela Sánchez,pan,rp
+na,na,Alejandro Moreno Cárdenas,pri,rp
+na,na,Guadalupe Alcántara Rojas,pri,rp
+na,na,Eduardo Murat Hinojosa,pri,rp
+na,na,Cynthia López Castro,pri,rp
+na,na,Lázaro Jiménez Aquino,pri,rp
+na,na,Blanca Alcalá Ruiz,pri,rp
+na,na,Augusto Gómez Villanueva,pri,rp
+na,na,Luis Espinosa Cházaro,ind,rp
+na,na,Elizabeth Pérez Valdez,prd,rp
+na,na,Magdalena Núñez Monreal,pt,rp
+na,na,Pedro Vázquez González,pt,rp
+na,na,Nayeli Fernández Cruz,pvem,rp
+na,na,Javier López Casarín,pvem,rp
+na,na,Salomón Chertorivski Woldenberg,mc,rp
+na,na,Jessica Ortega De la Cruz,mc,rp
+na,na,Miguel Torruco Garza,morena,rp
+na,na,Marisol García Segura,morena,rp
+na,na,Ignacio Mier Velazco,morena,rp
+na,na,Dulce María Silva Hernández,morena,rp
+na,na,Alejandro Robles Gómez,morena,rp
+na,na,Brenda Ramiro Alejo,morena,rp
+na,na,Sergio Peñaloza Pérez,morena,rp
+na,na,Julieta Vences Valencia,morena,rp
+na,na,Julio César Moreno Rivera,morena,rp
+na,na,Rosario Reyes Silva,morena,rp
+na,na,Fernando Marín Díaz,morena,rp
+na,na,María Clemente García Moreno,morena,rp
+na,na,Klaus Ritter Ocampo,morena,rp
+na,na,Selene Ávila Flores,morena,rp
+na,na,Carlos Ortiz Tejeda,morena,rp
+na,na,María Magdalena Esquivel Nava,morena,rp
+na,na,Armando Tejeda Cid,pan,rp
+na,na,Leticia Zepeda Martínez,pan,rp
+na,na,Jorge Ernesto Inzunza Armas,pan,rp
+na,na,Julia Licet Jiménez Angulo,pan,rp
+na,na,Anuar Azar Figueroa,pan,rp
+na,na,Anabey García Velasco,pan,rp
+na,na,Carolina Viggiano Austria,pri,rp
+na,na,Ricardo Aguilar Castillo,pri,rp
+na,na,Cristina Ruiz Sandoval,pri,rp
+na,na,Carlos Iriarte Mercado,pri,rp
+na,na,Laura Barrera Fortoul,pri,rp
+na,na,Marco Antonio Mendoza Bustamante,pri,rp
+na,na,Norma Angélica Aceves García,pri,rp
+na,na,Javier Casique Zárate,pri,rp
+na,na,María Elena Serrano Maldonado,pri,rp
+na,na,Brasil Acosta Peña,pri,rp
+na,na,Montcerrat Hernández Pérez,pri,rp
+na,na,Edna Díaz Acevedo,prd,rp
+na,na,Héctor Chávez Ruiz,prd,rp
+na,na,Reginaldo Sandoval Flores,pt,rp
+na,na,Luis Alberto Martínez Bravo,pvem,rp
+na,na,Karen Castrejón Trujillo,pvem,rp
+na,na,Teresa Ochoa Mejía,mc,rp
+na,na,Rodrigo Samperio Chaparro,mc,rp
+na,na,Catalina Díaz Vilchis,morena,rp
+na,na,José Miguel De la Cruz Lima,morena,rp
+na,na,Noemí Salazar López,morena,rp
+na,na,Sergio Gutiérrez Luna,morena,rp
+na,na,Yeidckol Polevnsky,morena,rp
+na,na,Hirepan Maya Martínez,morena,rp
+na,na,Celeste Ascencio Ortega,morena,rp
+na,na,Jaime Martínez López,morena,rp
+na,na,Alma Griselda Valencia Medina,morena,rp
+na,na,Miguel Prado de los Santos,morena,rp
+na,na,Celestina Castillo Secundino,morena,rp
+na,na,Martín Sandoval Soto,morena,rp
+na,na,Verónica Collado Crisolia,morena,rp
+na,na,Otoniel García Montiel,morena,rp
+na,na,Susana Cano González,morena,rp
+na,na,Ángel Miguel Rodríguez Torres,morena,rp
