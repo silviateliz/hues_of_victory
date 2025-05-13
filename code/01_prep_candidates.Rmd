@@ -23,7 +23,7 @@ library(stringi)
 # Import data
 ```{r data}
 # Import original candidate dataset
-all_candidates <- read_excel("data/raw/baseDatosCandidatos.xls")
+all_candidates <- read_excel("../data/raw/baseDatosCandidatos.xls")
 
 ```
 
@@ -261,8 +261,8 @@ pres_candidates %>% count(id) %>% filter(n > 1)
 # Add incumbency variable
 ```{r wrang_incumbency}
 # Import list of previous congress and senate (LXV legislature)
-dep_65 <- read.csv("data/raw/deputies_65.csv")
-sen_65 <- read.csv("data/raw/senators_65.csv")
+dep_65 <- read.csv("../data/raw/deputies_65.csv")
+sen_65 <- read.csv("../data/raw/senators_65.csv")
 
 # Convert name column to lowercase in dep_65 and sen_65
 dep_65$name <- tolower(dep_65$name)
@@ -322,7 +322,7 @@ candidates <- candidates %>% select(id, name, party, position, state, state_id, 
 
 ```{r export}
 # Export dataset
-write_csv(candidates, "data/processed/01_candidates.csv")
+write_csv(candidates, "../data/processed/01_candidates.csv")
 ```
 
 

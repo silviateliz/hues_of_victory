@@ -21,11 +21,11 @@ library(purrr)
 ```
 
 ```{r data}
-candidates <- read_csv("data/01_candidates.csv")
+candidates <- read_csv("../data/01_candidates.csv")
 
 # Create a directory to store the images
-dir.create("portraits/ine", showWarnings = FALSE)
-dir.create("portraits/sv", showWarnings = FALSE)
+dir.create("../portraits/ine", showWarnings = FALSE)
+dir.create("../portraits/sv", showWarnings = FALSE)
 
 ```
 
@@ -37,7 +37,7 @@ download_and_save_image <- function(image_url, id, subdir) {
     if (!is.null(image_url)) {
       img_data <- GET(image_url)
       # Construct the full directory path
-      full_dir <- file.path("portraits", subdir)
+      full_dir <- file.path("../portraits", subdir)
       # dir.create(full_dir, recursive = TRUE, showWarnings = FALSE)  # Create if not exists
       # Construct the full file path
       img_file <- file.path(full_dir, paste0(id, ".jpg"))

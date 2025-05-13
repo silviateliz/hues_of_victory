@@ -15,21 +15,28 @@ library(magrittr)
 library(purrr)
 ```
 
+# Import data
+
 ```{r data}
-candidates <- read_csv("data/processed/01_candidates.csv") %>%
+
+# Candidates dataset
+candidates <- read_csv("../data/processed/01_candidates.csv") %>%
   select(-c(morena, pan, pri, pt, pvem, mc, prd, ind))
 
-dep <- read_csv("data/raw_files/election_results/DIP_FED_2024.csv") %>% 
+# Election results
+dep <- read_csv("../data/raw/election_results/DIP_FED_2024.csv") %>% 
   select(-c("CLAVE_CASILLA", "SECCION", "ID_CASILLA", "TIPO_CASILLA", "EXT_CONTIGUA", "CASILLA", "TIPO_ACTA", "OBSERVACIONES", "MECANISMOS_TRASLADO", "FECHA_HORA"))
 
 
-sen <- read_csv("data/raw_files/election_results/SEN_2024.csv")%>% 
+sen <- read_csv("../data/raw/election_results/SEN_2024.csv")%>% 
   select(-c("CLAVE_CASILLA", "SECCION", "ID_CASILLA", "TIPO_CASILLA", "EXT_CONTIGUA", "CASILLA", "TIPO_ACTA", "OBSERVACIONES", "MECANISMOS_TRASLADO", "FECHA_HORA"))
 
 
-pres <- read_csv("data/raw_files/election_results/PRES_2024.csv")%>% 
+pres <- read_csv("../data/raw/election_results/PRES_2024.csv")%>% 
   select(-c("CLAVE_CASILLA", "SECCION", "ID_CASILLA", "TIPO_CASILLA", "EXT_CONTIGUA", "CASILLA", "TIPO_ACTA", "OBSERVACIONES", "MECANISMOS_TRASLADO", "FECHA_HORA"))
 ```
+
+# General wrangling
 
 ```{r clean_ids}
 # Remove zeros at the begining of strings in ID_ENTIDAD and ID_DISTRITO_FEDERAL
@@ -94,6 +101,7 @@ pres <- pres %>%
 
 ```
 
+# Generate dataset per contest
 
 ```{r deputies}
 dep_results <- dep %>%
@@ -194,7 +202,7 @@ pres_candidates <- candidates %>%
 
 ```
 
-
+# Match candidates with results
 
 ```{r dep_cand_results}
 # Match dep_candidates with dep_results
@@ -327,11 +335,13 @@ pres_cand_results %<>%
 ```
 
 
+# Export files
+
 ```{r export_csv}
 # Export the results to CSV files
-write_csv(dep_cand_results, "data/processed/03_dep_cand_results.csv")
-write_csv(sen_cand_results, "data/processed/03_sen_cand_results.csv")
-write_csv(pres_cand_results, "data/processed/03_pres_cand_results.csv")
+write_csv(dep_cand_results, "../data/processed/03_dep_cand_results.csv")
+write_csv(sen_cand_results, "../data/processed/03_sen_cand_results.csv")
+write_csv(pres_cand_results, "../data/processed/03_pres_cand_results.csv")
 
 ```
 
