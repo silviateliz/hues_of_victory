@@ -16,6 +16,7 @@ knitr::opts_chunk$set(echo = TRUE)
 ```{r packages}
 library(tidyverse)
 library(magrittr)
+library(haven)
 ```
 
 # Import data
@@ -28,11 +29,19 @@ sen_cand_results <- read_csv("../data/processed/03_sen_cand_results.csv")
 
 # Skin tone measurement data
 skintone <- read_csv("../data/processed/04_skintone.csv")
+
+# PRODER data
+proder <- read_dta("../data/raw/baseproder2019.dta")
+
 ```
 
 # General wrangling
 
 ```{r clean_skintone}
+# Reverse tone_label (1 is 11, 11 is 1)
+skintone <- skintone %>%
+  mutate(tone_label = 12-tone_label)
+
 # Select relevant variables from skintone data. In some images, two faces were detected. We select the one with the highest confidence score.
 
 skintone_ine <- skintone %>%
@@ -78,18 +87,76 @@ pres_cand_results <- pres_cand_results %>%
 
 ```
 
-```{r join}
-# Join all datasets
-cand_skin_results <- bind_rows(dep_cand_results, sen_cand_results, pres_cand_results)
+# PRODER data
+```{r proder}
+# RGB to HEX dataset
+palette <- data.frame(
+  hex = c("#654d3e", "#775741", "#876249", "#946c51", "#a0765a", "#a87f64", 
+          "#b1886c", "#b69279", "#be9d86", "#c5a691", "#c8ac99"),
+  rgb = c("101, 77, 62", "119, 87, 65", "135, 98, 73", "148, 108, 81", "160, 118, 90", "168, 127, 100", 
+          "177, 136, 108", "182, 146, 121", "190, 157, 134", "197, 166, 145", "200, 172, 153"),
+  label = c(11, 10, 9, 8, 7, 6, 5, 4, 3, 2, 1))
+
+# Separate rgb values into different columns in palette dataset
+palette %<>%
+  separate(rgb, into = c("r", "g", "b"), sep = ", ") %>%
+  mutate(r = as.numeric(r), g = as.numeric(g), b = as.numeric(b))
+
+# Select relevant variables
+proder %<>%
+  select(ent, p160101_codigohex, r_rgbd, g_rgbd, b_rgbd)
+
+# Compute euclidean distance between RGB values and palette
+compute_distance <- function(row_rgb, ref_rgb) {
+  sqrt(sum((row_rgb - ref_rgb)^2))
+}
+
+# For each observation, find the closest category
+proder %<>%
+  # Remove rows with NA in any column
+  filter(!is.na(r_rgbd) | !is.na(g_rgbd) | !is.na(b_rgbd)) %>%
+  rowwise() %>%
+  mutate(
+    proder_label = {
+      obs_rgb <- c(r_rgbd, g_rgbd, b_rgbd)
+      distances <- apply(palette[, 2:4], 1, function(ref_rgb) compute_distance(obs_rgb, ref_rgb))
+      palette$label[which.min(distances)]
+    }
+  ) %>%
+  ungroup()
+
+# Obtain average skin tone per state
+proder_state <- proder %>%
+  group_by(ent) %>%
+  summarise(skin_state = mean(proder_label, na.rm = TRUE))
+
 
 ```
 
 
+
 # Export dataset
+
+```{r join}
+# Join all datasets
+cand_skin_results <- bind_rows(dep_cand_results, sen_cand_results, pres_cand_results)
+
+# Bring contest column after name column
+cand_skin_results %<>%
+  select(id, name, contest, everything())
+
+# Add average skin tone per state, match by ent and state_id
+cand_skin_results %<>%
+  left_join(proder_state, by = c("state_id" = "ent"))
+
+```
+
 
 ```{r export}
 # Export the dataset
 write_csv(cand_skin_results, "../data/processed/05_cand_skin_results.csv")
+
+write_csv(palette, "../data/processed/05_palette.csv")
 
 ```
 
