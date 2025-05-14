@@ -186,6 +186,9 @@ cand_skin_results %<>%
   ungroup()
 
 
+# Skin tone difference
+cand_skin_results$skin_diff <- (cand_skin_results$skin_pp - cand_skin_results$skin_state_pop)^2 %>% sqrt()
+
 ```
 
 
