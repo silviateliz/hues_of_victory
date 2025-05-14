@@ -35,7 +35,7 @@ proder <- read_dta("../data/raw/baseproder2019.dta")
 
 ```
 
-# General wrangling
+# Skin tone data
 
 ```{r clean_skintone}
 # Reverse tone_label (1 is 11, 11 is 1)
@@ -128,14 +128,13 @@ proder %<>%
 # Obtain average skin tone per state
 proder_state <- proder %>%
   group_by(ent) %>%
-  summarise(skin_state = mean(proder_label, na.rm = TRUE))
+  summarise(skin_state_pop = mean(proder_label, na.rm = TRUE))
 
 
 ```
 
 
-
-# Export dataset
+# Join datasets
 
 ```{r join}
 # Join all datasets
@@ -145,12 +144,53 @@ cand_skin_results <- bind_rows(dep_cand_results, sen_cand_results, pres_cand_res
 cand_skin_results %<>%
   select(id, name, contest, everything())
 
-# Add average skin tone per state, match by ent and state_id
+```
+
+
+```{r new_vars}
+
+# Obtain mean skin tone from both skin tone measures. If one measure is absent, use only existing measure. If both measures are absent, use NA.
+cand_skin_results %<>%
+  mutate(skin_pp = ifelse(is.na(skin_ine) & is.na(skin_sv), NA,
+                            ifelse(is.na(skin_ine), skin_sv,
+                                   ifelse(is.na(skin_sv), skin_ine,
+                                          (skin_ine + skin_sv) / 2))))
+
+# Create new skin tone variables
+# Add mean skin tone per state, match by ent and state_id
 cand_skin_results %<>%
   left_join(proder_state, by = c("state_id" = "ent"))
 
+
+# Mean candidate skin tone per state
+cand_skin_results %<>%
+  group_by(state_id) %>%
+  mutate(skin_state_can = mean(skin_pp, na.rm = TRUE)) %>%
+  ungroup()
+
+# Mean candidate skin tone per contest
+cand_skin_results %<>%
+  group_by(contest) %>%
+  mutate(skin_contest_can = mean(skin_pp, na.rm = TRUE)) %>%
+  ungroup()
+
+# Mean candidate skin tone per contest and state
+cand_skin_results %<>%
+  group_by(state_id, contest) %>%
+  mutate(skin_contest_state_can = mean(skin_pp, na.rm = TRUE)) %>%
+  ungroup()
+
+# Mean candidate skin tone per party
+cand_skin_results %<>%
+  group_by(party) %>%
+  mutate(skin_party_can = mean(skin_pp, na.rm = TRUE)) %>%
+  ungroup()
+
+
 ```
 
+
+# Export
 
 ```{r export}
 # Export the dataset
