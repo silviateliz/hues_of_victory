@@ -37,14 +37,14 @@ skintone <- read_csv("../data/processed/04_skintone.csv")
 
 skintone_ine <- skintone %>%
   filter(source == "ine" & face_id == 1) %>%
-  select(file, tone_label)
-names(skintone_ine) <- c("id", "skin_ine")
+  select(file, tone_label, skin_tone)
+names(skintone_ine) <- c("id", "skin_ine", "hex_ine")
 
 
 skintone_sv <- skintone %>%
   filter(source == "sv" & face_id == 1) %>%
-  select(file, tone_label)
-names(skintone_sv) <- c("id", "skin_sv")
+  select(file, tone_label, skin_tone)
+names(skintone_sv) <- c("id", "skin_sv", "hex_sv")
 
 # Remove .jpg extension from id column
 skintone_ine <- skintone_ine %>%
@@ -78,12 +78,16 @@ pres_cand_results <- pres_cand_results %>%
 
 ```
 
-# Esport dataset
-
-```{r export}
+```{r join}
 # Join all datasets
 cand_skin_results <- bind_rows(dep_cand_results, sen_cand_results, pres_cand_results)
 
+```
+
+
+# Export dataset
+
+```{r export}
 # Export the dataset
 write_csv(cand_skin_results, "../data/processed/05_cand_skin_results.csv")
 
