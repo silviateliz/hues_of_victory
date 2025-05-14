@@ -32,10 +32,26 @@ proder <- read_csv("../data/processed/05_proder.csv")
 ## Replication of Campos‐Vazquez & Rivas‐Herrera, 2021
 
 ```{r m1}
+glm(win ~ skin_pp + sex + party + contest,
+    data = data, family = "binomial") %>%
+  summary()
 
+lm(prop_votes ~ skin_pp + sex + party + contest,
+    data = data) %>%
+  summary()
 ```
 
 
+```{r m2}
+glm(win ~ skin_pp + sex + party + contest + incumbency,
+    data = data, family = "binomial") %>%
+  summary()
+
+lm(prop_votes ~ skin_pp + sex + party + contest + incumbency,
+    data = data) %>%
+  summary()
+
+```
 
 
 
