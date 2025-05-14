@@ -62,7 +62,7 @@ missing_all <- data %>%
 - A total of `r missing_all$n_both` candidates (`r round(missing_all$prop_both*100, 2)`%) are missing data from both, their INE profile and SaberVotar profile. These candidates are from the MC party and the PAN-PRI-PRD coalition. They are part of the congress race and senate race. They belong to the states: Mexico, Jalisco, Guanajuato, San Luis Potosi, Coahuila, Oaxaca, Mexico City, Chiapas, Quintana Roo, and Guerrero.
 - A total of `r missing_all$n_ine` candidates (`r round(missing_all$prop_ine*100, 2)`%) are missing data from their INE profile.
 - A total of `r missing_all$n_sv` candidates (`r round(missing_all$prop_sv*100, 2)`%) are missing data from their SaberVotar profile.
-- The SaberVotar data has a lower proportion of missing data. Therefore, a possible solution is to impute skin color data from the SaberVotar profile to the INE profile. The final skin color measure could be the average of both measures.
+- The SaberVotar data has a lower proportion of missing data. Therefore, a possible solution is to use this data source and impute skin tone measurements from the INE profile picture if needed. Averaging both measures would not be optimal because skin tone difference from both sources is often large.
 
 **Correlations with outcome variable:**
 
@@ -270,7 +270,7 @@ data %>%
            y = 200, label = "Mean = 4.9", 
            vjust = -2, hjust = -0.3, size = 3) +
   annotate("text", x = 4.9, y = 200, 
-           label = "SD = 1.72", 
+           label = "SD = 1.92", 
            vjust = -.5, hjust = -0.3, size = 3) +
   labs(title = "Candidate skin tone distribution",
        x = "Skin tone",
@@ -392,6 +392,7 @@ skin_party %>%
     bw = 0.5)
 
 ```
+
 
 
 

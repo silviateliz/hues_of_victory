@@ -151,12 +151,9 @@ cand_skin_results %<>%
 
 ```{r new_vars}
 
-# Obtain mean skin tone from both skin tone measures. If one measure is absent, use only existing measure. If both measures are absent, use NA.
+# Create skin_pp, which imputes skin tone data from ine to sv if sv is absent.
 cand_skin_results %<>%
-  mutate(skin_pp = ifelse(is.na(skin_ine) & is.na(skin_sv), NA,
-                            ifelse(is.na(skin_ine), skin_sv,
-                                   ifelse(is.na(skin_sv), skin_ine,
-                                          (skin_ine + skin_sv) / 2))))
+  mutate(skin_pp = ifelse(is.na(skin_sv), skin_ine, skin_sv))
 
 # Create new skin tone variables
 # Add mean skin tone per state, match by ent and state_id
@@ -203,6 +200,5 @@ write_csv(palette, "../data/processed/05_palette.csv")
 write_csv(proder, "../data/processed/05_proder.csv")
 
 ```
-
 
 
