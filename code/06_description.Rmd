@@ -1,0 +1,390 @@
+---
+knit: (function(inputFile, encoding) {
+  rmarkdown::render(inputFile, encoding = encoding, output_dir = "../output") })
+
+title: "Descriptive analysis"
+author: "Silvia Téliz"
+date: "2025-05-13"
+output:
+  html_document:
+    toc: true
+    toc_depth: 2      
+    toc_float: true
+---
+
+This script produces the descriptive analysis of the main dataset (cand_skin_results).
+
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE,  include = TRUE, warning = FALSE, message = FALSE)
+```
+
+
+```{r packages}
+library(tidyverse)
+library(magrittr)
+library(readr)
+library(ggplot2)
+library(sf)
+library(kableExtra)
+library(gt)
+library(gtExtras)
+```
+
+
+```{r data}
+data <- read_csv("../data/processed/05_cand_skin_results.csv")
+```
+
+
+
+# Missing image data {.tabset}
+
+```{r source_comparison}
+# Comparison of missing data by source
+missing_all <- data %>%
+  mutate(na_both = ifelse(ine_d == 0 & sv_d == 0, 1, 0)) %>%
+  summarize(n_ine = sum(ine_d == 0),
+            prop_ine = round(n_ine / n(), 5),
+            n_sv = sum(sv_d == 0),
+            prop_sv = round(n_sv / n(), 5),
+            n_both = sum(na_both ==1),
+            prop_both = round(n_both / n(), 5))
+```
+
+
+
+
+**Main takeaways:**
+
+- A total of `r missing_all$n_both` candidates (`r round(missing_all$prop_both*100, 2)`%) are missing data from both, their INE profile and SaberVotar profile. These candidates are from the MC party and the PAN-PRI-PRD coalition. They are part of the congress race and senate race. They belong to the states: Mexico, Jalisco, Guanajuato, San Luis Potosi, Coahuila, Oaxaca, Mexico City, Chiapas, Quintana Roo, and Guerrero.
+- A total of `r missing_all$n_ine` candidates (`r round(missing_all$prop_ine*100, 2)`%) are missing data from their INE profile.
+- A total of `r missing_all$n_sv` candidates (`r round(missing_all$prop_sv*100, 2)`%) are missing data from their SaberVotar profile.
+- The SaberVotar data has a lower proportion of missing data. Therefore, a possible solution is to impute skin color data from the SaberVotar profile to the INE profile. The final skin color measure could be the average of both measures.
+
+**Correlations with outcome variable:**
+
+
+- The existance of an INE profile picture is weakly and positively correlated with electoral success (r=`r round(cor(data$ine_d, data$win, use = "pairwise.complete.obs"), 2)`). 
+- The existance of a SaberVotar profile picture is weakly and positively correlated with electoral success (r=`r round(cor(data$sv_d, data$win, use = "pairwise.complete.obs"), 2)`). 
+- The existance of a social media profile (a rough proxy for presence in public media environment) is weakly and positively correlated with electoral success (r=`r round(cor(data$social_media_d, data$win, use = "pairwise.complete.obs"), 2)`). 
+
+## By state
+The following figures show the distribution of missing image data by state. The state with the highest proportion of candidates with missing visual data is Guerrero, followed by Quintana Roo, Chiapas, and Mexico City. 
+
+```{r missing_state, echo = F}
+# Missing image data for all contests, by state
+missing_state <- data %>%
+  group_by(state) %>%
+  mutate(na_both = ifelse(ine_d == 0 & sv_d == 0, 1, 0)) %>%
+  summarize(n_ine = sum(ine_d == 0),
+            prop_ine = round(n_ine / n(), 2),
+            n_sv = sum(sv_d == 0),
+            prop_sv = round(n_sv / n(), 2),
+            n_both = sum(na_both ==1),
+            prop_both = round(n_both / n(), 2)) %>%
+  arrange(desc(prop_both))
+
+# Capitalize first letter of "state"
+missing_state$state <- str_to_title(missing_state$state)
+
+# Print missing_state with kable
+missing_state %>%
+  arrange(desc(prop_both)) %>%
+  select(state, n_both, prop_both) %>%
+  # change column names
+  rename("State" = state,
+         "Number" = n_both,
+         "Proportion" = prop_both) %>%
+  kable() %>%
+  kable_styling("striped", full_width = T) %>%
+  add_header_above(c("Candidates with missing image data per state" = 3)) %>% 
+  scroll_box(height = "500px")
+
+```
+
+
+```{r plot_state, echo = F, include = F}
+# Plot missing image data for all contests
+missing_state %>%
+  ggplot(aes(x = reorder(state, -prop_both), y = prop_both)) +
+  geom_col() +
+  geom_text(aes(label = ifelse(n_both == 0, NA, paste0("n = ", n_both))),
+          hjust = -0.5, size = 2.5) +
+  coord_flip() +
+  labs(title = "Distribution of missing image data by state",
+       x = "State",
+       y = "Proportion of missing image data") +
+  scale_y_continuous(expand = c(0, 0), limits = c(0, 1)) +
+  theme_classic() +
+  theme(plot.margin = margin(10, 25, 10, 10)) +
+  theme(panel.grid.major.x = element_line(color = "gray80", size = 0.5))
+
+```
+
+```{r mex_map, include = F}
+mex_map <- st_read("mex.geojson")%>%
+  # change first column name
+  mutate(state = shapeName)
+
+# Change state names
+mex_map$state %<>% as_factor() %>%
+  fct_recode("Ciudad De Mexico" = "Distrito Federal",
+             "Coahuila" = "Coahuila de Zaragoza",
+                      "Michoacan" = "Michoacan de Ocampo",
+                      "Queretaro" = "Queretaro de Arteaga",
+                      "Veracruz" = "Veracruz de Ignacio de la Llave")
+
+map_data <- mex_map %>%
+  left_join(missing_state, by = "state") 
+
+```
+
+
+
+```{r map_missing}
+ggplot(map_data) +
+  geom_sf(aes(fill = prop_both), color = "white", size = 0.2) +
+  scale_fill_gradient(low = "gray90", high = "gray10", na.value = "red") +
+  theme_void() +  # removes axes, ticks, and background
+  theme(legend.position = "right",            # or "bottom", or "none"
+    panel.grid = element_blank(),
+    axis.ticks = element_blank(),
+    axis.text = element_blank(),
+    axis.title = element_blank(),
+    plot.title = element_text(hjust = 0.5)) +
+  theme(plot.margin = margin(10, 25, 10, 10)) +
+  labs(title = "Proportion of candidates with missing image data (from both sources)",
+       fill = "Proportion")
+
+```
+
+
+## By contest
+Most of the missing data is concentrated in the Congress race (deputies). There is no missing data in the presidantial race. The following figure shows the distribution of missing image data by contest.
+
+```{r missing_contest}
+# Missing image data for all contests, by state
+missing_contest <- data %>%
+  group_by(contest) %>%
+  mutate(na_both = ifelse(ine_d == 0 & sv_d == 0, 1, 0)) %>%
+  summarize(n_ine = sum(ine_d == 0),
+            prop_ine = round(n_ine / n(), 2),
+            n_sv = sum(sv_d == 0),
+            prop_sv = round(n_sv / n(), 2),
+            n_both = sum(na_both ==1),
+            prop_both = round(n_both / n(), 2)) %>%
+  arrange(desc(prop_both))
+
+
+```
+
+
+```{r plot_contest, echo = F}
+# Plot missing image data for all contests
+missing_contest %>%
+  ggplot(aes(x = reorder(contest, -prop_both), y = prop_both)) +
+  geom_col() +
+  geom_text(aes(label = ifelse(n_both == 0, NA, paste0("n = ", n_both))),
+          hjust = -0.5, size = 2.5) +
+  coord_flip() +
+  labs(title = "Distribution of missing image data by contest",
+       x = "Contest",
+       y = "Proportion of missing image data") +
+  scale_y_continuous(expand = c(0, 0), limits = c(0, 1)) +
+  theme_classic() +
+   theme(plot.margin = margin(10, 25, 10, 10)) +
+  theme(panel.grid.major.x = element_line(color = "gray80", size = 0.5))
+
+```
+
+
+
+## By party
+Most of the missing data is concentrated in the party "MC" and the coalition "Fuerza y Corazon por Mexico" (pan_pri_prd). The following figure shows the distribution of missing image data by party.
+
+```{r missing_party}
+# Missing image data for all contests, by state
+missing_party <- data %>%
+  group_by(party) %>%
+  mutate(na_both = ifelse(ine_d == 0 & sv_d == 0, 1, 0)) %>%
+  summarize(n_ine = sum(ine_d == 0),
+            prop_ine = round(n_ine / n(), 2),
+            n_sv = sum(sv_d == 0),
+            prop_sv = round(n_sv / n(), 2),
+            n_both = sum(na_both ==1),
+            prop_both = round(n_both / n(), 2)) %>%
+  arrange(desc(prop_both))
+```
+
+
+```{r plot_party, echo = F}
+# Plot missing image data for all contests
+missing_party %>%
+  ggplot(aes(x = reorder(party, -prop_both), y = prop_both)) +
+  geom_col() +
+  geom_text(aes(label = ifelse(n_both == 0, NA, paste0("n = ", n_both))),
+          hjust = -0.5, size = 2.5) +
+  coord_flip() +
+  labs(title = "Distribution of missing image data by party",
+       x = "Party",
+       y = "Proportion of missing image data") +
+  scale_y_continuous(expand = c(0, 0), limits = c(0, 1)) +
+  theme_classic() +
+   theme(plot.margin = margin(10, 25, 10, 10)) +
+  theme(panel.grid.major.x = element_line(color = "gray80", size = 0.5))
+
+```
+
+
+# Skin tone distribution {.tabset}
+
+```{r av_skin}
+# Obtain average skin tone from both skin tone measures. If one measure is absent, use only existing measure. If both measures are absent, use NA.
+data %<>%
+  mutate(av_skintone = ifelse(is.na(skin_ine) & is.na(skin_sv), NA,
+                            ifelse(is.na(skin_ine), skin_sv,
+                                   ifelse(is.na(skin_sv), skin_ine,
+                                          (skin_ine + skin_sv) / 2))))
+```
+
+
+```{r missing_skin}
+missing_skin <- data %>%
+  filter(sv_d == 1 & ine_d == 1) %>%
+  summarize(n = n(),
+            n_na = sum(is.na(av_skintone)),
+            prop_existing = round(n_na / n(), 5),
+            prop_total = round(n_na / nrow(data), 5))
+
+```
+
+
+**Main takeaways:**
+
+- The skin tone classification algorithm was not able to measure the skin tone of `r missing_skin$n_na` candidates. This number represents `r round(missing_skin$prop_existing*100, 2)`% of the candidates with image data and `r round(missing_skin$prop_total*100, 2)`% of the total candidates in the dataset. This issue may be resolved by adjusting the algorithm's facial detection parameters.
+- The overall skin tone distribution is slightly left-skewed, indicating that most candidates have a medium-dark skin tone. The mean skin tone is `r round(mean(data$av_skintone, na.rm = TRUE), 2)` and the standard deviation is `r round(sd(data$av_skintone, na.rm = TRUE), 2)`. The skin tone distribution is shown in the following figure.
+
+```{r skin_describe}
+# Plot skin tone distribution
+data %>%
+  ggplot(aes(x = av_skintone)) +
+  geom_histogram(bins = 10, fill = "gray50", color = "white") +
+  geom_vline(xintercept = 7.1, linetype = "solid", color = "black", size = 0.8) +
+  annotate("text", x = 7.1, 
+           y = 200, label = "Mean = 7.1", 
+           vjust = -2, hjust = -0.3, size = 3) +
+  annotate("text", x = 7.1, y = 200, 
+           label = "SD = 1.72", 
+           vjust = -.5, hjust = -0.3, size = 3) +
+  labs(title = "Skin tone distribution",
+       x = "Skin tone",
+       y = "Count") +
+  scale_x_continuous(expand = c(0, 0), limit = c(1,11), breaks = 1:11) +
+  scale_y_continuous(expand = c(0, 0), limit = c(0, 300)) +
+  theme_classic() +
+  theme(
+    plot.margin = margin(10, 25, 10, 10),
+    panel.grid.major.x = element_line(color = "gray80", size = 0.5))
+
+```
+
+## By state
+
+```{r skin_state}
+# Grouped summary + raw data column
+skin_state <- data %>%
+  filter(state != "nacional") %>%
+  group_by(state) %>%
+  summarize(
+    n = n(),
+    mean = round(mean(av_skintone, na.rm = TRUE), 2),
+    sd = round(sd(av_skintone, na.rm = TRUE), 2),
+    skintone_dist = list(av_skintone)) 
+
+# Capitalize first letter of "state"
+skin_state$state %<>% str_to_title()
+
+skin_state %>%
+  gt() %>%
+  tab_header(title = "Candidate skin tone distribution by state") %>%
+  gtExtras::gt_plt_dist(
+    column = skintone_dist,
+    type = "boxplot",
+    fill = "gray50",
+    bw = 0.5)
+
+```
+
+## By contest
+```{r skin_contest}
+# Grouped summary + raw data column
+skin_contest <- data %>%
+  group_by(contest) %>%
+  summarize(
+    n = n(),
+    mean = round(mean(av_skintone, na.rm = TRUE), 2),
+    sd = round(sd(av_skintone, na.rm = TRUE), 2),
+    skintone_dist = list(av_skintone)) %>%
+  arrange(desc(mean))
+
+# Recode contest
+skin_contest$contest %<>% as_factor() %>%
+  fct_recode("Congress" = "dep",
+             "Senate" = "sen",
+             "Presidency" = "pres")
+
+skin_contest %>%
+  gt() %>%
+  tab_header(title = "Candidate skin tone distribution by contest") %>%
+  gtExtras::gt_plt_dist(
+    column = skintone_dist,
+    type = "boxplot",
+    fill = "gray50",
+    bw = 0.5)
+
+```
+
+
+
+## By party
+```{r skin_party}
+# Grouped summary + raw data column
+skin_party <- data %>%
+  filter(party != "ind") %>%
+  group_by(party) %>%
+  summarize(
+    n = n(),
+    mean = round(mean(av_skintone, na.rm = TRUE), 2),
+    sd = round(sd(av_skintone, na.rm = TRUE), 2),
+    skintone_dist = list(av_skintone)) %>%
+  arrange(desc(mean))
+
+
+skin_party %>%
+  gt() %>%
+  tab_header(title = "Candidate skin tone distribution by party") %>%
+  gtExtras::gt_plt_dist(
+    column = skintone_dist,
+    type = "boxplot",
+    fill = "gray50",
+    bw = 0.5)
+
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
