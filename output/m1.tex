@@ -1,0 +1,52 @@
+\begin{table}
+\centering
+\begin{talltblr}[         %% tabularray outer open
+entry=none,label=none,
+note{}={+ p \num{< 0.1}, * p \num{< 0.05}, ** p \num{< 0.01}, *** p \num{< 0.001}},
+]                     %% tabularray outer close
+{                     %% tabularray inner open
+colspec={Q[]Q[]Q[]},
+column{2,3}={}{halign=c,},
+column{1}={}{halign=l,},
+hline{30}={1,2,3}{solid, black, 0.05em},
+}                     %% tabularray inner close
+\toprule
+& (1) & (2) \\ \midrule %% TinyTableHeader
+(Intercept) & \num{-5.775}*** & \num{0.133}*** \\
+& (\num{1.055}) & (\num{0.010}) \\
+skin\_pp & \num{-0.019} & \num{-0.004}** \\
+& (\num{0.060}) & (\num{0.002}) \\
+sexm & \num{0.284} & \num{0.007} \\
+& (\num{0.226}) & (\num{0.006}) \\
+sexnb & \num{-16.505} & \num{0.118} \\
+& (\num{6522.639}) & (\num{0.099}) \\
+partymorena & \num{7.738}*** & \num{0.349}*** \\
+& (\num{1.083}) & (\num{0.014}) \\
+partypan & \num{5.059}*** & \num{0.150}*** \\
+& (\num{1.229}) & (\num{0.033}) \\
+partypan\_pri\_prd & \num{3.826}*** & \num{0.186}*** \\
+& (\num{1.016}) & (\num{0.008}) \\
+partyprd & \num{-12.815} & \num{-0.087}* \\
+& (\num{2658.311}) & (\num{0.041}) \\
+partypri & \num{-12.837} & \num{-0.049} \\
+& (\num{2302.028}) & (\num{0.035}) \\
+partypt & \num{-12.804} & \num{-0.045}** \\
+& (\num{833.854}) & (\num{0.014}) \\
+partypvem & \num{2.359}+ & \num{-0.008} \\
+& (\num{1.235}) & (\num{0.014}) \\
+partypvem\_pt\_morena & \num{7.559}*** & \num{0.419}*** \\
+& (\num{1.017}) & (\num{0.008}) \\
+contestpres & \num{0.148} & \num{0.007} \\
+& (\num{2.057}) & (\num{0.057}) \\
+contestsen & \num{-0.079} & \num{-0.013}+ \\
+& (\num{0.297}) & (\num{0.008}) \\
+Num.Obs. & \num{1113} & \num{1113} \\
+R2 &  & \num{0.763} \\
+R2 Adj. &  & \num{0.760} \\
+AIC & \num{581.7} & \num{-1982.4} \\
+BIC & \num{651.9} & \num{-1907.2} \\
+Log.Lik. & \num{-276.830} & \num{1006.211} \\
+RMSE & \num{0.27} & \num{0.10} \\
+\bottomrule
+\end{talltblr}
+\end{table}

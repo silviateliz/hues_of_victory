@@ -55,15 +55,19 @@ m2 <- list(m2a, m2b)
 ```
 
 
-```{r tables}
+```{r export}
 
 # Model 1: replication of Campos‐Vazquez & Rivas‐Herrera, 2021
-modelsummary(m1, output = "default", stars = TRUE)
+
+modelsummary(m1, output = "../output/m1.tex", stars = TRUE, fmt = fmt_decimal(3))
 
 
 # Model 2: includes incumbency
-modelsummary(m2, output = "default", stars = TRUE)
+modelsummary(m2, output = "../output/m2.tex", stars = TRUE, fmt = fmt_decimal(3))
+
 
 ```
+
+
 
 
