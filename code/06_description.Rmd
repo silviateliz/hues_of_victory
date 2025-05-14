@@ -35,6 +35,7 @@ library(gtExtras)
 
 ```{r data}
 data <- read_csv("../data/processed/05_cand_skin_results.csv")
+proder <- read_csv("../data/processed/05_proder.csv")
 ```
 
 
@@ -255,12 +256,15 @@ missing_skin <- data %>%
 - Skin tone measure is the PRODER scale, which ranges from 1 (lightest tone) to 11 (darkest tone).
 - The skin tone classification algorithm was not able to measure the skin tone of `r missing_skin$n_missing` candidates. This number represents `r round(missing_skin$prop_existing*100, 2)`% of the candidates with image data and `r round(missing_skin$prop_total*100, 2)`% of the total candidates in the dataset. This issue may be resolved by adjusting the algorithm's facial detection parameters.
 - The overall skin tone distribution is slightly right-skewed, indicating that most candidates have a medium-light skin tone. The mean skin tone is `r round(mean(data$skin_pp, na.rm = TRUE), 2)` and the standard deviation is `r round(sd(data$skin_pp, na.rm = TRUE), 2)`. The skin tone distribution is shown in the following figure.
+- The national population mean skin tone is `r round(mean(proder$proder_label),2)` with a standard deviation of `r round(sd(proder$proder_label),2)`, according to PRODER data. Therefore, the mean skin tone of candidates is below the national average by 2.18 points.
 
-```{r skin_describe}
-# Plot skin tone distribution
+## Candidates' skin tone
+
+```{r skin_hist_cand}
+# Plot  candidate skin tone distribution 
 data %>%
   ggplot(aes(x = skin_pp)) +
-  geom_histogram(bins = 20, fill = "gray50", color = "white") +
+  geom_histogram(bins = 11, fill = "gray50", color = "white") +
   geom_vline(xintercept = 4.9, linetype = "solid", color = "black", size = 0.8) +
   annotate("text", x = 4.9, 
            y = 200, label = "Mean = 4.9", 
@@ -268,11 +272,37 @@ data %>%
   annotate("text", x = 4.9, y = 200, 
            label = "SD = 1.72", 
            vjust = -.5, hjust = -0.3, size = 3) +
-  labs(title = "Skin tone distribution",
+  labs(title = "Candidate skin tone distribution",
        x = "Skin tone",
        y = "Count") +
   scale_x_continuous(expand = c(0, 0), limit = c(1,11), breaks = 1:11) +
   scale_y_continuous(expand = c(0, 0), limit = c(0, 300)) +
+  theme_classic() +
+  theme(
+    plot.margin = margin(10, 25, 10, 10),
+    panel.grid.major.x = element_line(color = "gray80", size = 0.5))
+
+```
+
+
+## Population's skin tone
+```{r skin_hist_pop}
+# Plot  candidate skin tone distribution 
+proder %>%
+  ggplot(aes(x = proder_label)) +
+  geom_histogram(bins = 11, fill = "gray50", color = "white") +
+  geom_vline(xintercept = 7.08, linetype = "solid", color = "black", size = 0.8) +
+  annotate("text", x = 7.08, 
+           y = 1500, label = "Mean = 7.08", 
+           vjust = -2, hjust = -0.3, size = 3) +
+  annotate("text", x = 7.08, y = 1500, 
+           label = "SD = 2.09", 
+           vjust = -.5, hjust = -0.3, size = 3) +
+  labs(title = "Population skin tone distribution",
+       x = "Skin tone",
+       y = "Count") +
+  scale_x_continuous(expand = c(0, 0), limit = c(1,11), breaks = 1:11) +
+  scale_y_continuous(expand = c(0, 0), limit = c(0, 1800)) +
   theme_classic() +
   theme(
     plot.margin = margin(10, 25, 10, 10),

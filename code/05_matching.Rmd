@@ -131,6 +131,8 @@ proder_state <- proder %>%
   summarise(skin_state_pop = mean(proder_label, na.rm = TRUE))
 
 
+#mean(proder$proder_label, na.rm = TRUE) # Mean skin tone is 7.08
+
 ```
 
 
@@ -197,6 +199,8 @@ cand_skin_results %<>%
 write_csv(cand_skin_results, "../data/processed/05_cand_skin_results.csv")
 
 write_csv(palette, "../data/processed/05_palette.csv")
+
+write_csv(proder, "../data/processed/05_proder.csv")
 
 ```
 

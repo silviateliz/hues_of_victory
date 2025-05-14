@@ -1,0 +1,43 @@
+---
+knit: (function(inputFile, encoding) {
+  rmarkdown::render(inputFile, encoding = encoding, output_dir = "../output") })
+  
+title: "Analysis"
+author: "Silvia Téliz"
+date: "2025-05-13"
+output:
+  html_document:
+    toc: true
+    toc_depth: 2      
+    toc_float: true
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r packages}
+library(tidyverse)
+library(magrittr)
+```
+
+```{r data}
+data <- read_csv("../data/processed/05_cand_skin_results.csv")
+
+proder <- read_csv("../data/processed/05_proder.csv")
+```
+
+# Regression models
+
+## Replication of Campos‐Vazquez & Rivas‐Herrera, 2021
+
+```{r m1}
+
+```
+
+
+
+
+
+
+
