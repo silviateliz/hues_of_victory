@@ -19,6 +19,7 @@ knitr::opts_chunk$set(echo = TRUE)
 ```{r packages}
 library(tidyverse)
 library(magrittr)
+library(modelsummary)
 ```
 
 ```{r data}
@@ -32,28 +33,37 @@ proder <- read_csv("../data/processed/05_proder.csv")
 ## Replication of Campos‐Vazquez & Rivas‐Herrera, 2021
 
 ```{r m1}
-glm(win ~ skin_pp + sex + party + contest,
-    data = data, family = "binomial") %>%
-  summary()
+m1a <- glm(win ~ skin_pp + sex + party + contest,
+    data = data, family = "binomial") 
 
-lm(prop_votes ~ skin_pp + sex + party + contest,
-    data = data) %>%
-  summary()
+m1b <- lm(prop_votes ~ skin_pp + sex + party + contest,
+    data = data)
+
+m1 <- list(m1a, m1b)
 ```
 
 
 ```{r m2}
-glm(win ~ skin_pp + sex + party + contest + incumbency,
-    data = data, family = "binomial") %>%
-  summary()
+m2a <- glm(win ~ skin_pp + sex + party + contest + incumbency,
+    data = data, family = "binomial")
 
-lm(prop_votes ~ skin_pp + sex + party + contest + incumbency,
-    data = data) %>%
-  summary()
+m2b <- lm(prop_votes ~ skin_pp + sex + party + contest + incumbency,
+    data = data)
+
+m2 <- list(m2a, m2b)
 
 ```
 
 
+```{r tables}
 
+# Model 1: replication of Campos‐Vazquez & Rivas‐Herrera, 2021
+modelsummary(m1, output = "default", stars = TRUE)
+
+
+# Model 2: includes incumbency
+modelsummary(m2, output = "default", stars = TRUE)
+
+```
 
 
