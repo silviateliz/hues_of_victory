@@ -44,10 +44,10 @@ m1 <- list(m1a, m1b)
 
 
 ```{r m2}
-m2a <- glm(win ~ skin_pp + sex + party + contest + incumbency,
+m2a <- glm(win ~ skin_pp + skin_diff + sex + party + contest + incumbency,
     data = data, family = "binomial")
 
-m2b <- lm(prop_votes ~ skin_pp + sex + party + contest + incumbency,
+m2b <- lm(prop_votes ~ skin_pp + skin_diff + sex + party + contest + incumbency,
     data = data)
 
 m2 <- list(m2a, m2b)
@@ -58,7 +58,6 @@ m2 <- list(m2a, m2b)
 ```{r export}
 
 # Model 1: replication of Campos‐Vazquez & Rivas‐Herrera, 2021
-
 modelsummary(m1, output = "../output/m1.tex", stars = TRUE, fmt = fmt_decimal(3))
 
 
@@ -67,6 +66,7 @@ modelsummary(m2, output = "../output/m2.tex", stars = TRUE, fmt = fmt_decimal(3)
 
 
 ```
+
 
 
 
