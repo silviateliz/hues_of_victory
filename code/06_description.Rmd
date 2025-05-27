@@ -1,6 +1,6 @@
 ---
 knit: (function(inputFile, encoding) {
-  rmarkdown::render(inputFile, encoding = encoding, output_dir = "../output") })
+  rmarkdown::render(inputFile, encoding = encoding, output_dir = "../products") })
 
 title: "Descriptive analysis"
 author: "Silvia Téliz"
