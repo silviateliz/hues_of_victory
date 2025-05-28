@@ -6,13 +6,14 @@ This repository is structured as follows:
 
 ```txt
 .
-├── 📂 code/: contains the scripts used in the analysis
-├── 📂 data/: contains the data used in the analysis
+├── 📂 code/: scripts used in the analysis
+├── 📂 data/: data used in the analysis
 │   ├── 📂 processed/: processed data files
 │   └── 📂 raw/: raw data files
-├── 📂 output/: contains output files like tables and figures
-├── 📂 products/: contains the final products of the analysis
-
+├── 📂 output/: output files like tables and figures
+├── 📂 products/: final products of the analysis
+    ├── 📂 paper/: manuscritpt files
+    └── 📄 06_description.html: script for the full descriptive analysis
 ```
 
 - Code files in the `code` folder are named in the order in which they should be executed. 
