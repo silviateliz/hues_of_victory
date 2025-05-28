@@ -1,8 +1,22 @@
 # Hues of Victory
 This is a research project on the impact of skin tone on electoral results in Mexico. 
 
-- Code files are are in the `code` folder and are named in the order in which they should be executed. 
-- Data files are in the `data` folder and are named according to their source (i.e., data files named "02..." are the output of code file named "02..."). 
+## Index
+This repository is structured as follows:
+
+```txt
+.
+├── 📂 code/: contains the scripts used in the analysis
+├── 📂 data/: contains the data used in the analysis
+│   ├── 📂 processed/: processed data files
+│   └── 📂 raw/: raw data files
+├── 📂 output/: contains output files like tables and figures
+├── 📂 products/: contains the final products of the analysis
+
+```
+
+- Code files in the `code` folder are named in the order in which they should be executed. 
+- Data files in the `data` folder are named according to their source (i.e., data files named "02..." are the output of code file named "02..."). 
 - Image files are not included in this repository due to limited storage. However, the code to obtain the images is included in the code files.
 
 ## Desriptive analysis
