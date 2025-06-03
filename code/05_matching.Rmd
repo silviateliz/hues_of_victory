@@ -5,7 +5,7 @@ date: "2025-05-13"
 output: html_document
 ---
 
-This script matches the skin tone data with the candidate results data. The skin tone data is obtained from the `skintone` dataset, which contains the skin tone labels for candidates' portraits. The candidate results data is obtained from the `dep_cand_results`, `sen_cand_results`, and `pres_cand_results` datasets.
+This script matches the skin tone data with the candidate results data. The skin tone data is obtained from the `skintone` dataset, which contains the skin tone labels for candidates' portraits. The candidate results data is obtained from the `dep_cand_results`, `sen_cand_results`, and `pres_cand_results` datasets. The resulting dataset is `cand_skin_results`, which contains the skin tone data for each candidate, as well as additional variables such as the mean skin tone per state, contest, and party. This is the main dataset used in the analysis.
 
 # Setup
 
@@ -38,7 +38,7 @@ proder <- read_dta("../data/raw/baseproder2019.dta")
 # Skin tone data
 
 ```{r clean_skintone}
-# Reverse tone_label (1 is 11, 11 is 1)
+# Reverse tone_label (1 is 11, 11 is 1). This is necessary because the CASCo algorithm labels skin tones from 1 to 11, where 1 is the darkest skin tone and 11 is the lightest skin tone. 
 skintone <- skintone %>%
   mutate(tone_label = 12-tone_label)
 
@@ -89,6 +89,8 @@ pres_cand_results <- pres_cand_results %>%
 
 # PRODER data
 ```{r proder}
+# PRODER data contains RGB values for skin tones, which we will match with the skin tone data from the candidates. It is necessary to match the RGB values with the skin tone labels from the PRODER palette.
+
 # RGB to HEX dataset
 palette <- data.frame(
   hex = c("#654d3e", "#775741", "#876249", "#946c51", "#a0765a", "#a87f64", 

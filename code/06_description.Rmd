@@ -12,8 +12,7 @@ output:
     toc_float: true
 ---
 
-This script produces the descriptive analysis of the main dataset (cand_skin_results).
-
+This script produces the descriptive analysis of the main dataset (`data/processed/cand_skin_results.Rmd`).
 
 
 ```{r setup, include=FALSE}
@@ -26,6 +25,7 @@ library(tidyverse)
 library(magrittr)
 library(readr)
 library(ggplot2)
+library(waffle)
 library(sf)
 library(kableExtra)
 library(gt)
@@ -40,37 +40,69 @@ proder <- read_csv("../data/processed/05_proder.csv")
 
 
 
-# Missing image data {.tabset}
+# Image data availability
 
 ```{r source_comparison}
 # Comparison of missing data by source
 missing_all <- data %>%
-  mutate(na_both = ifelse(ine_d == 0 & sv_d == 0, 1, 0)) %>%
-  summarize(n_ine = sum(ine_d == 0),
-            prop_ine = round(n_ine / n(), 5),
-            n_sv = sum(sv_d == 0),
-            prop_sv = round(n_sv / n(), 5),
-            n_both = sum(na_both ==1),
-            prop_both = round(n_both / n(), 5))
+  group_by(contest, ine_d, sv_d) %>%
+  summarize(n = n()) %>%
+  mutate(miss_class = case_when(
+    ine_d == 0 & sv_d == 0 ~ "Missing in both sources",
+    ine_d == 1 & sv_d == 1 ~ "Existing in both sources",
+    ine_d == 0 ~ "Missing in INE",
+    sv_d == 0 ~ "Missing in SaberVotar")) %>%
+  group_by(contest) %>%
+  mutate(total_contest = sum(n),
+         total = 1242)
+
+# Reorder contest factor levels
+missing_all$contest <- factor(missing_all$contest, 
+                               levels = c("pres", "sen", "dep"),
+                               labels = c("Presidency", "Senate", "Congress"))
+
+# Total number of candidates with missing data in both sources
+n_missing <- missing_all %>%
+  group_by(miss_class) %>%
+  summarize(n = sum(n),
+            prop = round((n / 1242)*100, 2))
+ 
 ```
-
-
-
 
 **Main takeaways:**
 
-- A total of `r missing_all$n_both` candidates (`r round(missing_all$prop_both*100, 2)`%) are missing data from both, their INE profile and SaberVotar profile. These candidates are from the MC party and the PAN-PRI-PRD coalition. They are part of the congress race and senate race. They belong to the states: Mexico, Jalisco, Guanajuato, San Luis Potosi, Coahuila, Oaxaca, Mexico City, Chiapas, Quintana Roo, and Guerrero.
-- A total of `r missing_all$n_ine` candidates (`r round(missing_all$prop_ine*100, 2)`%) are missing data from their INE profile.
-- A total of `r missing_all$n_sv` candidates (`r round(missing_all$prop_sv*100, 2)`%) are missing data from their SaberVotar profile.
+- A total of 21 candidates (1.69%) are missing data from both, their INE profile and SaberVotar profile. These candidates are from the MC party and the PAN-PRI-PRD coalition. They are part of the congress race and senate race. They belong to the states: Mexico, Jalisco, Guanajuato, San Luis Potosi, Coahuila, Oaxaca, Mexico City, Chiapas, Quintana Roo, and Guerrero.
+- A total of 144 candidates (11.59%) are missing data from their INE profile.
+- A total of 32 candidates (2.58%) are missing data from their SaberVotar profile.
 - The SaberVotar data has a lower proportion of missing data. Therefore, a possible solution is to use this data source and impute skin tone measurements from the INE profile picture if needed. Averaging both measures would not be optimal because skin tone difference from both sources is often large.
 
 **Correlations with outcome variable:**
 
 
-- The existance of an INE profile picture is weakly and positively correlated with electoral success (r=`r round(cor(data$ine_d, data$win, use = "pairwise.complete.obs"), 2)`). 
-- The existance of a SaberVotar profile picture is weakly and positively correlated with electoral success (r=`r round(cor(data$sv_d, data$win, use = "pairwise.complete.obs"), 2)`). 
-- The existance of a social media profile (a rough proxy for presence in public media environment) is weakly and positively correlated with electoral success (r=`r round(cor(data$social_media_d, data$win, use = "pairwise.complete.obs"), 2)`). 
+- The existence of an INE profile picture is weakly and positively correlated with electoral success (r=`r round(cor(data$ine_d, data$win, use = "pairwise.complete.obs"), 2)`). 
+- The existence of a SaberVotar profile picture is weakly and positively correlated with electoral success (r=`r round(cor(data$sv_d, data$win, use = "pairwise.complete.obs"), 2)`). 
+- The existence of a social media profile (a rough proxy for presence in public media environment) is weakly and positively correlated with electoral success (r=`r round(cor(data$social_media_d, data$win, use = "pairwise.complete.obs"), 2)`). 
 
+
+
+```{r plot_missing_all}
+# Plot missing data by source
+ggplot(missing_all, aes(x = contest, y = n, fill = miss_class)) +
+  geom_bar(stat = "identity", position = "fill") +
+  labs(title = "Image data availability by source and contest",
+       x = "Contest",
+       y = "Proportion of candidates") +
+  theme_classic() +
+  theme(plot.margin = margin(10, 25, 10, 10)) +
+  theme(panel.grid.major.x = element_line(color = "gray80", size = 0.5)) +
+  scale_fill_tableau(palette = "Colorblind 10")
+
+
+
+```
+
+
+# Missing image data {.tabset}
 ## By state
 The following figures show the distribution of missing image data by state. The state with the highest proportion of candidates with missing visual data is Guerrero, followed by Quintana Roo, Chiapas, and Mexico City. 
 
@@ -101,7 +133,7 @@ missing_state %>%
   kable() %>%
   kable_styling("striped", full_width = T) %>%
   add_header_above(c("Candidates with missing image data per state" = 3)) %>% 
-  scroll_box(height = "500px")
+  scroll_box(height = "300px")
 
 ```
 
