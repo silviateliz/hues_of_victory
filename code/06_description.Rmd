@@ -25,7 +25,8 @@ library(tidyverse)
 library(magrittr)
 library(readr)
 library(ggplot2)
-library(waffle)
+library(ggrepel)
+library(scales)
 library(sf)
 library(kableExtra)
 library(gt)
@@ -42,7 +43,7 @@ proder <- read_csv("../data/processed/05_proder.csv")
 
 # Image data availability
 
-```{r source_comparison}
+```{r t_source_comparison}
 # Comparison of missing data by source
 missing_all <- data %>%
   group_by(contest, ine_d, sv_d) %>%
@@ -61,6 +62,16 @@ missing_all$contest <- factor(missing_all$contest,
                                levels = c("pres", "sen", "dep"),
                                labels = c("Presidency", "Senate", "Congress"))
 
+# Add proportion
+missing_all <- missing_all %>%
+  mutate(prop = round(n / total_contest, 2)) %>%
+  ungroup() %>%
+  mutate(miss_class = factor(miss_class, 
+                             levels = c("Existing in both sources", 
+                                        "Missing in both sources",
+                                        "Missing in INE", 
+                                        "Missing in SaberVotar")))
+
 # Total number of candidates with missing data in both sources
 n_missing <- missing_all %>%
   group_by(miss_class) %>%
@@ -77,36 +88,51 @@ n_missing <- missing_all %>%
 - The SaberVotar data has a lower proportion of missing data. Therefore, a possible solution is to use this data source and impute skin tone measurements from the INE profile picture if needed. Averaging both measures would not be optimal because skin tone difference from both sources is often large.
 
 **Correlations with outcome variable:**
-
-
 - The existence of an INE profile picture is weakly and positively correlated with electoral success (r=`r round(cor(data$ine_d, data$win, use = "pairwise.complete.obs"), 2)`). 
 - The existence of a SaberVotar profile picture is weakly and positively correlated with electoral success (r=`r round(cor(data$sv_d, data$win, use = "pairwise.complete.obs"), 2)`). 
 - The existence of a social media profile (a rough proxy for presence in public media environment) is weakly and positively correlated with electoral success (r=`r round(cor(data$social_media_d, data$win, use = "pairwise.complete.obs"), 2)`). 
 
-
-
-```{r plot_missing_all}
+```{r p_missing_all}
 # Plot missing data by source
 ggplot(missing_all, aes(x = contest, y = n, fill = miss_class)) +
   geom_bar(stat = "identity", position = "fill") +
-  labs(title = "Image data availability by source and contest",
+  labs(title = "Image data availability, by source and contest",
        x = "Contest",
        y = "Proportion of candidates") +
   theme_classic() +
-  theme(plot.margin = margin(10, 25, 10, 10)) +
-  theme(panel.grid.major.x = element_line(color = "gray80", size = 0.5)) +
-  scale_fill_tableau(palette = "Colorblind 10")
-
-
+  theme(plot.margin = margin(10, 5, 10, 10),
+        panel.grid.major.x = element_line(color = "white", size = 0.7),
+        plot.title = element_text(hjust = 0, 
+                                  face = "bold", 
+                                  margin = margin(b = 25))) +
+  # Change legend title
+  labs(fill = "Profile picture availability") +
+  scale_fill_manual(values = c("Existing in both sources" = "gray90",
+                               "Missing in both sources" = "black",
+                               "Missing in INE" = "gray50",
+                               "Missing in SaberVotar" = "gray70")) +
+  scale_y_continuous(labels = percent) +
+  coord_flip()
+  
 
 ```
 
 
-# Missing image data {.tabset}
-## By state
-The following figures show the distribution of missing image data by state. The state with the highest proportion of candidates with missing visual data is Guerrero, followed by Quintana Roo, Chiapas, and Mexico City. 
 
-```{r missing_state, echo = F}
+
+## Distribution of missing data {.tabset}
+This section shows the distribution candidates with missing visual data from both sources, INE and SaberVotar. 
+
+- A total of 21 candidates (1.69%) are missing profile pictures from both, their INE profile and SaberVotar profile. 
+- Out of all candidates with missing data from both sources, 18 are female (85.71%) and 3 male (14.28%).  
+- Candidates with missing data from both sources are part of the congress race and senate race. 
+- These candidates belong to the states: Mexico, Jalisco, Guanajuato, San Luis Potosi, Coahuila, Oaxaca, Mexico City, Chiapas, Quintana Roo, and Guerrero.
+- These candidates are from the MC party and the PAN-PRI-PRD coalition. 
+
+
+### By state
+
+```{r t_missing_state, echo = F}
 # Missing image data for all contests, by state
 missing_state <- data %>%
   group_by(state) %>%
@@ -122,48 +148,21 @@ missing_state <- data %>%
 # Capitalize first letter of "state"
 missing_state$state <- str_to_title(missing_state$state)
 
-# Print missing_state with kable
-missing_state %>%
-  arrange(desc(prop_both)) %>%
-  select(state, n_both, prop_both) %>%
-  # change column names
-  rename("State" = state,
-         "Number" = n_both,
-         "Proportion" = prop_both) %>%
-  kable() %>%
-  kable_styling("striped", full_width = T) %>%
-  add_header_above(c("Candidates with missing image data per state" = 3)) %>% 
-  scroll_box(height = "300px")
+# Recode Ciudad de Mexico
+missing_state$state %<>% as_factor() %>%
+  fct_recode("Mexico City" = "Ciudad De Mexico")
 
 ```
 
 
-```{r plot_state, echo = F, include = F}
-# Plot missing image data for all contests
-missing_state %>%
-  ggplot(aes(x = reorder(state, -prop_both), y = prop_both)) +
-  geom_col() +
-  geom_text(aes(label = ifelse(n_both == 0, NA, paste0("n = ", n_both))),
-          hjust = -0.5, size = 2.5) +
-  coord_flip() +
-  labs(title = "Distribution of missing image data by state",
-       x = "State",
-       y = "Proportion of missing image data") +
-  scale_y_continuous(expand = c(0, 0), limits = c(0, 1)) +
-  theme_classic() +
-  theme(plot.margin = margin(10, 25, 10, 10)) +
-  theme(panel.grid.major.x = element_line(color = "gray80", size = 0.5))
-
-```
-
-```{r mex_map, include = F}
+```{r t_mex_map, include = F}
 mex_map <- st_read("mex.geojson")%>%
   # change first column name
   mutate(state = shapeName)
 
 # Change state names
 mex_map$state %<>% as_factor() %>%
-  fct_recode("Ciudad De Mexico" = "Distrito Federal",
+  fct_recode("Mexico City" = "Distrito Federal",
              "Coahuila" = "Coahuila de Zaragoza",
                       "Michoacan" = "Michoacan de Ocampo",
                       "Queretaro" = "Queretaro de Arteaga",
@@ -175,32 +174,103 @@ map_data <- mex_map %>%
 ```
 
 
+```{r p_map}
+# Map labels
+map_labels <- map_data %>%
+  filter(prop_both > 0) %>%
+  mutate(
+    centroid = st_centroid(geometry),
+    lon = st_coordinates(centroid)[, 1],
+    lat = st_coordinates(centroid)[, 2],
+    label = state)
 
-```{r map_missing}
+# Map
 ggplot(map_data) +
   geom_sf(aes(fill = prop_both), color = "white", size = 0.2) +
-  scale_fill_gradient(low = "gray90", high = "gray10", na.value = "red") +
+  scale_fill_gradient(
+    low = "gray90",
+    high = "black",
+    na.value = "red",
+    name = "Proportion",
+    labels = label_percent(accuracy = 1)) +
+  geom_text_repel(
+    data = map_labels,
+    aes(x = lon, y = lat, label = label),
+    size = 2,
+    nudge_y = 0,
+    nudge_x = -8,
+    direction = "both",
+    max_iter = 2000,
+    segment.color = "black",
+    segment.size = 0.2,
+    min.segment.length = 0.2,
+    max.overlaps = Inf) +
   theme_void() +  # removes axes, ticks, and background
-  theme(legend.position = "right",            # or "bottom", or "none"
+  theme(legend.position = "right",          
     panel.grid = element_blank(),
     axis.ticks = element_blank(),
     axis.text = element_blank(),
     axis.title = element_blank(),
-    plot.title = element_text(hjust = 0.5)) +
-  theme(plot.margin = margin(10, 25, 10, 10)) +
-  labs(title = "Proportion of candidates with missing image data (from both sources)",
+    plot.title = element_text(hjust = 0, face = "bold")) +
+  theme(plot.margin = margin(10, 25, 10, 20)) +
+  labs(title = "Distribution of candidates with missing image data from both sources",
        fill = "Proportion")
+
 
 ```
 
 
-## By contest
-Most of the missing data is concentrated in the Congress race (deputies). There is no missing data in the presidantial race. The following figure shows the distribution of missing image data by contest.
+```{r t_state}
+# Missing data per state and contest
+missing_state_contest <- data %>%
+  group_by(state, contest) %>%
+  mutate(na_both = ifelse(ine_d == 0 & sv_d == 0, 1, 0)) %>%
+  summarize(n_both = sum(na_both ==1),
+            prop_both = round((n_both / n())*100, 2),
+            n_total = n()) %>%
+  pivot_wider(names_from = contest, values_from = c(n_both, prop_both, n_total), 
+              names_sep = "_")  %>% 
+  select(-c(n_both_pres, prop_both_pres, n_total_pres)) %>%
+  mutate(total_n = n_both_sen + n_both_dep,
+         total_prop = round((total_n / (n_total_sen + n_total_dep))*100, 2)) %>%
+  arrange(desc(total_prop)) %>%
+  # Remove last row
+  filter(!is.na(total_prop))
 
-```{r missing_contest}
+# Rearrange columns
+missing_state_contest %<>%
+  select(state, n_both_sen, prop_both_sen, n_both_dep, prop_both_dep, total_n, total_prop)
+
+# Capitalize first letter of "state"
+missing_state_contest$state %<>% str_to_title()
+
+# Recode Ciudad de Mexico
+missing_state_contest$state %<>% as_factor() %>%
+  fct_recode("Mexico City" = "Ciudad De Mexico")
+
+# Print missing_state with kable
+missing_state_contest %>%
+  rename(
+    State = 1,
+    "Senate (n)" = 2,
+    "Senate (%)" = 3,
+   "Congress (n)" = 4,
+    "Congress (%)" = 5,
+    "All contests (n)" = 6,
+    "All contests (%)" = 7) %>%
+  kable() %>%
+  kable_styling("striped", full_width = T) %>%
+  add_header_above(c("Distribution of candidates with missing image data, by state and contest" = 7)) %>% 
+  scroll_box(height = "300px")
+```
+
+### By gender
+
+```{r t_missing_gender}
 # Missing image data for all contests, by state
-missing_contest <- data %>%
-  group_by(contest) %>%
+missing_gender <- data %>%
+  group_by(sex, contest) %>%
+  filter(sex != "nb") %>%
   mutate(na_both = ifelse(ine_d == 0 & sv_d == 0, 1, 0)) %>%
   summarize(n_ine = sum(ine_d == 0),
             prop_ine = round(n_ine / n(), 2),
@@ -208,33 +278,54 @@ missing_contest <- data %>%
             prop_sv = round(n_sv / n(), 2),
             n_both = sum(na_both ==1),
             prop_both = round(n_both / n(), 2)) %>%
-  arrange(desc(prop_both))
+  arrange(desc(prop_both)) %>%
+  group_by(contest) %>%
+  mutate(proportion = n_both / sum(n_both),
+         label_position = proportion,
+         label_text = case_when(n_both != 0 ~ n_both,
+                               TRUE ~ NA_integer_)) %>%
+  ungroup()
 
+# Reorder contest factor levels
+missing_gender$contest <- factor(missing_gender$contest, 
+                               levels = c("pres", "sen", "dep"),
+                               labels = c("Presidency", "Senate", "Congress"))
+
+# Recode sex
+missing_gender$sex %<>% as_factor() %>%
+  fct_recode("Female" = "f",
+             "Male" = "m")
 
 ```
 
-
-```{r plot_contest, echo = F}
-# Plot missing image data for all contests
-missing_contest %>%
-  ggplot(aes(x = reorder(contest, -prop_both), y = prop_both)) +
-  geom_col() +
-  geom_text(aes(label = ifelse(n_both == 0, NA, paste0("n = ", n_both))),
-          hjust = -0.5, size = 2.5) +
-  coord_flip() +
-  labs(title = "Distribution of missing image data by contest",
+```{r p_missing_gender}
+# Plot missing data by gender and contest
+ggplot(missing_gender, aes(x = contest, y = n_both, fill = sex)) +
+  geom_bar(stat = "identity", position = "fill") +
+  geom_text(data = subset(missing_gender, !is.na(label_text)),
+            aes(y = label_position, label = paste0("n = ", label_text)),
+            position = position_stack(vjust = 0.5),
+            color = "black", size = 3) +
+  labs(title = "Distribution of candidates with missing image data \nfrom both sources, by gender and contest",
        x = "Contest",
-       y = "Proportion of missing image data") +
-  scale_y_continuous(expand = c(0, 0), limits = c(0, 1)) +
+       y = "Proportion of candidates") +
   theme_classic() +
-   theme(plot.margin = margin(10, 25, 10, 10)) +
-  theme(panel.grid.major.x = element_line(color = "gray80", size = 0.5))
-
+  theme(plot.margin = margin(10, 5, 10, 10),
+        panel.grid.major.x = element_line(color = "white", size = 0.7),
+        plot.title = element_text(hjust = 0, 
+                                  face = "bold", 
+                                  margin = margin(b = 30))) +
+  # Change legend title
+  labs(fill = "Gender") +
+  scale_fill_manual(values = c("Female" = "gray90",
+                               "Male" = "gray50")) +
+  scale_y_continuous(labels = percent) +
+  coord_flip()
 ```
 
 
 
-## By party
+### By party
 Most of the missing data is concentrated in the party "MC" and the coalition "Fuerza y Corazon por Mexico" (pan_pri_prd). The following figure shows the distribution of missing image data by party.
 
 ```{r missing_party}
