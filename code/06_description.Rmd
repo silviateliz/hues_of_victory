@@ -272,11 +272,7 @@ missing_gender <- data %>%
   group_by(sex, contest) %>%
   filter(sex != "nb") %>%
   mutate(na_both = ifelse(ine_d == 0 & sv_d == 0, 1, 0)) %>%
-  summarize(n_ine = sum(ine_d == 0),
-            prop_ine = round(n_ine / n(), 2),
-            n_sv = sum(sv_d == 0),
-            prop_sv = round(n_sv / n(), 2),
-            n_both = sum(na_both ==1),
+  summarize(n_both = sum(na_both ==1),
             prop_both = round(n_both / n(), 2)) %>%
   arrange(desc(prop_both)) %>%
   group_by(contest) %>%
@@ -326,38 +322,57 @@ ggplot(missing_gender, aes(x = contest, y = n_both, fill = sex)) +
 
 
 ### By party
-Most of the missing data is concentrated in the party "MC" and the coalition "Fuerza y Corazon por Mexico" (pan_pri_prd). The following figure shows the distribution of missing image data by party.
 
-```{r missing_party}
+```{r t_missing_party}
 # Missing image data for all contests, by state
 missing_party <- data %>%
-  group_by(party) %>%
+  group_by(contest, party) %>%
   mutate(na_both = ifelse(ine_d == 0 & sv_d == 0, 1, 0)) %>%
-  summarize(n_ine = sum(ine_d == 0),
-            prop_ine = round(n_ine / n(), 2),
-            n_sv = sum(sv_d == 0),
-            prop_sv = round(n_sv / n(), 2),
-            n_both = sum(na_both ==1),
+  summarize(n_both = sum(na_both ==1),
             prop_both = round(n_both / n(), 2)) %>%
-  arrange(desc(prop_both))
+  arrange(desc(prop_both)) %>%
+  group_by(contest) %>%
+  mutate(proportion = n_both / sum(n_both),
+         label_position = proportion,
+         label_text = case_when(n_both != 0 ~ n_both,
+                               TRUE ~ NA_integer_)) %>%
+  ungroup()
+
+# Reorder contest factor levels
+missing_party$contest <- factor(missing_party$contest, 
+                               levels = c("pres", "sen", "dep"),
+                               labels = c("Presidency", "Senate", "Congress"))
+
+# Recode party
+missing_party$party %<>% as_factor() %>%
+  fct_recode("MC" = "mc",
+             "PAN-PRI-PRD" = "pan_pri_prd")
 ```
 
 
-```{r plot_party, echo = F}
-# Plot missing image data for all contests
-missing_party %>%
-  ggplot(aes(x = reorder(party, -prop_both), y = prop_both)) +
-  geom_col() +
-  geom_text(aes(label = ifelse(n_both == 0, NA, paste0("n = ", n_both))),
-          hjust = -0.5, size = 2.5) +
-  coord_flip() +
-  labs(title = "Distribution of missing image data by party",
-       x = "Party",
-       y = "Proportion of missing image data") +
-  scale_y_continuous(expand = c(0, 0), limits = c(0, 1)) +
+```{r p_missing_party, echo = F}
+# Plot missing data by gender and contest
+ggplot(missing_party, aes(x = contest, y = n_both, fill = party)) +
+  geom_bar(stat = "identity", position = "fill") +
+  geom_text(data = subset(missing_party, !is.na(label_text)),
+            aes(y = label_position, label = paste0("n = ", label_text)),
+            position = position_stack(vjust = 0.5),
+            color = "black", size = 3) +
+  labs(title = "Distribution of candidates with missing image data \nfrom both sources, by party and contest",
+       x = "Contest",
+       y = "Proportion of candidates") +
   theme_classic() +
-   theme(plot.margin = margin(10, 25, 10, 10)) +
-  theme(panel.grid.major.x = element_line(color = "gray80", size = 0.5))
+  theme(plot.margin = margin(10, 5, 10, 10),
+        panel.grid.major.x = element_line(color = "white", size = 0.7),
+        plot.title = element_text(hjust = 0, 
+                                  face = "bold", 
+                                  margin = margin(b = 30))) +
+  # Change legend title
+  labs(fill = "Party") +
+  scale_fill_manual(values = c("MC" = "gray90",
+                               "PAN-PRI-PRD" = "gray50")) +
+  scale_y_continuous(labels = percent) +
+  coord_flip()
 
 ```
 
