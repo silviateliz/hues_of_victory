@@ -29,6 +29,7 @@ library(ggrepel)
 library(scales)
 library(sf)
 library(grid)
+library(gridExtra)
 library(kableExtra)
 library(gt)
 library(gtExtras)
@@ -46,7 +47,7 @@ palette <- read_csv("../data/processed/05_palette.csv") %>%
 
 # Image data availability
 
-```{r t_source_comparison}
+```{r t_missing_all}
 # Comparison of missing data by source
 missing_all <- data %>%
   group_by(contest, ine_d, sv_d) %>%
@@ -114,8 +115,8 @@ ggplot(missing_all, aes(x = contest, y = n, fill = miss_class)) +
                                "Missing in both sources" = "black",
                                "Missing in INE" = "gray50",
                                "Missing in SaberVotar" = "gray70")) +
-  scale_y_continuous(labels = percent) +
-  coord_flip()
+  scale_y_continuous(labels = percent)
+  #coord_flip()
   
 
 ```
@@ -194,8 +195,9 @@ ggplot(map_data) +
     low = "gray90",
     high = "black",
     na.value = "red",
-    name = "Proportion",
+    name = "Proportion of candidates\nwith missing image data",
     labels = label_percent(accuracy = 1)) +
+  labs(title = "Distribution of candidates with missing image data from both sources") +
   geom_text_repel(
     data = map_labels,
     aes(x = lon, y = lat, label = label),
@@ -210,14 +212,9 @@ ggplot(map_data) +
     max.overlaps = Inf) +
   theme_void() +  # removes axes, ticks, and background
   theme(legend.position = "right",          
-    panel.grid = element_blank(),
-    axis.ticks = element_blank(),
-    axis.text = element_blank(),
-    axis.title = element_blank(),
     plot.title = element_text(hjust = 0, face = "bold")) +
-  theme(plot.margin = margin(10, 25, 10, 20)) +
-  labs(title = "Distribution of candidates with missing image data from both sources",
-       fill = "Proportion")
+  theme(plot.margin = margin(10, 25, 10, 20))
+  
 
 
 ```
@@ -272,40 +269,49 @@ missing_state_contest %>%
 ```{r t_missing_gender}
 # Missing image data for all contests, by state
 missing_gender <- data %>%
-  group_by(sex, contest) %>%
-  filter(sex != "nb") %>%
-  mutate(na_both = ifelse(ine_d == 0 & sv_d == 0, 1, 0)) %>%
-  summarize(n_both = sum(na_both ==1),
-            prop_both = round(n_both / n(), 2)) %>%
-  arrange(desc(prop_both)) %>%
+  group_by(contest, sex, ine_d, sv_d) %>%
+  summarize(n = n()) %>%
+  mutate(miss_class = case_when(
+    ine_d == 0 & sv_d == 0 ~ "Missing in both sources",
+    ine_d == 1 & sv_d == 1 ~ "Existing in at least one source",
+    ine_d == 0 ~ "Existing in at least one source",
+    sv_d == 0 ~ "Existing in at least one source")) %>%
   group_by(contest) %>%
-  mutate(proportion = n_both / sum(n_both),
-         label_position = proportion,
-         label_text = case_when(n_both != 0 ~ n_both,
-                               TRUE ~ NA_integer_)) %>%
-  ungroup()
+  mutate(total_contest = sum(n),
+         total = 1242)
 
 # Reorder contest factor levels
 missing_gender$contest <- factor(missing_gender$contest, 
                                levels = c("pres", "sen", "dep"),
                                labels = c("Presidency", "Senate", "Congress"))
 
+# Add proportion
+missing_gender %<>%
+  mutate(prop = round(n / total_contest, 2)) %>%
+  ungroup() %>%
+  mutate(miss_class = factor(miss_class, 
+                             levels = c("Existing in at least one source", 
+                                        "Missing in both sources")))
+
 # Recode sex
 missing_gender$sex %<>% as_factor() %>%
   fct_recode("Female" = "f",
-             "Male" = "m")
+             "Male" = "m",
+             "Non-binary" = "nb")
 
 ```
 
 ```{r p_missing_gender}
 # Plot missing data by gender and contest
-ggplot(missing_gender, aes(x = contest, y = n_both, fill = sex)) +
+ggplot(missing_gender, aes(x = contest, y = n, fill = miss_class)) +
   geom_bar(stat = "identity", position = "fill") +
-  geom_text(data = subset(missing_gender, !is.na(label_text)),
-            aes(y = label_position, label = paste0("n = ", label_text)),
-            position = position_stack(vjust = 0.5),
-            color = "black", size = 3) +
-  labs(title = "Distribution of candidates with missing image data \nfrom both sources, by gender and contest",
+  geom_text(data = ~subset(., miss_class == "Missing in both sources"),
+    aes(label = paste0("n = ", n)),
+    position = position_fill(vjust = 0.1),
+    color = "black",
+    size = 3) +
+  facet_wrap(vars(sex)) +
+  labs(title = "Image data availability, by gender and contest",
        x = "Contest",
        y = "Proportion of candidates") +
   theme_classic() +
@@ -313,13 +319,13 @@ ggplot(missing_gender, aes(x = contest, y = n_both, fill = sex)) +
         panel.grid.major.x = element_line(color = "white", size = 0.7),
         plot.title = element_text(hjust = 0, 
                                   face = "bold", 
-                                  margin = margin(b = 30))) +
+                                  margin = margin(b = 25)),
+        axis.text.x = element_text(angle = 45, hjust=1)) +
   # Change legend title
-  labs(fill = "Gender") +
-  scale_fill_manual(values = c("Female" = "gray90",
-                               "Male" = "gray50")) +
-  scale_y_continuous(labels = percent) +
-  coord_flip()
+  labs(fill = "Profile picture availability") +
+  scale_fill_manual(values = c("Existing in at least one source" = "gray90",
+                               "Missing in both sources" = "gray30")) +
+  scale_y_continuous(labels = percent)
 ```
 
 
@@ -329,53 +335,75 @@ ggplot(missing_gender, aes(x = contest, y = n_both, fill = sex)) +
 ```{r t_missing_party}
 # Missing image data for all contests, by state
 missing_party <- data %>%
-  group_by(contest, party) %>%
-  mutate(na_both = ifelse(ine_d == 0 & sv_d == 0, 1, 0)) %>%
-  summarize(n_both = sum(na_both ==1),
-            prop_both = round(n_both / n(), 2)) %>%
-  arrange(desc(prop_both)) %>%
+  group_by(contest, party, ine_d, sv_d) %>%
+  summarize(n = n()) %>%
+  mutate(miss_class = case_when(
+    ine_d == 0 & sv_d == 0 ~ "Missing in both sources",
+    ine_d == 1 & sv_d == 1 ~ "Existing in at least one source",
+    ine_d == 0 ~ "Existing in at least one source",
+    sv_d == 0 ~ "Existing in at least one source")) %>%
   group_by(contest) %>%
-  mutate(proportion = n_both / sum(n_both),
-         label_position = proportion,
-         label_text = case_when(n_both != 0 ~ n_both,
-                               TRUE ~ NA_integer_)) %>%
-  ungroup()
+  mutate(total_contest = sum(n),
+         total = 1242)
 
 # Reorder contest factor levels
 missing_party$contest <- factor(missing_party$contest, 
                                levels = c("pres", "sen", "dep"),
                                labels = c("Presidency", "Senate", "Congress"))
 
-# Recode party
+# Add proportion
+missing_party %<>%
+  mutate(prop = round(n / total_contest, 2)) %>%
+  ungroup() %>%
+  mutate(miss_class = factor(miss_class, 
+                             levels = c("Existing in at least one source", 
+                                        "Missing in both sources")))
+
+# Recode sex
 missing_party$party %<>% as_factor() %>%
   fct_recode("MC" = "mc",
-             "PAN-PRI-PRD" = "pan_pri_prd")
+             "PAN-PRI-PRD" = "pan_pri_prd",
+             "PT" = "pt",
+             "PVEM" = "pvem",
+             "PRI" = "pri",
+             "PRD" = "prd",
+             "PAN" = "pan",
+             "MORENA" = "morena",
+             "PVEM-PT-MORENA" = "pvem_pt_morena")
 ```
+
 
 
 ```{r p_missing_party, echo = F}
 # Plot missing data by gender and contest
-ggplot(missing_party, aes(x = contest, y = n_both, fill = party)) +
+missing_party %>%
+  filter(party == "MC" | party == "PAN-PRI-PRD") %>% # Only keep parties with missing data
+  ggplot(aes(x = contest, y = n, fill = miss_class)) +
   geom_bar(stat = "identity", position = "fill") +
-  geom_text(data = subset(missing_party, !is.na(label_text)),
-            aes(y = label_position, label = paste0("n = ", label_text)),
-            position = position_stack(vjust = 0.5),
-            color = "black", size = 3) +
-  labs(title = "Distribution of candidates with missing image data \nfrom both sources, by party and contest",
+  geom_text(data = ~subset(., miss_class == "Missing in both sources"),
+    aes(label = paste0("n = ", n)),
+    position = position_fill(vjust = 0.1),
+    color = "black",
+    size = 3) +
+    facet_wrap(vars(party)) +
+  labs(title = "Image data availability, by party and contest",
        x = "Contest",
-       y = "Proportion of candidates") +
+       y = "Proportion of candidates",
+       caption = "Note: MC and the coalition PAN-PRI-PRD are the only parties in which candidates had mising image data from both sources\n(INE and SaberVotar). The candidates from all other the parties and coalitions (MORENA, PT, PVEM, PVEM-PT-MORENA,\nPRI, PAN, PRD) had profile pictures in at least one source.") +
   theme_classic() +
   theme(plot.margin = margin(10, 5, 10, 10),
         panel.grid.major.x = element_line(color = "white", size = 0.7),
         plot.title = element_text(hjust = 0, 
                                   face = "bold", 
-                                  margin = margin(b = 30))) +
+                                  margin = margin(b = 25)),
+        axis.text.x = element_text(angle = 45, hjust=1),
+        plot.caption = element_text(hjust = 0, size = 9, margin = margin(t = 20)),
+        plot.caption.position = "plot") +
   # Change legend title
-  labs(fill = "Party") +
-  scale_fill_manual(values = c("MC" = "gray90",
-                               "PAN-PRI-PRD" = "gray50")) +
-  scale_y_continuous(labels = percent) +
-  coord_flip()
+  labs(fill = "Profile picture availability") +
+  scale_fill_manual(values = c("Existing in at least one source" = "gray90",
+                               "Missing in both sources" = "gray30")) +
+  scale_y_continuous(labels = percent)
 
 ```
 
